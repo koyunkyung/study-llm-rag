@@ -16,12 +16,13 @@ from typing import Dict
 from enum import Enum
 from enum import auto
 import json
+import os
 
 
 Observation = Union[str, Exception]
 
-PROMPT_TEMPLATE_PATH = "./data/input/react.txt"
-OUTPUT_TRACE_PATH = "./data/output/trace.txt"
+INPUT_DIR = "./data/input/"
+OUTPUT_DIR = "./data/output/"
 
 class Name(Enum):
     WIKIPEDIA = auto()
@@ -58,8 +59,10 @@ class Tool:
 
 class Agent:
     
-    def __init__(self) -> None:
+    def __init__(self,  prompt_template_path: str, output_trace_path: str) -> None:
         
+        self.prompt_template_path = prompt_template_path 
+        self.output_trace_path = output_trace_path 
         self.tools: Dict[Name, Tool] = {}
         self.messages: List[Message] = []
         self.query = ""
@@ -68,7 +71,7 @@ class Agent:
         self.template = self.load_template()
 
     def load_template(self) -> str:
-        return read_file(PROMPT_TEMPLATE_PATH)
+        return read_file(self.prompt_template_path)
 
     def register(self, name: Name, func: Callable[[str], str]) -> None:
         self.tools[name] = Tool(name, func)
@@ -76,7 +79,7 @@ class Agent:
     def trace(self, role: str, content: str) -> None:
         if role != "system":
             self.messages.append(Message(role=role, content=content))
-        write_to_file(path=OUTPUT_TRACE_PATH, content=f"{role}: {content}\n")
+        write_to_file(path=self.output_trace_path, content=f"{role}: {content}\n")
 
     def get_history(self) -> str:
         return "\n".join([f"{message.role}: {message.content}" for message in self.messages])
@@ -85,7 +88,7 @@ class Agent:
     def think(self) -> None:
         self.current_iteration += 1
         logger.info(f"Starting iteration {self.current_iteration}")
-        write_to_file(path=OUTPUT_TRACE_PATH, content=f"\n{'='*50}\nIteration {self.current_iteration}\n{'='*50}\n")
+        write_to_file(path=self.output_trace_path, content=f"\n{'='*50}\nIteration {self.current_iteration}\n{'='*50}\n")
 
         if self.current_iteration > self.max_iterations:
             logger.warning("Reached maximum iterations. Stopping.")
@@ -163,9 +166,31 @@ def run(query: str) -> str:
     agent.register(Name.GOOGLE, google_search)
     return agent.execute(query)
 
+def run_all_templates(query: str):
+    for template_file in os.listdir(INPUT_DIR):
+        if template_file.endswith(".txt"):
+            template_path = os.path.join(INPUT_DIR, template_file)
+            output_file = template_file.replace(".txt", "_trace.txt")
+            output_path = os.path.join(OUTPUT_DIR, output_file)
+
+            # Log current execution
+            logger.info(f"Running template: {template_file}")
+            logger.info(f"Output will be saved to: {output_file}")
+
+            # Initialize Agent with template and output paths
+            agent = Agent(prompt_template_path=template_path, output_trace_path=output_path)
+            agent.register(Name.WIKIPEDIA, wiki_search)
+            agent.register(Name.GOOGLE, google_search)
+
+            # Execute the agent with the query
+            final_answer = agent.execute(query)
+
+            # Save the trace to the output file
+            with open(output_path, "a") as f:
+                f.write(f"\nFinal Answer: {final_answer}\n")
+
+            logger.info(f"Execution completed for {template_file}.")
 
 if __name__ == "__main__":
     query = "What is the age of the oldest tree in the country that has won the most FIFA World Cup titles?"
-    final_answer = run(query)
-    logger.info(final_answer)
-    
+    run_all_templates(query)
