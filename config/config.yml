@@ -1,0 +1,4 @@
+project_id: "study-llm-rag"
+region: "south-korea"
+credentials_json: "./credentials/key.json" 
+model_name: "gemini"

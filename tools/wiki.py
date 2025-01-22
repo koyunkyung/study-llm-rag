@@ -5,15 +5,6 @@ import json
 
 
 def search(query: str) -> Optional[str]:
-    """
-    Fetch Wikipedia information for a given search query using Wikipedia-API and return as JSON.
-
-    Args:
-        query (str): The search query string.
-
-    Returns:
-        Optional[str]: A JSON string containing the query, title, and summary, or None if no result is found.
-    """
     # Initialize Wikipedia API with a user agent
     wiki = wikipediaapi.Wikipedia(user_agent='ReAct Agents (shankar.arunp@gmail.com)',
                                   language='en')

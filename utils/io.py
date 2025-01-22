@@ -6,6 +6,12 @@ import json
 import yaml
 
 
+def load_openai_key(path="./credentials/config.json"):
+    with open(path, "r") as file:
+        config = json.load(file)
+    return config["openai"]["api_key"]
+
+
 def read_file(path: str) -> Optional[str]:
     """
     Reads the content of a markdown file and returns it as a text object.
