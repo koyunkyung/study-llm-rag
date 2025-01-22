@@ -5,10 +5,13 @@ OUTPUT_DIR = "./data/output/"
 RESULTS_FILE = os.path.join(OUTPUT_DIR, "all_results.json")
 
 def extract_final_answer(file_content: str) -> str:
-    for line in reversed(file_content.splitlines()):  # 뒤에서부터 탐색
+    final_answers = []
+    for line in file_content.splitlines():  # 모든 라인 탐색
         if line.startswith("Final Answer:"):
-            return line.split("Final Answer:")[-1].strip()
-    return None
+            final_answer = line.split("Final Answer:")[-1].strip()
+            final_answers.append(final_answer)
+    return final_answers
+
 
 def load_all_final_answers(output_dir: str) -> dict:
     final_answers = {}
@@ -21,11 +24,12 @@ def load_all_final_answers(output_dir: str) -> dict:
             with open(file_path, "r") as file:
                 file_content = file.read()
 
-            final_answer = extract_final_answer(file_content)
-            if final_answer:
-                final_answers[template_name] = final_answer
+            answers = extract_final_answer(file_content)
+            if answers:
+                final_answers[template_name] = answers
 
     return final_answers
+
 
 def save_final_answers_to_json(final_answers: dict, results_file: str):
     with open(results_file, "w") as file:
