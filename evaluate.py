@@ -35,14 +35,10 @@ def save_results(results: dict, file_path: str):
     print(f"Results saved to {file_path}")
 
 if __name__ == "__main__":
-    # Load all results
     final_answers = load_all_results(ALL_RESULTS_FILE)
-
-    # Define ground truths (replace with your actual ground truth answers)
     ground_truths = {
         "react": "Brazil has won the most FIFA World Cup titles."
         }
 
-    # Evaluate accuracy
     accuracy_scores = evaluate_accuracy(final_answers, ground_truths)
     save_results(accuracy_scores, ACCURACY_FILE)

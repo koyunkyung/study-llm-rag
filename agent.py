@@ -173,24 +173,29 @@ def run_all_templates(query: str):
             output_file = template_file.replace(".txt", "_trace.txt")
             output_path = os.path.join(OUTPUT_DIR, output_file)
 
-            # Log current execution
             logger.info(f"Running template: {template_file}")
             logger.info(f"Output will be saved to: {output_file}")
 
-            # Initialize Agent with template and output paths
             agent = Agent(prompt_template_path=template_path, output_trace_path=output_path)
             agent.register(Name.WIKIPEDIA, wiki_search)
             agent.register(Name.GOOGLE, google_search)
-
-            # Execute the agent with the query
             final_answer = agent.execute(query)
 
-            # Save the trace to the output file
             with open(output_path, "a") as f:
                 f.write(f"\nFinal Answer: {final_answer}\n")
-
             logger.info(f"Execution completed for {template_file}.")
 
+# json 파일에서 question들 불러와주는 함수
+def load_questions(json_path: str) -> list:
+    with open(json_path, "r") as file:
+        data = json.load(file)
+    questions = [entry["question"] for entry in data]
+    return questions
+
+
 if __name__ == "__main__":
-    query = "What is the age of the oldest tree in the country that has won the most FIFA World Cup titles?"
-    run_all_templates(query)
+    json_path = "./data/input/hotpot.json"
+    questions = load_questions(json_path)
+    for idx, query in enumerate(questions, start=1):
+        print(f"\nRunning templates for Question {idx}: {query}")
+        run_all_templates(query)
