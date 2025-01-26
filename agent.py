@@ -1,4 +1,6 @@
-from vertexai.generative_models import GenerativeModel 
+from vertexai.generative_models import GenerativeModel
+from langchain_community.agent_toolkits.load_tools import load_tools
+from langchain_openai import ChatOpenAI
 from tools.serp import search as google_search
 from tools.wiki import search as wiki_search
 from vertexai.generative_models import Part 
@@ -15,18 +17,20 @@ from typing import List
 from typing import Dict 
 from enum import Enum
 from enum import auto
+import openai
 import json
 import os
 
 
 Observation = Union[str, Exception]
 
-INPUT_DIR = "./data/input/"
+INPUT_DIR = "./data/prompts/"
 OUTPUT_DIR = "./data/output/"
 
 class Name(Enum):
     WIKIPEDIA = auto()
     GOOGLE = auto()
+    MATH = auto()
     NONE = auto()
 
     def __str__(self) -> str:
@@ -55,8 +59,32 @@ class Tool:
         except Exception as e:
             logger.error(f"Error executing tool {self.name}: {e}")
             return str(e)
+        
+def setup_tools():
+    with open("credentials/config.json", "r") as f:
+        config = json.load(f)
+    openai.api_key = config.get("OPENAI_API_KEY")
+    llm = ChatOpenAI(model="gpt-4", openai_api_key=openai.api_key, temperature=0.7)
+
+    # 수학적 계산 도와주는 tool 추가
+    tools = load_tools(["llm-math"], llm=llm)
+    math_tool = tools[0]
+
+    def math_wrapper(query: str) -> str:
+        try:
+            return math_tool.run(query)
+        except Exception as e:
+            return f"Math calculation error: {str(e)}"  
+         
+    return {
+        Name.WIKIPEDIA: wiki_search,
+        Name.GOOGLE: google_search,
+        Name.MATH: math_wrapper
+    }
 
 
+
+## 메인 클래스: 템플릿 맞춰서 툴 고르고 llm 답변 생성해줌 ##
 class Agent:
     
     def __init__(self,  prompt_template_path: str, output_trace_path: str) -> None:
@@ -162,8 +190,9 @@ class Agent:
 def run(query: str) -> str:
     
     agent = Agent()
-    agent.register(Name.WIKIPEDIA, wiki_search)
-    agent.register(Name.GOOGLE, google_search)
+    tools = setup_tools()
+    for name, tool_func in tools.items():
+        agent.register(name, tool_func)
     return agent.execute(query)
 
 def run_all_templates(query: str):
@@ -177,8 +206,9 @@ def run_all_templates(query: str):
             logger.info(f"Output will be saved to: {output_file}")
 
             agent = Agent(prompt_template_path=template_path, output_trace_path=output_path)
-            agent.register(Name.WIKIPEDIA, wiki_search)
-            agent.register(Name.GOOGLE, google_search)
+            tools = setup_tools()
+            for name, tool_func in tools.items():
+                agent.register(name, tool_func)
             final_answer = agent.execute(query)
 
             with open(output_path, "a") as f:
