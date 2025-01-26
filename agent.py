@@ -1,6 +1,7 @@
 from vertexai.generative_models import GenerativeModel
 from langchain_community.agent_toolkits.load_tools import load_tools
 from langchain_openai import ChatOpenAI
+from langchain.agents import initialize_agent
 from tools.serp import search as google_search
 from tools.wiki import search as wiki_search
 from vertexai.generative_models import Part 
@@ -65,13 +66,12 @@ def setup_tools():
         config = json.load(f)
     openai.api_key = config.get("OPENAI_API_KEY")
     llm = ChatOpenAI(model="gpt-4", openai_api_key=openai.api_key, temperature=0.7)
-
-    # 수학적 계산 도와주는 tool 추가
-    tools = load_tools(["llm-math"], llm=llm)
-    math_tool = tools[0]
-
+ 
+    # 수학적 계산 도와주는 툴 추가
     def math_wrapper(query: str) -> str:
         try:
+            math_tool = load_tools(["llm-math"], llm=llm)
+            math_tool = initialize_agent(math_tool, llm, agent="zero-shot-react-description", verbose=True)
             return math_tool.run(query)
         except Exception as e:
             return f"Math calculation error: {str(e)}"  
@@ -187,34 +187,6 @@ class Agent:
         response = generate(prompt)
         return response if response else "No response from OpenAI"
 
-def run(query: str) -> str:
-    
-    agent = Agent()
-    tools = setup_tools()
-    for name, tool_func in tools.items():
-        agent.register(name, tool_func)
-    return agent.execute(query)
-
-def run_all_templates(query: str):
-    for template_file in os.listdir(INPUT_DIR):
-        if template_file.endswith(".txt"):
-            template_path = os.path.join(INPUT_DIR, template_file)
-            output_file = template_file.replace(".txt", "_trace.txt")
-            output_path = os.path.join(OUTPUT_DIR, output_file)
-
-            logger.info(f"Running template: {template_file}")
-            logger.info(f"Output will be saved to: {output_file}")
-
-            agent = Agent(prompt_template_path=template_path, output_trace_path=output_path)
-            tools = setup_tools()
-            for name, tool_func in tools.items():
-                agent.register(name, tool_func)
-            final_answer = agent.execute(query)
-
-            with open(output_path, "a") as f:
-                f.write(f"\nFinal Answer: {final_answer}\n")
-            logger.info(f"Execution completed for {template_file}.")
-
 # json 파일에서 question들 불러와주는 함수
 def load_questions(json_path: str) -> list:
     with open(json_path, "r") as file:
@@ -222,10 +194,33 @@ def load_questions(json_path: str) -> list:
     questions = [entry["question"] for entry in data]
     return questions
 
+# 데이터 종류 및 템플릿 종류에 따라 모두 해당 agent 실행하고 결과 저장시켜주는 함수
+def run_all_templates(json_path: str):
+    dataset_name = os.path.basename(json_path).replace('.json', '')
 
-if __name__ == "__main__":
-    json_path = "./data/input/hotpot.json"
     questions = load_questions(json_path)
-    for idx, query in enumerate(questions, start=1):
-        print(f"\nRunning templates for Question {idx}: {query}")
-        run_all_templates(query)
+    for template_file in os.listdir(INPUT_DIR):
+        if template_file.endswith(".txt"):
+            template_name = template_file.replace(".txt", "")
+            template_path = os.path.join(INPUT_DIR, template_file)
+            output_file = f"{dataset_name}_{template_name}.txt"
+            output_path = os.path.join(OUTPUT_DIR, output_file)
+            
+            for idx, query in enumerate(questions, start=1):
+                print(f"\nProcessing {dataset_name} Question {idx}: {query}")
+                agent = Agent(prompt_template_path=template_path, 
+                            output_trace_path=output_path)
+                tools = setup_tools()
+                for name, tool_func in tools.items():
+                    agent.register(name, tool_func)
+                    
+                final_answer = agent.execute(query)
+                
+                with open(output_path, "a") as f:
+                    f.write(f"\nQuestion {idx}: {query}")
+                    f.write(f"\nFinal Answer: {final_answer}\n")
+                    f.write("-" * 50 + "\n")
+               
+if __name__ == "__main__":
+    run_all_templates("./data/input/hotpot.json")
+    # run_all_templates("./data/input/gsm8k.json")
