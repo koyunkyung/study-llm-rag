@@ -195,32 +195,35 @@ def load_questions(json_path: str) -> list:
     return questions
 
 # 데이터 종류 및 템플릿 종류에 따라 모두 해당 agent 실행하고 결과 저장시켜주는 함수
-def run_all_templates(json_path: str):
+def run_specific_template(json_path: str, template_file: str):
     dataset_name = os.path.basename(json_path).replace('.json', '')
+    template_path = os.path.join(INPUT_DIR, template_file)
+   
+    if not os.path.exists(template_path):
+        raise FileNotFoundError(f"Template file not found: {template_path}")
+        
+    template_name = template_file.replace(".txt", "")
+    output_file = f"{dataset_name}_{template_name}.txt"
+    output_path = os.path.join(OUTPUT_DIR, output_file)
 
     questions = load_questions(json_path)
-    for template_file in os.listdir(INPUT_DIR):
-        if template_file.endswith(".txt"):
-            template_name = template_file.replace(".txt", "")
-            template_path = os.path.join(INPUT_DIR, template_file)
-            output_file = f"{dataset_name}_{template_name}.txt"
-            output_path = os.path.join(OUTPUT_DIR, output_file)
+    
+    for idx, query in enumerate(questions, start=1):
+        print(f"\nProcessing {dataset_name} Question {idx}: {query}")
+        agent = Agent(prompt_template_path=template_path, 
+                     output_trace_path=output_path)
+        tools = setup_tools()
+        for name, tool_func in tools.items():
+            agent.register(name, tool_func)
             
-            for idx, query in enumerate(questions, start=1):
-                print(f"\nProcessing {dataset_name} Question {idx}: {query}")
-                agent = Agent(prompt_template_path=template_path, 
-                            output_trace_path=output_path)
-                tools = setup_tools()
-                for name, tool_func in tools.items():
-                    agent.register(name, tool_func)
-                    
-                final_answer = agent.execute(query)
-                
-                with open(output_path, "a") as f:
-                    f.write(f"\nQuestion {idx}: {query}")
-                    f.write(f"\nFinal Answer: {final_answer}\n")
-                    f.write("-" * 50 + "\n")
-               
+        final_answer = agent.execute(query)
+        
+        with open(output_path, "a") as f:
+            f.write(f"\nQuestion {idx}: {query}")
+            f.write(f"\nFinal Answer: {final_answer}\n")
+            f.write("-" * 50 + "\n")
+
 if __name__ == "__main__":
-    run_all_templates("./data/input/hotpot.json")
-    # run_all_templates("./data/input/gsm8k.json")
+    input_file = "./data/input/hotpot.json"
+    template_file = "guide_react.txt"
+    run_specific_template(input_file, template_file)
