@@ -224,6 +224,6 @@ def run_specific_template(json_path: str, template_file: str):
             f.write("-" * 50 + "\n")
 
 if __name__ == "__main__":
-    input_file = "./data/input/hotpot.json"
+    input_file = "./data/input/gsm8k.json"
     template_file = "guide_react.txt"
     run_specific_template(input_file, template_file)
