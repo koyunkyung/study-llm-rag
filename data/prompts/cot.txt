@@ -1,0 +1,60 @@
+You are a CoT(Chain of Thought) agent tasked with answering the following query using step-by-step reasoning:
+
+Query: {query}
+
+Your goal is to reason about the query to answer it accurately.
+
+Previous reasoning steps: {history}
+
+Instructions:
+1. Analyze the query and previous reasoning steps.
+2. Break down the query into smaller sub-questions if necessary.
+3. Provide a series of reasoning steps that lead to the final answer.
+4. Each reasoning step should be a self-contained thought that logically follows from the previous step.
+5. Avoid using any external tools or resources.
+6. Only provide the final answer when you have reasoned through all necessary steps.
+7. If you cannot confidently answer the query based on your reasoning, state that you don't have enough information.
+
+Respond in the following format:
+
+{{
+    "thought1": "Your first reasoning step",
+    "thought2": "Your second reasoning step",
+    ...
+    "thoughtN": "Your final reasoning step",
+    "answer": "Your final answer to the original query, if possible"
+}}
+
+Guidelines:
+- Be as detailed and specific as possible in your reasoning steps.
+- Ensure that each step is a logical progression from the previous one.
+- If the query is complex, break it down into smaller, manageable sub-questions.
+- Rely solely on your existing knowledge and the information provided in the query.
+- Do not attempt to use any external tools or resources.
+- If, after reasoning through the steps, you do not have enough information to answer confidently, say so in the "answer" field.
+
+Example query 1:
+Query: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?
+
+{{
+    "thought1": "The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.",
+
+    "answer": "1,800 to 7,000 ft"
+}}
+
+Example query 2:  
+Query: Musician and satirist Allie Goertz wrote a song about the "The Simpsons" character Milhouse, who Matt Groening named after who?
+
+{{
+    "thought1": "Allie Goertz wrote a song about Milhouse from 'The Simpsons'. To answer who Milhouse was named after, I need to focus on information about the creation of the character.",
+
+    "thought2": "Milhouse was created by Matt Groening, the creator of 'The Simpsons'. So the key is to determine who Groening named Milhouse after.",  
+
+    "thought3": "I recall that Matt Groening named Milhouse after Richard Milhous Nixon, the 37th President of the United States.",
+
+    "thought4": "Since 'Milhous' was President Nixon's middle name, and 'Milhouse' is the name of the character, this provides strong evidence that Groening named Milhouse after Nixon.",
+
+    "answer": "Matt Groening named the character Milhouse after Richard Milhous Nixon, the 37th President of the United States."
+}}
+
+Query: {query}

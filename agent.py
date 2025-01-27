@@ -28,6 +28,12 @@ Observation = Union[str, Exception]
 INPUT_DIR = "./data/prompts/"
 OUTPUT_DIR = "./data/output/"
 
+class PromptType(Enum):
+    STANDARD = auto()
+    COT = auto()
+    ACT = auto()
+    REACT = auto()
+
 class Name(Enum):
     WIKIPEDIA = auto()
     GOOGLE = auto()
@@ -87,10 +93,11 @@ def setup_tools():
 ## 메인 클래스: 템플릿 맞춰서 툴 고르고 llm 답변 생성해줌 ##
 class Agent:
     
-    def __init__(self,  prompt_template_path: str, output_trace_path: str) -> None:
+    def __init__(self, prompt_template_path: str, output_trace_path: str, prompt_type: PromptType) -> None:
         
         self.prompt_template_path = prompt_template_path 
-        self.output_trace_path = output_trace_path 
+        self.output_trace_path = output_trace_path
+        self.prompt_type = prompt_type 
         self.tools: Dict[Name, Tool] = {}
         self.messages: List[Message] = []
         self.query = ""
@@ -136,29 +143,57 @@ class Agent:
 
     def decide(self, response: str) -> None:
         try:
+            if self.prompt_type == PromptType.STANDARD:
+                self.trace("assistant", f"Final Answer: {response}")
+                return
+            
             cleaned_response = response.strip().strip('`').strip()
             if cleaned_response.startswith('json'):
                 cleaned_response = cleaned_response[4:].strip()
             
             parsed_response = json.loads(cleaned_response)
             
-            if "action" in parsed_response:
-                action = parsed_response["action"]
-                tool_name = Name[action["name"].upper()]
-                if tool_name == Name.NONE:
-                    logger.info("No action needed. Proceeding to final answer.")
-                    self.think()
+            if self.prompt_type == PromptType.COT:
+                if "answer" in parsed_response:
+                    self.trace("assistant", f"Final Answer: {parsed_response['answer']}")
                 else:
-                    self.trace("assistant", f"Action: Using {tool_name} tool")
-                    self.act(tool_name, action.get("input", self.query))
-            elif "answer" in parsed_response:
-                self.trace("assistant", f"Final Answer: {parsed_response['answer']}")
-            else:
-                raise ValueError("Invalid response format")
+                    raise ValueError("Invalid response format for CoT prompt")
+            
+            elif self.prompt_type == PromptType.ACT:
+                if "action" in parsed_response:
+                    action = parsed_response["action"]
+                    tool_name = Name[action["name"].upper()]
+                    if tool_name == Name.NONE:
+                        logger.info("No action needed.")
+                        self.trace("assistant", f"Final Answer: {action.get('result', 'No result provided')}")
+                    else:
+                        self.trace("assistant", f"Action: Using {tool_name} tool")
+                        self.act(tool_name, action.get("input", self.query))
+                else:
+                    raise ValueError("Invalid response format for Act prompt")
+                               
+            elif self.prompt_type == PromptType.REACT:
+                if "action" in parsed_response:
+                    action = parsed_response["action"]
+                    tool_name = Name[action["name"].upper()]
+                    if tool_name == Name.NONE:
+                        logger.info("No action needed. Proceeding to final answer.")
+                        self.think()
+                    else:
+                        self.trace("assistant", f"Action: Using {tool_name} tool")
+                        self.act(tool_name, action.get("input", self.query))
+                elif "answer" in parsed_response:
+                    self.trace("assistant", f"Final Answer: {parsed_response['answer']}")
+                else:
+                    raise ValueError("Invalid response format for ReAct prompt")
+            
         except json.JSONDecodeError as e:
-            logger.error(f"Failed to parse response: {response}. Error: {str(e)}")
-            self.trace("assistant", "I encountered an error in processing. Let me try again.")
-            self.think()
+            if self.prompt_type == PromptType.STANDARD:
+                self.trace("assistant", f"Final Answer: {response}")
+            else:
+                logger.error(f"Failed to parse response: {response}. Error: {str(e)}")
+                self.trace("assistant", "I encountered an error in processing. Let me try again.")
+                self.think()
         except Exception as e:
             logger.error(f"Error processing response: {str(e)}")
             self.trace("assistant", "I encountered an unexpected error. Let me try a different approach.")
@@ -195,7 +230,7 @@ def load_questions(json_path: str) -> list:
     return questions
 
 # 데이터 종류 및 템플릿 종류에 따라 모두 해당 agent 실행하고 결과 저장시켜주는 함수
-def run_specific_template(json_path: str, template_file: str):
+def run_specific_template(json_path: str, template_file: str, prompt_type: PromptType):
     dataset_name = os.path.basename(json_path).replace('.json', '')
     template_path = os.path.join(INPUT_DIR, template_file)
    
@@ -211,7 +246,9 @@ def run_specific_template(json_path: str, template_file: str):
     for idx, query in enumerate(questions, start=1):
         print(f"\nProcessing {dataset_name} Question {idx}: {query}")
         agent = Agent(prompt_template_path=template_path, 
-                     output_trace_path=output_path)
+                      output_trace_path=output_path,
+                      prompt_type=prompt_type)
+        
         tools = setup_tools()
         for name, tool_func in tools.items():
             agent.register(name, tool_func)
@@ -225,5 +262,15 @@ def run_specific_template(json_path: str, template_file: str):
 
 if __name__ == "__main__":
     input_file = "./data/input/gsm8k.json"
-    template_file = "guide_react.txt"
-    run_specific_template(input_file, template_file)
+    
+    # standard_template = "standard.txt"
+    # run_specific_template(input_file, standard_template, PromptType.STANDARD)
+
+    cot_template = "cot.txt" 
+    run_specific_template(input_file, cot_template, PromptType.COT)
+    
+    # act_template = "act.txt"
+    # run_specific_template(input_file, act_template, PromptType.ACT)
+    
+    # react_template = "react.txt"
+    # run_specific_template(input_file, react_template, PromptType.REACT)

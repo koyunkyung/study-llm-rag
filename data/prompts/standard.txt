@@ -1,0 +1,11 @@
+You are tasked with directly answering the following query using your existing knowledge:
+
+Query: {query}
+
+Instructions:
+1. Provide a direct answer to the query based on the information you currently have.
+2. If you don't have enough knowledge to answer confidently, simply say "I don't have enough information to provide an answer to this query."
+3. Do not include any reasoning steps, thoughts, or actions in your response.
+4. Your response should only contain the final answer to the query.
+
+Please provide your final answer now.

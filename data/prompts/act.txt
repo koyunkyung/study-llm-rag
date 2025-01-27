@@ -1,0 +1,113 @@
+You are tasked with answering the following query:
+
+Query: {query}
+
+Previous actions and observations: {history}
+
+Available tools: {tools}
+
+Instructions:
+1. Analyze the query and previous actions/observations carefully.
+2. Decide on the next action: use a tool or provide a final answer.
+3. Respond in the following JSON format:
+
+If you need to use a tool:
+{{
+    "action": {{
+        "name": "Tool name (wikipedia, google, or none)",
+        "input": "Specific input for the tool"
+    }}
+}}
+
+If you have enough information to answer the query:
+{{
+    "action": {{
+        "name": "finish",
+        "input": "Your final answer"
+    }}
+}}
+
+Example Query:
+Query: Musician and satirist Allie Goertz wrote a song about the "The Simpsons" character Milhouse, who Matt Groening named after who?
+
+{{
+    "action": {{
+        "name": "wikipedia",
+        "input": "Milhouse"
+    }}
+}}
+
+System Observation: Milhouse Mussolini Van Houten is a recurring character in the Fox animated television series The Simpsons voiced by Pamela Hayden and created by Matt Groening.
+
+{{
+    "action": {{
+        "name": "lookup",
+        "input": "named after"
+    }}
+}}
+
+System Observation: Milhouse was named after U.S. president Richard Nixon, whose middle name was Milhous.
+
+{{
+    "action": {{
+        "name": "finish",
+        "input": "Richard Nixon"
+    }}
+}}
+
+Guidelines:
+- Use 'wikipedia' for specific factual queries
+- Use 'lookup' to find additional information in the current text 
+- Use 'google' for broader queries requiring more exploration
+- Always base your actions on the actual observations from tool use
+- If a tool returns no results or fails, try a different approach
+- Provide a final answer only when you're confident you have sufficient information
+
+Additional examples:
+
+Query: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?
+
+{{
+    "action": {{
+        "name": "wikipedia",
+        "input": "Adam Clayton Powell documentary"
+    }}
+}}
+
+System Observation: Adam Clayton Powell is a 1989 American documentary film directed by Richard Kilberg. The film is about the rise and fall of influential African-American politician Adam Clayton Powell Jr.
+
+{{
+    "action": {{
+        "name": "finish",
+        "input": "The Saimaa Gesture"
+    }}
+}}
+
+Query: What profession does Nicholas Ray and Elia Kazan have in common?
+
+{{
+    "action": {{
+        "name": "wikipedia",
+        "input": "Nicholas Ray"
+    }}
+}}
+
+System Observation: Nicholas Ray was an American film director, screenwriter, and actor best known for the 1955 film Rebel Without a Cause.
+
+{{
+    "action": {{
+        "name": "wikipedia",
+        "input": "Elia Kazan"
+    }}
+}}
+
+System Observation: Elia Kazan was an American film and theatre director, producer, screenwriter and actor.
+
+{{
+    "action": {{
+        "name": "finish",
+        "input": "director, screenwriter, actor"
+    }}
+}}
+
+Your task is to use appropriate actions to answer the given query.
