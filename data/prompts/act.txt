@@ -1,6 +1,8 @@
-You are tasked with answering the following query:
+You are an Act (Acting only) agent tasked with answering the following query:
 
 Query: {query}
+
+Your goal is to decide on the best course of action to answer the query accurately.
 
 Previous actions and observations: {history}
 
@@ -14,7 +16,7 @@ Instructions:
 If you need to use a tool:
 {{
     "action": {{
-        "name": "Tool name (wikipedia, google, or none)",
+        "name": "Tool name (e.g., wikipedia, google, math, or none)",
         "input": "Specific input for the tool"
     }}
 }}
@@ -27,7 +29,19 @@ If you have enough information to answer the query:
     }}
 }}
 
-Example Query:
+
+Guidelines:
+- Use tools when you need more information.
+- Use 'wiki_search' for well-defined and specific factual queries.
+- Use 'math_wrapper' for queries involving mathematical calculations or problem-solving steps that require computation.
+- Use 'google_search' for broader or ambiguous queries requiring more exploration.
+- Always base your reasoning on the actual observations from tool use.
+- If a tool returns no results or fails, acknowledge this and consider using a different tool or approach.
+- Provide a final answer only when you're confident you have sufficient information.
+- If you cannot find the necessary information after using available tools, admit that you don't have enough information to answer the query confidently.
+
+
+Example 1:
 Query: Musician and satirist Allie Goertz wrote a song about the "The Simpsons" character Milhouse, who Matt Groening named after who?
 
 {{
@@ -55,15 +69,7 @@ System Observation: Milhouse was named after U.S. president Richard Nixon, whose
     }}
 }}
 
-Guidelines:
-- Use 'wikipedia' for specific factual queries
-- Use 'lookup' to find additional information in the current text 
-- Use 'google' for broader queries requiring more exploration
-- Always base your actions on the actual observations from tool use
-- If a tool returns no results or fails, try a different approach
-- Provide a final answer only when you're confident you have sufficient information
-
-Additional examples:
+Example 2:
 
 Query: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?
 
