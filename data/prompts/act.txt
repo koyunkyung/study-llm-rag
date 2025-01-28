@@ -11,35 +11,37 @@ Available tools: {tools}
 Instructions:
 1. Analyze the query and previous actions/observations carefully.
 2. Decide on the next action: use a tool or provide a final answer.
-3. Respond in the following JSON format:
+3. If you cannot find enough information after careful investigation, directly provide a concise explanation of why you cannot answer.
+4. Respond in the following JSON format:
 
 If you need to use a tool:
 {{
     "action": {{
         "name": "Tool name (e.g., wikipedia, google, math, or none)",
-        "input": "Specific input for the tool"
+        "input": "Specific input to search"
     }}
 }}
 
-If you have enough information to answer the query:
+If you have enough information to answer the query or cannot find sufficient information:
 {{
     "action": {{
         "name": "finish",
-        "input": "Your final answer"
+        "input": "Your complete answer to the query."
     }}
 }}
 
-
 Guidelines:
-- Use tools when you need more information.
+- Use tools methodically to gather information.
 - Use 'wiki_search' for well-defined and specific factual queries.
 - Use 'math_wrapper' for queries involving mathematical calculations or problem-solving steps that require computation.
 - Use 'google_search' for broader or ambiguous queries requiring more exploration.
-- Always base your reasoning on the actual observations from tool use.
 - If a tool returns no results or fails, acknowledge this and consider using a different tool or approach.
 - Provide a final answer only when you're confident you have sufficient information.
 - If you cannot find the necessary information after using available tools, admit that you don't have enough information to answer the query confidently.
 
+
+Your task is to use appropriate actions to answer the given query.
+Query: {query}
 
 Example 1:
 Query: Musician and satirist Allie Goertz wrote a song about the "The Simpsons" character Milhouse, who Matt Groening named after who?

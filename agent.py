@@ -150,7 +150,6 @@ class Agent:
             cleaned_response = response.strip().strip('`').strip()
             if cleaned_response.startswith('json'):
                 cleaned_response = cleaned_response[4:].strip()
-            
             parsed_response = json.loads(cleaned_response)
             
             if self.prompt_type == PromptType.COT:
@@ -161,17 +160,28 @@ class Agent:
             
             elif self.prompt_type == PromptType.ACT:
                 if "action" in parsed_response:
-                    action = parsed_response["action"]
+                    action = parsed_response["action"] 
+                    
+                    if action["name"].upper() == "FINISH":
+                        final_answer = parsed_response.get('answer', action['input'])
+                        if not final_answer or "No results found" in str(final_answer):
+                            final_answer = "Unable to find a satisfactory answer."
+                        self.trace("assistant", f"Final Answer: {final_answer}")
+                        return
+                    
                     tool_name = Name[action["name"].upper()]
-                    if tool_name == Name.NONE:
-                        logger.info("No action needed.")
-                        self.trace("assistant", f"Final Answer: {action.get('result', 'No result provided')}")
-                    else:
+                    if tool_name != Name.NONE:
                         self.trace("assistant", f"Action: Using {tool_name} tool")
-                        self.act(tool_name, action.get("input", self.query))
+                        self.act(tool_name, action["input"])
+                
+                elif "answer" in parsed_response:
+                    final_answer = parsed_response['answer']
+                    self.trace("assistant", f"Final Answer: {final_answer}")
+                
                 else:
                     raise ValueError("Invalid response format for Act prompt")
-                               
+
+
             elif self.prompt_type == PromptType.REACT:
                 if "action" in parsed_response:
                     action = parsed_response["action"]
@@ -199,13 +209,13 @@ class Agent:
             self.trace("assistant", "I encountered an unexpected error. Let me try a different approach.")
             self.think()
 
-    def act(self, tool_name: Name, query: str) -> None:
+    def act(self, tool_name: Name, query: str) -> str:
         tool = self.tools.get(tool_name)
         if tool:
             result = tool.use(query)
             observation = f"Observation from {tool_name}: {result}"
             self.trace("system", observation)
-            self.messages.append(Message(role="system", content=observation))  # Add observation to message history
+            self.messages.append(Message(role="system", content=observation))
             self.think()
         else:
             logger.error(f"No tool registered for choice: {tool_name}")
@@ -261,7 +271,7 @@ def run_specific_template(json_path: str, template_file: str, prompt_type: Promp
             f.write("-" * 50 + "\n")
 
 if __name__ == "__main__":
-    input_file = "./data/input/hotpot.json"
+    input_file = "./data/input/gsm8k.json"
     
     # standard_template = "standard.txt"
     # run_specific_template(input_file, standard_template, PromptType.STANDARD)
