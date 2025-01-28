@@ -26,8 +26,15 @@ If you need to use a tool:
 If you have enough information to answer the query:
 {{
     "thought": "Your comprehensive reasoning process based on the available data.",
-    "answer": "Your complete answer to the query."
+    "answer": {{
+        "detailed_answer": "Your complete answer to the query",
+        "short_answer": "Short word/number that best answers the query"
+    }}
 }}
+
+Note: For mathematical questions, short_answer should contain only the final number.
+For other questions, short_answer should contain the most concise possible answer.
+
 
 Guidelines:  
 - Break down complex queries into smaller sub-questions to ensure clarity and structure in your reasoning process.
@@ -40,6 +47,12 @@ Guidelines:
 - If a tool returns no results or fails, acknowledge this and consider using a different tool or approach.
 - Provide a final answer only when you're confident you have sufficient information.
 - If you cannot find the necessary information after using available tools, admit that you don't have enough information to answer the query confidently.
+For GSM8K dataset:
+- The short answer should only contain the final numerical answer without any units or additional text
+- Example: If the detailed answer is "The total cost is $525", the short answer should be just "525"
+For HotPot dataset:
+- The short answer should be the most concise possible answer that directly answers the question
+- Example: If the detailed answer is "The film was directed by Christopher Nolan in 2010", and the question was about the director, the short answer should be just "Christopher Nolan"
 
 Example Query:
 Query: Musician and satirist Allie Goertz wrote a song about the “The Simpsons” character Milhouse, who Matt Groening named after who?
@@ -102,5 +115,8 @@ Assistant Thought and Final Action:
 
 {{
     "thought": "Based on the observation, Milhouse was named after U.S. president Richard Nixon, whose middle name was Milhous. This fully answers the query.",
-    "answer": "Richard Nixon"
+    "answer": {{
+        "detailed_answer": "Richard Nixon",
+        "short_answer": "Richard Nixon"
+    }}
 }}

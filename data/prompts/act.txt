@@ -26,18 +26,28 @@ If you have enough information to answer the query or cannot find sufficient inf
 {{
     "action": {{
         "name": "finish",
-        "input": "Your complete answer to the query."
+        "input": {{
+            "detailed_answer": "Your complete answer to the query",
+            "short_answer": "Short word/number that best answers the query"
+        }}
     }}
 }}
 
+Note: For mathematical questions, short_answer should contain only the final number.
+For other questions, short_answer should contain the most concise possible answer.
+
+
 Guidelines:
 - Use tools methodically to gather information.
-- Use 'wiki_search' for well-defined and specific factual queries.
-- Use 'math_wrapper' for queries involving mathematical calculations or problem-solving steps that require computation.
-- Use 'google_search' for broader or ambiguous queries requiring more exploration.
 - If a tool returns no results or fails, acknowledge this and consider using a different tool or approach.
 - Provide a final answer only when you're confident you have sufficient information.
 - If you cannot find the necessary information after using available tools, admit that you don't have enough information to answer the query confidently.
+For GSM8K dataset:
+- The short answer should only contain the final numerical answer without any units or additional text
+- Example: If the detailed answer is "The total cost is $525", the short answer should be just "525"
+For HotPot dataset:
+- The short answer should be the most concise possible answer that directly answers the question
+- Example: If the detailed answer is "The film was directed by Christopher Nolan in 2010", and the question was about the director, the short answer should be just "Christopher Nolan"
 
 
 Your task is to use appropriate actions to answer the given query.
@@ -87,7 +97,10 @@ System Observation: Adam Clayton Powell is a 1989 American documentary film dire
 {{
     "action": {{
         "name": "finish",
-        "input": "The Saimaa Gesture"
+        "input": {{
+            "detailed_answer": "The Saimaa Gesture", 
+            "short_answer": "The Saimaa Gesture"
+            }}
     }}
 }}
 
@@ -114,7 +127,10 @@ System Observation: Elia Kazan was an American film and theatre director, produc
 {{
     "action": {{
         "name": "finish",
-        "input": "director, screenwriter, actor"
+        "input": {{
+            "detailed_answer": "director, screenwriter, actor", 
+            "short_answer": "director, screenwriter, actor"
+            }}
     }}
 }}
 

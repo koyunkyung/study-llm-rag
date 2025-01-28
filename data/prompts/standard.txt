@@ -6,6 +6,17 @@ Instructions:
 1. Provide a direct answer to the query based on the information you currently have.
 2. If you don't have enough knowledge to answer confidently, simply say "I don't have enough information to provide an answer to this query."
 3. Do not include any reasoning steps, thoughts, or actions in your response.
-4. Your response should only contain the final answer to the query.
+4. Provide both a detailed answer and a short answer.
+5. For mathematical questions (like GSM8K dataset), the short answer should only contain the final number without any units or additional text.
+6. For other questions (like HotPot dataset), the short answer should be the most concise possible answer that directly addresses the question.
 
-Please provide your final answer now.
+For GSM8K dataset:
+- The short answer should only contain the final numerical answer without any units or additional text
+- Example: If the detailed answer is "The total cost is $525", the short answer should be just "525"
+For HotPot dataset:
+- The short answer should be the most concise possible answer that directly answers the question
+- Example: If the detailed answer is "The film was directed by Christopher Nolan in 2010", and the question was about the director, the short answer should be just "Christopher Nolan"
+
+Your response should be in this format:
+Final Answer: [Your detailed answer]
+Short Answer: [Short word/number that best answers the query]

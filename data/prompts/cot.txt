@@ -22,8 +22,13 @@ Respond in the following format:
     "thought2": "Your second reasoning step",
     ...
     "thoughtN": "Your final reasoning step",
-    "answer": "Your final answer to the original query, if possible"
+    "answer": "Your detailed answer to the original query",
+    "short_answer": "Short word/number that best answers the query"
 }}
+
+Note: For mathematical questions, short_answer should contain only the final number without units.
+For other questions, short_answer should contain the most concise possible answer.
+
 
 Guidelines:
 - Be as detailed and specific as possible in your reasoning steps.
@@ -32,6 +37,13 @@ Guidelines:
 - Rely solely on your existing knowledge and the information provided in the query.
 - Do not attempt to use any external tools or resources.
 - If, after reasoning through the steps, you do not have enough information to answer confidently, say so in the "answer" field.
+For GSM8K dataset:
+- The short answer should only contain the final numerical answer without any units or additional text
+- Example: If the detailed answer is "The total cost is $525", the short answer should be just "525"
+For HotPot dataset:
+- The short answer should be the most concise possible answer that directly answers the question
+- Example: If the detailed answer is "The film was directed by Christopher Nolan in 2010", and the question was about the director, the short answer should be just "Christopher Nolan"
+
 
 Example query 1:
 Query: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?
@@ -39,7 +51,9 @@ Query: What is the elevation range for the area that the eastern sector of the C
 {{
     "thought1": "The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.",
 
-    "answer": "1,800 to 7,000 ft"
+    "answer": "1,800 to 7,000 ft",
+
+    "short_answer": "1,800 to 7,000 ft"
 }}
 
 Example query 2:  
@@ -54,7 +68,9 @@ Query: Musician and satirist Allie Goertz wrote a song about the "The Simpsons" 
 
     "thought4": "Since 'Milhous' was President Nixon's middle name, and 'Milhouse' is the name of the character, this provides strong evidence that Groening named Milhouse after Nixon.",
 
-    "answer": "Matt Groening named the character Milhouse after Richard Milhous Nixon, the 37th President of the United States."
+    "answer": "Matt Groening named the character Milhouse after Richard Milhous Nixon, the 37th President of the United States.",
+
+    "short_answer": "Richard Milhous Nixon"
 }}
 
 Query: {query}

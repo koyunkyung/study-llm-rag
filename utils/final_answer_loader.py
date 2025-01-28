@@ -11,15 +11,20 @@ def load_dataset(dataset_name):
     with open(input_file, "r") as f:
         return json.load(f)
 
-def extract_final_answers(file_content):
-    final_answers = []
-    for line in file_content.splitlines():
+def extract_answers(section):
+    detailed_output = None
+    short_output = None
+
+    lines = section.strip().split('\n')
+    for i, line in enumerate(lines):
         if line.startswith("Final Answer:"):
-            answer = line.replace("Final Answer:", "").strip()
-            if answer.startswith("Final Answer:"):
-                answer = answer.replace("Final Answer:", "").strip()
-            final_answers.append(answer)
-    return final_answers
+            detailed_output = line.replace("Final Answer:", "").strip()
+            if i + 1 < len(lines) and lines[i + 1].startswith("Short Answer:"):
+                short_output = lines[i + 1].replace("Short Answer:", "").strip()
+
+    detailed_output = detailed_output if detailed_output else "No detailed answer provided"
+    short_output = short_output if short_output else "None"
+    return detailed_output, short_output
 
 def load_final_answers_by_dataset(dataset_name):
     results = {}
@@ -32,29 +37,43 @@ def load_final_answers_by_dataset(dataset_name):
             file_path = os.path.join(OUTPUT_DIR, file_name)
             
             with open(file_path, "r") as f:
-                file_content = f.read()
-                outputs = extract_final_answers(file_content)
+                content = f.read()
                 paired_results = []
-                for i, output in enumerate(outputs):
-                    if i < len(original_data):
-                        question = original_data[i]["question"]
-                        true_answer = question_to_answer[question]
-                        paired_results.append({
-                            "output": output,
-                            "answer": true_answer
-                        })
+                current_question = ""
+                current_section = []
                 
+                for line in content.split('\n'):
+                    if line.startswith("Question"):
+                        if current_section:
+                            detailed_output, short_output = extract_answers('\n'.join(current_section))
+                            if current_question in question_to_answer:
+                                paired_results.append({
+                                    "answer": question_to_answer[current_question],
+                                    "short_output": short_output,
+                                    "detailed_output": detailed_output
+                                })
+                        current_question = next((q for q in question_to_answer if q in line), "")
+                        current_section = []
+                    current_section.append(line)
+
+                if current_section:
+                    detailed_output, short_output = extract_answers('\n'.join(current_section))
+                    if current_question in question_to_answer:
+                        paired_results.append({
+                            "answer": question_to_answer[current_question],
+                            "short_output": short_output,
+                            "detailed_output": detailed_output
+                        })
+                        
                 if paired_results:
                     results[template_name] = paired_results
 
-    results_file = os.path.join(RESULTS_DIR, f"{dataset_name}_results.json")
-    with open(results_file, "w") as f:
+    os.makedirs(RESULTS_DIR, exist_ok=True)
+    with open(os.path.join(RESULTS_DIR, f"{dataset_name}_results.json"), "w") as f:
         json.dump(results, f, indent=4)
-    print(f"Paired results saved to {results_file}")
-    
     return results
 
+
 if __name__ == "__main__":
-    datasets = ["hotpot", "gsm8k"]
-    for dataset in datasets:
+    for dataset in ["hotpot", "gsm8k"]:
         load_final_answers_by_dataset(dataset)

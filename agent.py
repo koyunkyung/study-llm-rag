@@ -144,7 +144,13 @@ class Agent:
     def decide(self, response: str) -> None:
         try:
             if self.prompt_type == PromptType.STANDARD:
-                self.trace("assistant", f"Final Answer: {response}")
+                parts = response.split("Short Answer:")
+                if len(parts) == 2:
+                    detailed = parts[0].replace("Final Answer:", "").strip()
+                    short = parts[1].strip()
+                    self.trace("assistant", f"Final Answer: {detailed}\nShort Answer: {short}")
+                else:
+                    self.trace("assistant", f"Final Answer: {response}")
                 return
             
             cleaned_response = response.strip().strip('`').strip()
@@ -153,20 +159,28 @@ class Agent:
             parsed_response = json.loads(cleaned_response)
             
             if self.prompt_type == PromptType.COT:
-                if "answer" in parsed_response:
-                    self.trace("assistant", f"Final Answer: {parsed_response['answer']}")
+                if "answer" in parsed_response and "short_answer" in parsed_response:
+                    detailed = parsed_response["answer"]
+                    short = parsed_response["short_answer"]
+                    self.trace("assistant", f"Final Answer: {detailed}\nShort Answer: {short}")
                 else:
                     raise ValueError("Invalid response format for CoT prompt")
             
             elif self.prompt_type == PromptType.ACT:
                 if "action" in parsed_response:
-                    action = parsed_response["action"] 
+                    action = parsed_response["action"]
                     
                     if action["name"].upper() == "FINISH":
-                        final_answer = parsed_response.get('answer', action['input'])
-                        if not final_answer or "No results found" in str(final_answer):
-                            final_answer = "Unable to find a satisfactory answer."
-                        self.trace("assistant", f"Final Answer: {final_answer}")
+                        if isinstance(action["input"], dict):
+                            detailed = action["input"].get("detailed_answer", "")
+                            short = action["input"].get("short_answer", "")
+                            if not detailed or "No results found" in str(detailed):
+                                detailed = "Unable to find a satisfactory answer."
+                                short = "None"
+                        else:
+                            detailed = action["input"]
+                            short = action["input"]
+                        self.trace("assistant", f"Final Answer: {detailed}\nShort Answer: {short}")
                         return
                     
                     tool_name = Name[action["name"].upper()]
@@ -175,8 +189,13 @@ class Agent:
                         self.act(tool_name, action["input"])
                 
                 elif "answer" in parsed_response:
-                    final_answer = parsed_response['answer']
-                    self.trace("assistant", f"Final Answer: {final_answer}")
+                    if isinstance(parsed_response["answer"], dict):
+                        detailed = parsed_response["answer"].get("detailed_answer", "")
+                        short = parsed_response["answer"].get("short_answer", "")
+                    else:
+                        detailed = parsed_response["answer"]
+                        short = parsed_response["answer"]
+                    self.trace("assistant", f"Final Answer: {detailed}\nShort Answer: {short}")
                 
                 else:
                     raise ValueError("Invalid response format for Act prompt")
@@ -193,9 +212,16 @@ class Agent:
                         self.trace("assistant", f"Action: Using {tool_name} tool")
                         self.act(tool_name, action.get("input", self.query))
                 elif "answer" in parsed_response:
-                    self.trace("assistant", f"Final Answer: {parsed_response['answer']}")
+                    if isinstance(parsed_response["answer"], dict):
+                        detailed = parsed_response["answer"].get("detailed_answer", "")
+                        short = parsed_response["answer"].get("short_answer", "")
+                    else:
+                        detailed = parsed_response["answer"]
+                        short = parsed_response["answer"]
+                    self.trace("assistant", f"Final Answer: {detailed}\nShort Answer: {short}")
                 else:
                     raise ValueError("Invalid response format for ReAct prompt")
+                
             
         except json.JSONDecodeError as e:
             if self.prompt_type == PromptType.STANDARD:
@@ -263,15 +289,20 @@ def run_specific_template(json_path: str, template_file: str, prompt_type: Promp
         for name, tool_func in tools.items():
             agent.register(name, tool_func)
             
-        final_answer = agent.execute(query)
-        
+        response = agent.execute(query)      
         with open(output_path, "a") as f:
-            f.write(f"\nQuestion {idx}: {query}")
-            f.write(f"\nFinal Answer: {final_answer}\n")
+            f.write(f"\nQuestion {idx}: {query}\n")
+            if "Short Answer:" in response:
+                final_answer, short_answer = response.split("Short Answer:")
+                f.write(f"{final_answer.strip()}\n")
+                f.write(f"Short Answer: {short_answer.strip()}\n")
+            else:
+                f.write(f"{response}\n")
+                f.write(f"Short Answer: None\n")
             f.write("-" * 50 + "\n")
 
 if __name__ == "__main__":
-    input_file = "./data/input/gsm8k.json"
+    # input_file = "./data/input/gsm8k.json"
     input_file = "./data/input/hotpot.json"
 
     standard_template = "standard.txt"
