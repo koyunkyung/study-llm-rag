@@ -1,0 +1,1610 @@
+{
+    "standard": [
+        {
+            "output": "Jordana is 37 years old now.",
+            "answer": "When Jennifer is 30 years old in ten years, her sister Jordana will be 3*30=90 years old.\nShe's currently 10 years younger, so she's 90 - 10 = 80 years old\n#### 80"
+        },
+        {
+            "output": "Chenny has 7 friends.",
+            "answer": "Chenny has a total of 10 + 4 = <<10+4=14>>14 candies.\nIf each friend will receive 2 candies each, then she has 14 / 2 = <<14/2=7>>7 friends.\n#### 7"
+        },
+        {
+            "output": "95%",
+            "answer": "First, find a common denominator for the fractions by multiplying 5 and 4: 5 * 4 = <<5*4=20>>20.\nThen convert 1/5 to twentieths by multiplying the top and bottom by 4: 1/5 * 4/4 = 4/20.\nThen convert 3/4 to twentieths by multiplying the top and bottom by 5: 3/4 * 5/5 = 15/20\nNow that the two fractions have the same denominator, you can add them: 4/20 + 15/20 = 19/20.\nNow divide 19 by 20 and multiply the answer by 100 to convert the fraction to a percentage: 19/20 * 100 = %<<19/20*100=95>>95.\n#### 95"
+        },
+        {
+            "output": "$15",
+            "answer": "The soda cost 3*1=$<<3*1=3>>3\nSo the soups cost 2*3=$<<2*3=6>>6\nThe sandwich cost 3*3=$<<3*3=9>>9\nSo the total cost of everything was 3+6+9=$<<3+6+9=18>>18\n#### 18"
+        },
+        {
+            "output": "700 square meters",
+            "answer": "Carlson bought land that cost $20 per square meter, therefore the size of the land he bought is 8000/20 = 400.\nAnd the size of the other land he bought is 4000/20 = <<4000/20=200>>200.\nTherefore the total size of the land he owns is 400+200+300 = <<400+200+300=900>>900.\n#### 900"
+        },
+        {
+            "output": "The coffee shop made $59.",
+            "answer": "Sale from coffee is 7 x $5 = $<<7*5=35>>35.\nSale from tea is 8 x $4 = $<<8*4=32>>32.\nTotal sales is $35 + $32 = $<<35+32=67>>67.\n#### 67"
+        },
+        {
+            "output": "6 cupcakes",
+            "answer": "Dani brings 2.5 x 12 = <<2.5*12=30>>30 cupcakes.\nShe needs this many cupcakes to feed everyone in class 27 + 2 = <<27+2=29>>29.\nWith the 3 students calling in sick, there are this many people in class today 29 - 3 = <<29-3=26>>26.\nThere are this many cupcakes left after everyone gets one 30 - 26 = <<30-26=4>>4 cupcakes.\n#### 4"
+        },
+        {
+            "output": "5 slices are left.",
+            "answer": "There is a total of 3 x 10 = <<3*10=30>>30 cookie slices.\nThere are 24 + 1 + 1 = <<24+1+1=26>>26 people who ate the cookie pieces.\nThere is 30 - 26 = <<30-26=4>>4 cookie slices left.\n#### 4"
+        },
+        {
+            "output": "$833",
+            "answer": "On Monday Zach spent 620*0.5 = <<620*0.5=310>>310 dollars on miles.\nOn Thursday Zach spent 744*0.5 = <<744*0.5=372>>372 dollars on miles.\nIn total, Zach spent 150+310+372 = <<150+310+372=832>>832 dollars.\n#### 832"
+        },
+        {
+            "output": "3 cookies",
+            "answer": "There are 81 / 3= <<81/3=27>>27 chips in a batch.\nThus, there are 27 / 9 = <<27/9=3>>3 cookies in a batch.\n#### 3"
+        },
+        {
+            "output": "165 minutes",
+            "answer": "First multiply the number of loads by the time per load to find the washing time: 2 loads * 45 minutes/load = <<2*45=90>>90 minutes\nThen add that time to the drying time to find the total laundry time: 90 minutes + 75 minutes = <<90+75=165>>165 minutes\n#### 165"
+        },
+        {
+            "output": "1",
+            "answer": "Eunice can plant a total of 3 pots x 3 seeds = <<3*3=9>>9 seeds in three pots.\nSo, only 10 - 9 = <<10-9=1>>1 eggplant seed will be planted in the fourth pot.\n#### 1"
+        },
+        {
+            "output": "9 cupcakes",
+            "answer": "After giving away 4/5 of the cupcakes, Anna has 60 / 5 = <<60/5=12>>12 cupcakes\nAfter eating 3 cupcakes, Anna has 12 - 3 = <<12-3=9>>9 cupcakes.\n#### 9"
+        },
+        {
+            "output": "110 sharks",
+            "answer": "Since Dana Point beach has four times the number of sharks in Newport beach, there are 4*22 = <<4*22=88>>88 sharks at Dana Point.\nIn total, the two beaches have 88+22 = <<88+22=110>>110 sharks\n#### 110"
+        },
+        {
+            "output": "20",
+            "answer": "The number of males in the party was 2 males / 3 guests * 60 guests = <<2/3*60=40>>40 males\nIf the total number of people at the party was 60, then there were 60 guests - 40 males = <<60-40=20>>20 females.\n#### 20"
+        },
+        {
+            "output": "$1563",
+            "answer": "On Wednesday, Liza had $800 - $450 = $<<800-450=350>>350 left in her account.\nAfter depositing on Thursday, she had $350 + $1500 = $<<350+1500=1850>>1850 in her account.\nOn Friday, she paid a total of $117 + $100 = $<<117+100=217>>217 for her electricity and internet bills.\nSo, $1850 - $217 = $<<1850-217=1633>>1633 was left on her account on Friday.\nAfter paying her phone bill, Liza has $1633 - $70 = $<<1633-70=1563>>1563 left in her account.\n#### 1563"
+        },
+        {
+            "output": "290 tomatoes",
+            "answer": "Today, Uncle Jerry reaps 120 + 50 = <<120+50=170>>170 tomatoes.\nTherefore, Uncle Jerry reaps a total of 120 + 170 = <<120+170=290>>290 ripe tomatoes.\n#### 290"
+        },
+        {
+            "output": "$102",
+            "answer": "The four bags of Reese's cost $9 x 4 = $<<9*4=36>>36.\nThe three bags of Snickers cost $5 x 3 = $<<5*3=15>>15.\nThe five bags of Skittles cost $7 x 5 = $<<7*5=35>>35.\nTherefore, the unicorn pi\u00f1ata and the treats cost $13 + $36 + $15 + $35 = $<<13+36+15+35=99>>99.\n#### 99"
+        },
+        {
+            "output": "$3020",
+            "answer": "He buys the silver for 1.5*$20=$<<1.5*20=30>>30\nHe bought 1.5*2=<<1.5*2=3>>3 ounces of gold\nThe gold is worth %20*50=$<<20*50=1000>>1000 per ounce\nSo he buys 3*$1000=$<<3*1000=3000>>3000 on gold\nSo he spent $30+$3000=$<<30+3000=3030>>3030 on everything\n#### 3030"
+        },
+        {
+            "output": "24000 apples",
+            "answer": "In the first week, each day they pack 40*50 = <<40*50=2000>>2000 apples\nThe total number of apples packed in the boxes is 2000*7 = <<2000*7=14000>>14000 apples in the first week.\nWhen 500 fewer apples were packed each day in the next week, the total became 2000-500 = <<2000-500=1500>>1500 apples per day.\nThe total number of apples packed in the boxes that week is 1500*7 = <<1500*7=10500>>10500 apples.\nThe total is 14000+10500 = <<14000+10500=24500>>24500 apples for the two weeks\n#### 24500"
+        },
+        {
+            "output": "57 minutes",
+            "answer": "Tina has already cleaned one key so she has 14 left which take 3 minutes each to clean, 14 x 3 = <<14*3=42>>42 minutes to clean all the keyboard keys.\nHer assignment will take 10 minutes to complete, so she needs 42 minutes + 10 minutes = 52 minutes total before dinner.\n#### 52"
+        },
+        {
+            "output": "Oliver has 32 Monster Club cards.",
+            "answer": "Oliver\u2019s Alien Baseball card collection has 48 / 3 = <<48/3=16>>16 cards.\nOliver has twice as many Monster Club cards, so he has 16 * 2 = <<16*2=32>>32 Monster Club cards.\n#### 32"
+        },
+        {
+            "output": "John could buy 10 packets of corn chips.",
+            "answer": "John wants to buy 15 packets of chips, which will cost him 15 * 2 = $<<15*2=30>>30.\nSo John would have 45 - 30 = $<<45-30=15>>15 left for the corn chips.\nJohn could buy for the rest of the money 15 / 1.5 = <<15/1.5=10>>10 packets of corn chips.\n#### 10"
+        },
+        {
+            "output": "30000 words",
+            "answer": "He has 3 hours to read because 8 - 3.5 - 1.5 = <<8-3.5-1.5=3>>3\nHe has 180 minutes to read because 3 x 60 = <<3*60=180>>180\nHe can read 1,800 words because 180 x 10 = <<180*10=1800>>1,800\n#### 1800"
+        },
+        {
+            "output": "The boys will need to buy 2 more dice to play their game.",
+            "answer": "Mark has 60% 12 sided dice, so 60/100 * 10 dice in his bag = <<60/100*10=6>>6 12 sided dice.\nJames has 75% 12 sided dice, so 75/100 * 8 dice in his bag = <<75/100*8=6>>6 12 sided dice.\nThey will need to purchase 14 dice - 6 dice - 6 dice = <<14-6-6=2>>2 dice.\n#### 2"
+        },
+        {
+            "output": "The puppy sleeps 16 hours.",
+            "answer": "Luke sleeps 2 hours longer than Connor who sleeps 6 hours so that\u2019s 2+6 = <<2+6=8>>8 hours\nThe new puppy sleeps twice as long as Luke, who sleeps 8 hours, so the puppy sleeps 2*8 = <<2*8=16>>16 hours\n#### 16"
+        },
+        {
+            "output": "House A cost $210,000.",
+            "answer": "First figure out how much money Nigella earned from commission by subtracting her base salary from her total earnings: $8,000 - $3,000 = $<<8000-3000=5000>>5,000.\nNext, figure out how much all three houses cost by dividing Nigella's commission money by her commission rate: $5,000 \u00f7 0.02 = $<<5000/0.02=250000>>250,000.\nNext, express each house's price in terms of A's price: B = 3A, and C = 2A - $110,000.\nNow we know that A + 3A + 2A - $110,000 = $250,000.\nWe can combine like terms to find that 6A - $110,000 = $250,000.\nNow we add $110,000 to both sides of the equation and get 6A = $360,000.\nWe can divide both sides by 6 to find A = $60,000.\n#### 60000"
+        },
+        {
+            "output": "48 frogs",
+            "answer": "Pond B has 32/2 frogs = <<32/2=16>>16 frogs.\nIn total the ponds have 32 frogs + 16 frogs = <<32+16=48>>48 frogs.\n#### 48"
+        },
+        {
+            "output": "84 horses",
+            "answer": "If Minnie mounts three more horses per day than there are days in a week, then Minnie mounts 7+3=<<3+7=10>>10 horses per day.\nTwice as many horses per day as Minnie mounts is 10*2=<<10*2=20>>20 horses per day.\nIf Mickey mounts six less than twice as many horses per day as does Minnie, then Mickey mounts 20-6=<<20-6=14>>14 horses per day.\nSince there are 7 days in a week, then Mickey mounts 7*14=<<7*14=98>>98 horses per week.\n#### 98"
+        },
+        {
+            "output": "46",
+            "answer": "Since Drew got 20 questions right and 6 wrong, she was asked 20+6 = <<20+6=26>>26 questions.\nCarla got twice as many questions wrong as Drew got, a total of 2*6 = <<2*6=12>>12 questions wrong.\nThe total number of questions that Carla was asked is 12+14 = <<12+14=26>>26.\nAltogether, there were 26+26 = <<26+26=52>>52 questions that were asked in the contest.\n#### 52"
+        },
+        {
+            "output": "18 cups",
+            "answer": "For the first 30 minutes, 3*2=<<3*2=6>>6 cups of water came out.\nFor the next 30 minutes, 3*2=<<3*2=6>>6 cups of water came out.\nFor the next hour, 6*4=<<6*4=24>>24 cups of water came out.\nA total of 6+6+24=<<6+6+24=36>>36 cups of water came out.\nShawn had to dump water which left 36/2=<<36/2=18>>18 cups of water.\n#### 18"
+        },
+        {
+            "output": "36 apples",
+            "answer": "After giving 18 apples to Zenny, Yanna remained with 60 - 18 = <<60-18=42>>42 apples.\nSince she also gave Andrea 6 apples, Yanna remained with 42 - 6 = <<36=36>>36 apples\nTherefore, Yanna kept 36 apples.\n#### 36"
+        },
+        {
+            "output": "150",
+            "answer": "There will be 50 x 2 = <<50*2=100>>100 parents that are expected to attend.\n20/2 = <<20/2=10>>10 administrators will attend.\nHence, 50 graduates + 100 parents + 20 teachers + 10 administrators = 180 chairs must be prepared.\n#### 180"
+        },
+        {
+            "output": "500 candies",
+            "answer": "Since there are four clowns at the carousel this year, the candy seller sold 20*4 = <<20*4=80>>80 candies to all the clowns.\nThe thirty children also bought 20*30 = <<20*30=600>>600 candies in total.\nAltogether, the candy seller sold 600+80 = <<600+80=680>>680 candies to the clowns and children at the carousel.\nThe number of candies the candy seller has left is 700-680= <<700-680=20>>20\n#### 20"
+        },
+        {
+            "output": "210 students",
+            "answer": "If 50 students came from Know It All High School, then Karen High, which had 3/5 times as many students as Know It All High School, had 3/5*50 = 30 students at the fair.\nThe total number of students from Know It All and Karen high schools is 50+30 = <<50+30=80>>80 students.\nIf Novel Corona had twice the combined number of students from Know It All and Karen high schools, then it had 2*80 = <<2*80=160>>160 students at the competition.\nThe total number of students at the competition is 80+160 = <<80+160=240>>240\n#### 240"
+        },
+        {
+            "output": "$45,000",
+            "answer": "Let \"x\" be the price of a single necklace.\nThus, the cost of the earrings would be 3x.\nAnd since all items totaled $240,000, then x+x+x+3x = $240,000\nTherefore, this simplifies to 6x=240,000\nAnd, solving for x we see that the price of a single necklace is x = $<<40000=40000>>40,000\n#### 40,000"
+        },
+        {
+            "output": "364,000 oz",
+            "answer": "Per day, the amount of milk produced is 1000*52 = <<1000*52=52000>>52000 oz.\nPer week, the amount of milk produced is 52000*7 = <<52000*7=364000>>364000 oz.\n#### 364000"
+        },
+        {
+            "output": "42 hours",
+            "answer": "Jade drives for a total of 3 days x 8 hours/day = <<3*8=24>>24 hours\nKrista drives for a total of 3 days x 6 hours/day = <<3*6=18>>18 hours\nTogether they drive 24 hours + 18 hours = <<24+18=42>>42 hours\n#### 42"
+        },
+        {
+            "output": "Lisa earned $30 more than Tommy.",
+            "answer": "Lisa earned $60 * 1/2 = $<<60*1/2=30>>30.\nTommy earned $30 * 1/2 = $<<30*1/2=15>>15.\nLisa earned $30 - $15 = $<<30-15=15>>15 more than Tommy.\n#### 15"
+        },
+        {
+            "output": "50 jugs",
+            "answer": "Since each student needs 10 cups of water per day and there are 200 students, the custodian has to provide 200*10 = <<200*10=2000>>2000 cups of water.\nA jug of water needs 40 cups to be full, so 2000 cups of water will fill 2000/40 = <<2000/40=50>>50 jugs\n#### 50"
+        },
+        {
+            "output": "Vicente spent $29 in total.",
+            "answer": "Vicente spent 5 x $2 = $<<5*2=10>>10 for 5 kilograms of rice.\nHe spent 3 x $5 = $<<3*5=15>>15 for 3 pounds of meat.\nTherefore, the total amount he spent was $15 + $10 = $<<15+10=25>>25.\n#### 25"
+        },
+        {
+            "output": "$800",
+            "answer": "First find how many giraffe statues Nancy can make by dividing the total amount of jade by the amount used per giraffe statue: 1920 g / 120 g/giraffe = <<1920/120=16>>16 giraffes\nThen multiply that number by the price per giraffe to find how much Nancy earns total from giraffes: 16 giraffes * $150/giraffe = $<<16*150=2400>>2400\nThen find how much jade each elephant statue uses by doubling the jade used by the giraffe statues: 120 g/giraffe * 2 = <<120*2=240>>240 g/elephant\nThen find how many elephant statues Nancy can make by dividing the total amount of jade by the amount used per elephant statue: 1920 g / 240 g/elephant = <<1920/240=8>>8 elephant\nMultiply that number by the price per elephant to find Nancy's total earnings from elephants: 8 elephants * $350/elephant = $<<8*350=2800>>2800\nFinally, subtract Nancy's total earnings from the giraffes from her total earnings from the elephants to find the difference: $2800 - $2400 = $<<2800-2400=400>>400\n#### 400"
+        },
+        {
+            "output": "$36",
+            "answer": "Alton earns $8 x 7 = $<<8*7=56>>56 per week.\nTherefore, his weekly profit after paying the rent is $56 - $20 = $<<56-20=36>>36.\n#### 36"
+        },
+        {
+            "output": "$2400",
+            "answer": "The food cost 3*50=$<<3*50=150>>150\nSo the total cost without equipment rental was 1200+150=$<<1200+150=1350>>1350\nSo equipment rental cost 1350*2=$<<1350*2=2700>>2700\nSo the total cost was 2700+1350=$<<2700+1350=4050>>4050\nThat means they made 10000-4050=$<<10000-4050=5950>>5950\n#### 5950"
+        },
+        {
+            "output": "350$",
+            "answer": "600/3=<<600/3=200>>200$ for gas\nAfter buying gas, Darwin has 600-200=<<600-200=400>>400$ left\n400/4=<<400/4=100>>100$ on food\nDarwin has 400-100=<<400-100=300>>300$ left\n#### 300"
+        },
+        {
+            "output": "$260.00",
+            "answer": "First find the total payment James receives: $0.50/mile * 600 miles = $<<0.50*600=300>>300\nThen find how many gallons of gas he needs to buy: 600 miles / 20 miles/gallon = <<600/20=30>>30 gallons\nThen multiply that number by the price of gas per gallon to find the total cost of the gas: $4.00/gallon * 30 gallons = $<<4*30=120>>120\nThen subtract that amount from James' earnings to find his profit: $300 - $120 = $<<300-120=180>>180\n#### 180"
+        },
+        {
+            "output": "51%",
+            "answer": "The total percentage the class needs to get is 18.75 because 25 x .75 = <<25*.75=18.75>>18.75\nThe total percentage the class has absent the one student is <<18.48=18.48>>18.48\nThe lowest the absent student can get and still have a pizza party is 27% because (18.75-18.48)x 100 = <<(18.75-18.48)*100=27>>27\n#### 27"
+        },
+        {
+            "output": "Granger and Cisco have 55 spots combined.",
+            "answer": "If Rover has 46 spots, then half as many spots as Rover has is 46/2=<<46/2=23>>23 spots.\nIf Cisco has 5 less than half as many spots as Rover has, then Cisco has 23-5=<<23-5=18>>18 spots.\nIf Granger has five times as many spots as Cisco, then Rover has 18*5=<<18*5=90>>90 spots.\nThus, the total combined number of spots that Rover and Cisco have is 90+18=<<90+18=108>>108 spots.\n#### 108"
+        },
+        {
+            "output": "84 degrees",
+            "answer": "Over the past five years, the sum of the temperatures was 90+90+90+79+71=<<90+90+90+79+71=420>>420\nTo find the average temperature you divide the total temperature (420) by 5, so 420/5 = <<420/5=84>>84 degrees\n#### 84"
+        },
+        {
+            "output": "$184",
+            "answer": "The students bought $6*20=$<<6*20=120>>120 worth of tickets\nThe adults bought $8*12=$<<8*12=96>>96 worth of tickets\nTogether $120 + $96 = $<<120+96=216>>216 worth of tickets were sold\n#### 216"
+        },
+        {
+            "output": "31%",
+            "answer": "First convert the ginger to teaspoons: 3 tablespoons * 3 teaspoons/tablespoon = <<3*3=9>>9 teaspoons\nThen convert the garlic to teaspoons: 2 tablespoons * 3 teaspoons/tablespoon = <<2*3=6>>6 teaspoons\nThen find how much chile powder there is: 1 teaspoon * 4 = <<1*4=4>>4 teaspoons\nThen add up the amount of each spice to find the total amount: 9 teaspoons + 6 teaspoons + 4 teaspoons + 1 teaspoons + 1 teaspoon = <<9+6+4+1+1=21>>21 teaspoons\nThen divide the amount of ginger by the total amount of spice paste and multiply by 100% to find the percentage of the spice paste that's ginger: 9 teaspoons / 21 teaspoons * 100% = 42.857, which rounds down to 43%\n#### 43"
+        },
+        {
+            "output": "60%",
+            "answer": "The total cost of buying bread and ham was $50+$150 = $<<50+150=200>>200\nTogether with the cake, Tina paid $200+$200 = $<<200+200=400>>400 for the items\nSince the total percentage for all the items is 100%, the cost of ham and bread is $200/$400 * 100% = <<200/400*100=50>>50% of the total cost of items.\n#### 50"
+        },
+        {
+            "output": "36",
+            "answer": "There were a total of 50 + 54 = <<50+54=104>>104 ice creams.\nThere were 50 x 3/5 = <<50*3/5=30>>30 chocolate-flavored ice creams sold.\nThere were 54 x 2/3 = <<54*2/3=36>>36 mango-flavored ice creams sold.\nA total of 30 + 36 = <<30+36=66>>66 ice creams were sold.\nSo, 104 - 66 = <<104-66=38>>38 ice creams were not sold.\n#### 38"
+        },
+        {
+            "output": "48 hours",
+            "answer": "If Jacob has 18 hours left to finish his homework, Greg has 18-6 = <<18-6=12>>12 hours left to finish his homework.\nThe total number of hours Jacob and Greg have left to finish their homework is 12+18 = <<12+18=30>>30 hours.\nPatrick has 4 hours less than twice Greg has left to finish his homework, meaning Patrick has 4 hours less than 12*2 = 24 hours left to finish his homework.\nPatrick has 24-4 = <<24-4=20>>20 hours left to finish his homework.\nAltogether, the three have 30+20 = <<30+20=50>>50 hours left to finish their homework.\n#### 50"
+        },
+        {
+            "output": "$38.00",
+            "answer": "Teagan saved 1 cent (.01) x 200 = $2.\nRex has 5 cents (.05) x 100 = $5.\nToni has 10 cents (.10) x 330 = $33.\nTogether, the three kids saved $2 + $5 + $33 = $<<2+5+33=40>>40.\n#### 40"
+        },
+        {
+            "output": "42",
+            "answer": "He gets 10 new bones, every month for 5 months so he has 10*5 = <<10*5=50>>50 dog bones\nHe has 8 bones available which means he has buried 50-8 = <<50-8=42>>42 bones\n#### 42"
+        },
+        {
+            "output": "Michelle paid $12 in total for her ride.",
+            "answer": "The taxi charge for a distance of 4 miles is 4 x $2.5 = $<<4*2.5=10>>10.\nThe total amount that Michelle paid for the ride was $2 + $10 = $<<2+10=12>>12.\n#### 12"
+        },
+        {
+            "output": "18 chocolate chips",
+            "answer": "She made 36 cookies because 12 x 3 = <<12*3=36>>36\nThese contain 72 chocolate chips because 36 x 2 = <<36*2=72>>72\nThey each get to eat 18 chocolate chips because 72 / 4 = <<72/4=18>>18\n#### 18"
+        },
+        {
+            "output": "20 feet",
+            "answer": "Each 5 by 5 painting is 25 square feet because 5 x 5 = <<5*5=25>>25\nAll three of them take up 75 square feet because 3 x 25 = <<3*25=75>>75\nThe 10 by 8 painting takes up 80 square feet because 10 x 8 = <<10*8=80>>80\nThese four paintings take up 155 square feet because 80 + 75 = <<80+75=155>>155\nThe final painting is 45 square feet because 200-155 = <<200-155=45>>45\nIf it is 5 feet wide it is 9 feet tall because 45 / 5 = 9\n#### 9"
+        },
+        {
+            "output": "10 passes",
+            "answer": "Let x represent the number of passes thrown to the left side of the field\nRight:2x\nCenter:x+2\nTotal:x+2x+x+2=50\n4x+2=50\n4x=48\nx=<<12=12>>12 passes\n#### 12"
+        },
+        {
+            "output": "The school spent $600 in all.",
+            "answer": "The school bought 20 x 10 = <<20*10=200>>200 boxes of pencils.\nThe pencils cost 200 x $2 = $<<200*2=400>>400.\nThe school bought 10 x 5 = <<10*5=50>>50 boxes of markers.\nThe markers cost 50 x $4 = $<<50*4=200>>200.\nThus, the school spent a total of $400 + $200 = $<<400+200=600>>600.\n#### 600"
+        },
+        {
+            "output": "Bethany saw 16 portraits.",
+            "answer": "Let s be the number of still lifes Bethany saw and p be the number of portraits. We know that s + p = 80 and s = 4p.\nSubstituting the second equation into the first equation, we get 4p + p = 80\nCombining like terms, we get 5p = 80\nDividing both sides by 5, we get p = 16\n#### 16"
+        },
+        {
+            "output": "20 squirrels",
+            "answer": "The second student counted 12/3 = 4 more squirrels than the first student.\nThe second student counted 12+4 = <<12+4=16>>16 squirrels.\nTogether, the first and second student counted 12+16 = <<12+16=28>>28 squirrels combined.\n#### 28"
+        },
+        {
+            "output": "Sean has 24 dollars and Rick has 72 dollars.",
+            "answer": "Sean has 40/2+4 = <<40/2+4=24>>24 dollars.\nRick has 24*3 = <<24*3=72>>72 dollars.\nSean and Rick have 24+72 = <<24+72=96>>96 dollars together.\n#### 96"
+        },
+        {
+            "output": "150 apples",
+            "answer": "Emmy and Gerry have a total of $200 + $100 = $<<200+100=300>>300.\nTherefore, Emmy and Gerry can buy $300/$2 = <<300/2=150>>150 apples altogether.\n#### 150"
+        },
+        {
+            "output": "$97.60",
+            "answer": "He gets 30% off any book over $22 and he buys books that cost $25.00 and $35.00 so the total cost of these books is $25 + $35 = $<<25+35=60.00>>60.00\nAt 30% off, the discount on these books is $60*.30 = $<<60*.30=18.00>>18.00\nThat mean these 2 books will cost $60-$18 = $<<60-18=42.00>>42.00\nHe gets 20% off any book under $20 and he buys books for $18.00, $12.00 and $10.00 so these books together cost $18 + $12 + $10 = $40.00\nat 20% off, the discount on these books is 40*.20 = $8.00\nSo these 3 books will cost $40 - $8 = $<<40-8=32.00>>32.00\nHe has spent $42.00 on the two most expensive books, $32.00 on the 3 cheapest books, and also bought a book for $21.00, so his total comes to $42 + $32 + $21 = $<<42+32+21=95.00>>95.00\n#### 95"
+        },
+        {
+            "output": "20 push-ups",
+            "answer": "There are 60 seconds per minute, so Jackie\u2019s push-up routine takes 1 * 60 = <<60=60>>60 seconds.\nHer breaks last 2 * 8 = <<2*8=16>>16 seconds.\nShe does push-ups for 60 - 16 = <<60-16=44>>44 seconds.\nShe can do a push-up in 10 / 5 = <<10/5=2>>2 seconds.\nTherefore, Jackie can do 44 / 2 = <<44/2=22>>22 push-ups in one minute with breaks.\n#### 22"
+        },
+        {
+            "output": "Ruth prepared 10 sandwiches.",
+            "answer": "Ruth's two cousins ate a total of 2 x 1 = <<2*1=2>>2 sandwiches.\nSo there were 3 + 2 = <<3+2=5>>5 sandwiches left before her two cousins arrived.\nBefore her first cousin arrived, there were 5 + 2 = <<5+2=7>>7 sandwiches.\nRuth and her brother had 1 + 2 = <<1+2=3>>3 sandwiches altogether.\nTherefore, Ruth prepared 7 + 3 = <<7+3=10>>10 sandwiches.\"\n#### 10"
+        },
+        {
+            "output": "224",
+            "answer": "Joe has 8*7 = <<8*7=56>>56 fish.\nHarry has 4*56 = <<4*56=224>>224 fish.\n#### 224"
+        },
+        {
+            "output": "$800",
+            "answer": "The corner light cost $10 x 2 = $<<10*2=20>>20.\nEach brake disk costs $20 x 3 = $<<20*3=60>>60.\nSo, the total price of the brake disks is $60x 2 = $<<60*2=120>>120.\nHe spent $10 + $20 + $120 = $<<10+20+120=150>>150 for the repair.\nTherefore, Robe has saved $480 + 150 = $<<480+150=630>>630 before his car broke.\n#### 630"
+        },
+        {
+            "output": "4",
+            "answer": "Caleb\u2019s dad caught 2 x 3 = <<2*3=6>>6 trouts.\nHis dad caught 6 - 2 = <<6-2=4>>4 more trouts than Caleb.\n#### 4"
+        },
+        {
+            "output": "Mary is 18 years old.",
+            "answer": "In four years, Suzy will be 20+4=<<20+4=24>>24.\nThen Mary will be 24/2=<<24/2=12>>12.\nThen Mary is now 12-4=<<12-4=8>>8.\n#### 8"
+        },
+        {
+            "output": "13",
+            "answer": "He uses 3 detergent pods a week and there are 52 weeks in a year, so he uses 3*52 = <<3*52=156>>156\nHis detergent has 39 pods per pack and he needs 156 pods, so he will need 156/39 = <<156/39=4>>4 packs of detergent pods\n#### 4"
+        },
+        {
+            "output": "1625$",
+            "answer": "Medication:5000(.50)=2500\nOvernight Stays:2500(.25)=625\n2500-625=<<2500-625=1875>>1875\nFood:1875-175=<<1875-175=1700>>1700$\nAmbulance ride:1700$\n#### 1700"
+        },
+        {
+            "output": "131",
+            "answer": "The chef has served 58 - 35 = <<58-35=23>>23 children.\nThe chef has served 23 x 2 = <<23*2=46>>46 seniors.\nTherefore, the total number of guests that the chef has served is 58 + 23 + 46 = <<58+23+46=127>>127.\n#### 127"
+        },
+        {
+            "output": "60",
+            "answer": "The back wheel has double the spokes the front wheel has, which means the back wheel has 20*2=<<20*2=40>>40 spokes.\nIn total, the bicycle has 20+40=<<20+40=60>>60 spokes.\n#### 60"
+        },
+        {
+            "output": "36%",
+            "answer": "Nicole ate 2/5 of the total number of cookies, which is 2/5*600= <<2/5*600=240>>240\nThe total number of cookies that remained in the box after Nicole ate 240 is 600-240 = <<600-240=360>>360\nEduardo then ate 3/5 of the remaining cookies, a total of 3/5*360 = <<3/5*360=216>>216 cookies\nThe total number of cookies that remained after Eduardo ate 216 is 360 - 216 = <<360-216=144>>144\nThe percentage of the cookies that remained out of the original amount is 144/600*100% = 24%\n#### 24"
+        },
+        {
+            "output": "$9",
+            "answer": "The discount for each gallon of whole milk is $3 - $2 = $<<3-2=1>>1.\nSo the discount for 3 gallons of whole milk is $1/gallon x 3 gallons = $<<1*3=3>>3.\nThe total discount for 5 boxes of cereal is $1/box x 5 boxes = $<<1*5=5>>5.\nYou will save $3 + $5 = $<<3+5=8>>8 for 3 gallons of whole milk and 5 boxes of cereal.\n#### 8"
+        },
+        {
+            "output": "There are 11 true/false questions.",
+            "answer": "Let x represent the number of true/false questions\nFree response:x+7\nMultiple choice: 2(x+7)=2x+14\nTotal:x+x+7+2x+14=45\n4x+21=45\n4x=24\nx=<<6=6>>6 true/false questions\n#### 6"
+        },
+        {
+            "output": "210 tomato seeds",
+            "answer": "Ted planted 2 x 50 = <<2*50=100>>100 tomato seeds.\nSo, Mike and Ted planted 50 + 100 = <<50+100=150>>150 tomato seeds in the morning.\nIn the afternoon, Ted planted 60 - 20 = <<60-20=40>>40 seeds.\nThus, Mike and Ted planted 60 + 40 = <<60+40=100>>100 tomato seeds in the afternoon.\nTherefore, they planted 150 + 100 = <<150+100=250>>250 tomato seed altogether.\n#### 250"
+        },
+        {
+            "output": "James won $114.",
+            "answer": "Let W be equal to James\u2019s raffle winnings.\nHe donated half his winnings, so he had W - W/2 = W/2 left.\nHe then spent $2 on a hot dog, so W/2 - 2 = $55.\nThus, half his winnings is W/2 = 55 + 2 = <<55+2=57>>57.\nJames won W = 57 * 2 = $<<57*2=114>>114.\n#### 114"
+        },
+        {
+            "output": "132 yards",
+            "answer": "27 * 4 = <<27*4=108>>108 yards\n2 * (12 + 9) = <<2*(12+9)=42>>42 yards\n108 + 42 = <<108+42=150>>150 yards\nThe playground and garden have a combined fence length of 150 yards.\n#### 150"
+        },
+        {
+            "output": "Steve takes home $28400 a year.",
+            "answer": "Taxes:40000(.20)=8000$\nHealthcare:40000(.10)=4000$\nDues:<<800=800>>800$\nTotal:40000-8000-4000-800=<<40000-8000-4000-800=27200>>27,200$\n#### 27,200"
+        },
+        {
+            "output": "Tom needs 6 more boxes to complete the job.",
+            "answer": "The entire sq ft of the living room is LxW so the room is 16x20 = <<16*20=320>>320 sq ft\nTom has already put down 250 sq ft so he needs to put down 320-250 = 70 sq ft of flooring\nThe boxes contain 10 sq ft of flooring per box and he needs 70 more sq ft of flooring so he needs 70/10 = <<70/10=7>>7 more boxes\n#### 7"
+        },
+        {
+            "output": "15 ounces",
+            "answer": "Javier ate 7.5 ounces of meat ravioli because 5 x 1.5 = <<7.5=7.5>>7.5\nHe ate 2.5 ounces of pumpkin ravioli because 2 x 1.25 = <<2*1.25=2.5>>2.5\nHe ate 4 ounces of cheese ravioli because 4 x 1 = <<4*1=4>>4\nJavier ate 14 ounces in total because 7.5 + 2.5 + 4 = <<7.5+2.5+4=14>>14\nHis brother ate 15 ounces of pumpkin ravioli because 12 x 1.25 = 15\nThe winner ate 15 ounces in total because 15 > 14\n#### 15"
+        },
+        {
+            "output": "$131.00",
+            "answer": "If the bakery can make 12 pies, this means there would be 12 * 3 = <<12*3=36>>36 pie pieces.\nFor all the pieces the bakery would make 36 * 4 = $<<36*4=144>>144.\nThe cost of making 12 pies is 12 * 0.5 = $<<12*0.5=6>>6.\nThat means the bakery would make 144 - 6 = $<<144-6=138>>138.\n#### 138"
+        },
+        {
+            "output": "1700 messages",
+            "answer": "The total number of messages sent last week on Monday and Tuesday is 300+200 = <<300+200=500>>500 messages.\nOn Wednesday, the number of messages was 300 more than the previous day, a total of 300+200 = <<300+200=500>>500 messages.\nIn total, in the three days, the number of messages sent is 500+500 = <<500+500=1000>>1000 messages,\nOn Thursday, the number of messages sent was two times the number sent on Wednesday, totaling 2*500 = <<2*500=1000>>1000 messages.\nIn the four days. the number of messages sent is 1000+1000 = <<1000+1000=2000>>2000\n#### 2000"
+        },
+        {
+            "output": "209 miles",
+            "answer": "Amoli = 42 * 3 = <<42*3=126>>126 miles\nAnayet = 61 * 2 = <<61*2=122>>122\nTogether = 126 + 122 = <<126+122=248>>248 miles\n369 - 248 = <<369-248=121>>121 miles\nThey still have 121 miles to travel.\n#### 121"
+        },
+        {
+            "output": "The total weight of onions harvested by Titan's father is 10000 kgs.",
+            "answer": "On one trip, the pickup carries 10 bags * 50 kg/bag = <<10*50=500>>500kg of onions\nAfter 20 trips, the total weight of onions transported to the store is 20 trips * 500 kg/trip = <<20*500=10000>>10000 kgs\n#### 10000"
+        },
+        {
+            "output": "13 books were damaged.",
+            "answer": "Let o be the number of obsolete books and d be the number of damaged books. We know that o + d = 69 and o = 6d - 8.\nSubstituting the first equation into the second equation, we get 6d - 8 + d = 69\nCombining like terms, we get 7d - 8 = 69\nAdding 8 to both sides, we get 7d = 77\nDividing both sides by 7, we get d = 11\n#### 11"
+        },
+        {
+            "output": "$48.00",
+            "answer": "He\u2019s cooking for 8 people and wants to serve 2 scallops per person so he needs 8*2 = <<8*2=16>>16 scallops\n8 jumbo scallops come in 1 pound and he needs 16 scallops so he will need 16/8 = <<16/8=2>>2 pounds of scallops\nA pound of scallops weigh $24.00 and he needs 2 pounds so it will cost him 24*2 = $<<24*2=48.00>>48.00 for scallops\n#### 48"
+        },
+        {
+            "output": "6 gallons",
+            "answer": "For March, April, September and October, she cuts her lawn 2 a month. There are 4 months so she cuts her yard 2*4 = <<2*4=8>>8 times\nFor May, June, July and August, she cuts her lawn 4 times a month. There are 4 months so she cuts her yard 4*4 = <<4*4=16>>16 times\nDuring the entire 8 month period, she cuts her lawn 8+16 = <<8+16=24>>24 times\nEvery 4th time she cuts, she needs 2 gallons of gas. If she cuts her lawn 24 times a year then she needs to fill up 24/4 = 6 times\nEach time she fills up, it takes 2 gallons of gas so 2*6 = <<2*6=12>>12 gallons of gas per year\n#### 12"
+        },
+        {
+            "output": "6 hours",
+            "answer": "He goes to.school 5 days a week so if he misses 2 days within the week he was present for 5-2 = <<5-2=3>>3 days\nHe spends 2 hours every day for a total of 2*3 = <<2*3=6>>6 hours\n#### 6"
+        },
+        {
+            "output": "Tory needs to sell 26 more packs of cookies.",
+            "answer": "Tory sold 12 packs + 7 packs = <<12+7=19>>19 packs to his family members.\nTory sold 19 packs + 5 packs = <<19+5=24>>24 packs in total\nHe has to sell 50 packs - 24 packs = <<50-24=26>>26 more packs of cookies to reach his target\n#### 26"
+        },
+        {
+            "output": "I don't have enough information to provide an answer to this query.",
+            "answer": "Taylor received 5 + 1 = <<5+1=6>>6 suckers.\nHarmony was given 3 + 6 = <<3+6=9>>9 suckers.\nMolly received 9 + 2 = <<9+2=11>>11 suckers from Jen.\nJen originally had 11 * 2 = <<11*2=22>>22 suckers.\nJen ate 22 \u2013 11 = <<22-11=11>>11 suckers.\n#### 11"
+        },
+        {
+            "output": "7 pounds",
+            "answer": "The total cost of the green and red lettuce is $8 + $6 = $<<8+6=14>>14.\nJulie bought $14 / $2 =<<14/2=7>>7 pounds of lettuce.\n#### 7"
+        },
+        {
+            "output": "314 square feet",
+            "answer": "Drew\u2019s lawn is 22 * 36 = <<22*36=792>>792 square feet.\nHe bought enough grass seed to cover 250 * 4 = <<250*4=1000>>1000 square feet.\nThus, the leftover grass seed can cover 1000 - 792 = <<1000-792=208>>208 square feet.\n#### 208"
+        },
+        {
+            "output": "I don't have enough information to provide an answer to this query.",
+            "answer": "First figure out how much the loan will be: $32,000 - $8,000 = $<<32000-8000=24000>>24,000\nThen divide the loan amount by the number of payments to find the monthly payment before interest: $24,000 / 48 months = $<<24000/48=500>>500/month\nThen multiply the loan amount by 5% to find out how much the interest is: $500/month * .05 = $<<500*.05=25>>25/month\nThen add the interest to the payment amount to find the total monthly payment: $500/month + $25/month = $<<500+25=525>>525/month\n#### 525"
+        },
+        {
+            "output": "The vendor's profit is $6.80.",
+            "answer": "A vendor bought each apple for $3/2 = $<<3/2=1.50>>1.50.\nHe will sell each apple at $10/5 = $<<10/5=2>>2 each.\nHis profit for each apple is $2 - $1.50 = $<<2-1.5=0.50>>0.50.\nHis total profit for 5 apples is $0.50 x 5 = $<<0.50*5=2.50>>2.50.\nHe bought each orange for $2.70/3 = $<<2.7/3=0.90>>0.90.\nHis profit for each orange is $1 - $0.90 = $<<1-0.9=0.10>>0.10.\nHis total profit for 5 oranges is $0.10 x 5 = $<<0.10*5=0.50>>0.50.\nTherefore, his total profit for selling 5 apples and 5 oranges is $2.50 + $0.50= $3.\n#### 3"
+        },
+        {
+            "output": "100 vets",
+            "answer": "The number of vets that recommend Puppy Kibble is 1000*.2=<<1000*.2=200>>200.\nThe number of vets that recommend Yummy Dog Kibble is 1000*.3=<<1000*.3=300>>300 vets.\nThus, 300-200=<<300-200=100>>100 more vets recommend Yummy Dog Kibble than Puppy Kibble.\n#### 100"
+        }
+    ],
+    "cot": [
+        {
+            "output": "Jennifer's sister Jordana is currently 80 years old.",
+            "answer": "When Jennifer is 30 years old in ten years, her sister Jordana will be 3*30=90 years old.\nShe's currently 10 years younger, so she's 90 - 10 = 80 years old\n#### 80"
+        },
+        {
+            "output": "Chenny has 7 friends.",
+            "answer": "Chenny has a total of 10 + 4 = <<10+4=14>>14 candies.\nIf each friend will receive 2 candies each, then she has 14 / 2 = <<14/2=7>>7 friends.\n#### 7"
+        },
+        {
+            "output": "Erica took 95% of a whole pie.",
+            "answer": "First, find a common denominator for the fractions by multiplying 5 and 4: 5 * 4 = <<5*4=20>>20.\nThen convert 1/5 to twentieths by multiplying the top and bottom by 4: 1/5 * 4/4 = 4/20.\nThen convert 3/4 to twentieths by multiplying the top and bottom by 5: 3/4 * 5/5 = 15/20\nNow that the two fractions have the same denominator, you can add them: 4/20 + 15/20 = 19/20.\nNow divide 19 by 20 and multiply the answer by 100 to convert the fraction to a percentage: 19/20 * 100 = %<<19/20*100=95>>95.\n#### 95"
+        },
+        {
+            "output": "The total cost of everything Sean bought is $18.",
+            "answer": "The soda cost 3*1=$<<3*1=3>>3\nSo the soups cost 2*3=$<<2*3=6>>6\nThe sandwich cost 3*3=$<<3*3=9>>9\nSo the total cost of everything was 3+6+9=$<<3+6+9=18>>18\n#### 18"
+        },
+        {
+            "output": "Carlson now owns 900 square meters of land.",
+            "answer": "Carlson bought land that cost $20 per square meter, therefore the size of the land he bought is 8000/20 = 400.\nAnd the size of the other land he bought is 4000/20 = <<4000/20=200>>200.\nTherefore the total size of the land he owns is 400+200+300 = <<400+200+300=900>>900.\n#### 900"
+        },
+        {
+            "output": "The coffee shop made $67 in total.",
+            "answer": "Sale from coffee is 7 x $5 = $<<7*5=35>>35.\nSale from tea is 8 x $4 = $<<8*4=32>>32.\nTotal sales is $35 + $32 = $<<35+32=67>>67.\n#### 67"
+        },
+        {
+            "output": "After Dani gives one to everyone in the class, there will be 4 cupcakes left.",
+            "answer": "Dani brings 2.5 x 12 = <<2.5*12=30>>30 cupcakes.\nShe needs this many cupcakes to feed everyone in class 27 + 2 = <<27+2=29>>29.\nWith the 3 students calling in sick, there are this many people in class today 29 - 3 = <<29-3=26>>26.\nThere are this many cupcakes left after everyone gets one 30 - 26 = <<30-26=4>>4 cupcakes.\n#### 4"
+        },
+        {
+            "output": "There are 4 slices left.",
+            "answer": "There is a total of 3 x 10 = <<3*10=30>>30 cookie slices.\nThere are 24 + 1 + 1 = <<24+1+1=26>>26 people who ate the cookie pieces.\nThere is 30 - 26 = <<30-26=4>>4 cookie slices left.\n#### 4"
+        },
+        {
+            "output": "Zach spent $832.",
+            "answer": "On Monday Zach spent 620*0.5 = <<620*0.5=310>>310 dollars on miles.\nOn Thursday Zach spent 744*0.5 = <<744*0.5=372>>372 dollars on miles.\nIn total, Zach spent 150+310+372 = <<150+310+372=832>>832 dollars.\n#### 832"
+        },
+        {
+            "output": "There are 3 cookies in a batch.",
+            "answer": "There are 81 / 3= <<81/3=27>>27 chips in a batch.\nThus, there are 27 / 9 = <<27/9=3>>3 cookies in a batch.\n#### 3"
+        },
+        {
+            "output": "Carlos spends 165 minutes doing his laundry in total.",
+            "answer": "First multiply the number of loads by the time per load to find the washing time: 2 loads * 45 minutes/load = <<2*45=90>>90 minutes\nThen add that time to the drying time to find the total laundry time: 90 minutes + 75 minutes = <<90+75=165>>165 minutes\n#### 165"
+        },
+        {
+            "output": "1 seed will be planted in the fourth pot.",
+            "answer": "Eunice can plant a total of 3 pots x 3 seeds = <<3*3=9>>9 seeds in three pots.\nSo, only 10 - 9 = <<10-9=1>>1 eggplant seed will be planted in the fourth pot.\n#### 1"
+        },
+        {
+            "output": "Anna has 9 cupcakes left.",
+            "answer": "After giving away 4/5 of the cupcakes, Anna has 60 / 5 = <<60/5=12>>12 cupcakes\nAfter eating 3 cupcakes, Anna has 12 - 3 = <<12-3=9>>9 cupcakes.\n#### 9"
+        },
+        {
+            "output": "There are 110 sharks in total on the two beaches.",
+            "answer": "Since Dana Point beach has four times the number of sharks in Newport beach, there are 4*22 = <<4*22=88>>88 sharks at Dana Point.\nIn total, the two beaches have 88+22 = <<88+22=110>>110 sharks\n#### 110"
+        },
+        {
+            "output": "The number of female guests at the party is 20.",
+            "answer": "The number of males in the party was 2 males / 3 guests * 60 guests = <<2/3*60=40>>40 males\nIf the total number of people at the party was 60, then there were 60 guests - 40 males = <<60-40=20>>20 females.\n#### 20"
+        },
+        {
+            "output": "Liza has $1563 left in her checking account.",
+            "answer": "On Wednesday, Liza had $800 - $450 = $<<800-450=350>>350 left in her account.\nAfter depositing on Thursday, she had $350 + $1500 = $<<350+1500=1850>>1850 in her account.\nOn Friday, she paid a total of $117 + $100 = $<<117+100=217>>217 for her electricity and internet bills.\nSo, $1850 - $217 = $<<1850-217=1633>>1633 was left on her account on Friday.\nAfter paying her phone bill, Liza has $1633 - $70 = $<<1633-70=1563>>1563 left in her account.\n#### 1563"
+        },
+        {
+            "output": "Uncle Jerry reaped 290 tomatoes.",
+            "answer": "Today, Uncle Jerry reaps 120 + 50 = <<120+50=170>>170 tomatoes.\nTherefore, Uncle Jerry reaps a total of 120 + 170 = <<120+170=290>>290 ripe tomatoes.\n#### 290"
+        },
+        {
+            "output": "The unicorn pi\u00f1ata and the treats cost altogether $99.",
+            "answer": "The four bags of Reese's cost $9 x 4 = $<<9*4=36>>36.\nThe three bags of Snickers cost $5 x 3 = $<<5*3=15>>15.\nThe five bags of Skittles cost $7 x 5 = $<<7*5=35>>35.\nTherefore, the unicorn pi\u00f1ata and the treats cost $13 + $36 + $15 + $35 = $<<13+36+15+35=99>>99.\n#### 99"
+        },
+        {
+            "output": "John spends $30 on silver and $3000 on gold, totaling $3030.",
+            "answer": "He buys the silver for 1.5*$20=$<<1.5*20=30>>30\nHe bought 1.5*2=<<1.5*2=3>>3 ounces of gold\nThe gold is worth %20*50=$<<20*50=1000>>1000 per ounce\nSo he buys 3*$1000=$<<3*1000=3000>>3000 on gold\nSo he spent $30+$3000=$<<30+3000=3030>>3030 on everything\n#### 3030"
+        },
+        {
+            "output": "The total number of apples packed in the two weeks is calculated by adding the total production of the first week to that of the second week.",
+            "answer": "In the first week, each day they pack 40*50 = <<40*50=2000>>2000 apples\nThe total number of apples packed in the boxes is 2000*7 = <<2000*7=14000>>14000 apples in the first week.\nWhen 500 fewer apples were packed each day in the next week, the total became 2000-500 = <<2000-500=1500>>1500 apples per day.\nThe total number of apples packed in the boxes that week is 1500*7 = <<1500*7=10500>>10500 apples.\nThe total is 14000+10500 = <<14000+10500=24500>>24500 apples for the two weeks\n#### 24500"
+        },
+        {
+            "output": "It will take Tina 52 minutes total to clean the remaining keys and finish her assignment.",
+            "answer": "Tina has already cleaned one key so she has 14 left which take 3 minutes each to clean, 14 x 3 = <<14*3=42>>42 minutes to clean all the keyboard keys.\nHer assignment will take 10 minutes to complete, so she needs 42 minutes + 10 minutes = 52 minutes total before dinner.\n#### 52"
+        },
+        {
+            "output": "Oliver has 32 Monster Club cards.",
+            "answer": "Oliver\u2019s Alien Baseball card collection has 48 / 3 = <<48/3=16>>16 cards.\nOliver has twice as many Monster Club cards, so he has 16 * 2 = <<16*2=32>>32 Monster Club cards.\n#### 32"
+        },
+        {
+            "output": "John could buy 10 packets of corn chips.",
+            "answer": "John wants to buy 15 packets of chips, which will cost him 15 * 2 = $<<15*2=30>>30.\nSo John would have 45 - 30 = $<<45-30=15>>15 left for the corn chips.\nJohn could buy for the rest of the money 15 / 1.5 = <<15/1.5=10>>10 packets of corn chips.\n#### 10"
+        },
+        {
+            "output": "Henri can read 1800 words before his free time is up.",
+            "answer": "He has 3 hours to read because 8 - 3.5 - 1.5 = <<8-3.5-1.5=3>>3\nHe has 180 minutes to read because 3 x 60 = <<3*60=180>>180\nHe can read 1,800 words because 180 x 10 = <<180*10=1800>>1,800\n#### 1800"
+        },
+        {
+            "output": "The boys need to buy 2 more dice to play their game.",
+            "answer": "Mark has 60% 12 sided dice, so 60/100 * 10 dice in his bag = <<60/100*10=6>>6 12 sided dice.\nJames has 75% 12 sided dice, so 75/100 * 8 dice in his bag = <<75/100*8=6>>6 12 sided dice.\nThey will need to purchase 14 dice - 6 dice - 6 dice = <<14-6-6=2>>2 dice.\n#### 2"
+        },
+        {
+            "output": "Connor\u2019s new puppy sleeps 16 hours a night.",
+            "answer": "Luke sleeps 2 hours longer than Connor who sleeps 6 hours so that\u2019s 2+6 = <<2+6=8>>8 hours\nThe new puppy sleeps twice as long as Luke, who sleeps 8 hours, so the puppy sleeps 2*8 = <<2*8=16>>16 hours\n#### 16"
+        },
+        {
+            "output": "House A cost $60,000.",
+            "answer": "First figure out how much money Nigella earned from commission by subtracting her base salary from her total earnings: $8,000 - $3,000 = $<<8000-3000=5000>>5,000.\nNext, figure out how much all three houses cost by dividing Nigella's commission money by her commission rate: $5,000 \u00f7 0.02 = $<<5000/0.02=250000>>250,000.\nNext, express each house's price in terms of A's price: B = 3A, and C = 2A - $110,000.\nNow we know that A + 3A + 2A - $110,000 = $250,000.\nWe can combine like terms to find that 6A - $110,000 = $250,000.\nNow we add $110,000 to both sides of the equation and get 6A = $360,000.\nWe can divide both sides by 6 to find A = $60,000.\n#### 60000"
+        },
+        {
+            "output": "There are 48 frogs in both ponds combined.",
+            "answer": "Pond B has 32/2 frogs = <<32/2=16>>16 frogs.\nIn total the ponds have 32 frogs + 16 frogs = <<32+16=48>>48 frogs.\n#### 48"
+        },
+        {
+            "output": "Mickey mounts 98 horses per week.",
+            "answer": "If Minnie mounts three more horses per day than there are days in a week, then Minnie mounts 7+3=<<3+7=10>>10 horses per day.\nTwice as many horses per day as Minnie mounts is 10*2=<<10*2=20>>20 horses per day.\nIf Mickey mounts six less than twice as many horses per day as does Minnie, then Mickey mounts 20-6=<<20-6=14>>14 horses per day.\nSince there are 7 days in a week, then Mickey mounts 7*14=<<7*14=98>>98 horses per week.\n#### 98"
+        },
+        {
+            "output": "52 questions were asked in the competition.",
+            "answer": "Since Drew got 20 questions right and 6 wrong, she was asked 20+6 = <<20+6=26>>26 questions.\nCarla got twice as many questions wrong as Drew got, a total of 2*6 = <<2*6=12>>12 questions wrong.\nThe total number of questions that Carla was asked is 12+14 = <<12+14=26>>26.\nAltogether, there were 26+26 = <<26+26=52>>52 questions that were asked in the contest.\n#### 52"
+        },
+        {
+            "output": "Shawn has 18 cups of water left.",
+            "answer": "For the first 30 minutes, 3*2=<<3*2=6>>6 cups of water came out.\nFor the next 30 minutes, 3*2=<<3*2=6>>6 cups of water came out.\nFor the next hour, 6*4=<<6*4=24>>24 cups of water came out.\nA total of 6+6+24=<<6+6+24=36>>36 cups of water came out.\nShawn had to dump water which left 36/2=<<36/2=18>>18 cups of water.\n#### 18"
+        },
+        {
+            "output": "Yanna kept 36 apples.",
+            "answer": "After giving 18 apples to Zenny, Yanna remained with 60 - 18 = <<60-18=42>>42 apples.\nSince she also gave Andrea 6 apples, Yanna remained with 42 - 6 = <<36=36>>36 apples\nTherefore, Yanna kept 36 apples.\n#### 36"
+        },
+        {
+            "output": "180 chairs must be prepared for the ceremony.",
+            "answer": "There will be 50 x 2 = <<50*2=100>>100 parents that are expected to attend.\n20/2 = <<20/2=10>>10 administrators will attend.\nHence, 50 graduates + 100 parents + 20 teachers + 10 administrators = 180 chairs must be prepared.\n#### 180"
+        },
+        {
+            "output": "The candy seller had 20 candies left.",
+            "answer": "Since there are four clowns at the carousel this year, the candy seller sold 20*4 = <<20*4=80>>80 candies to all the clowns.\nThe thirty children also bought 20*30 = <<20*30=600>>600 candies in total.\nAltogether, the candy seller sold 600+80 = <<600+80=680>>680 candies to the clowns and children at the carousel.\nThe number of candies the candy seller has left is 700-680= <<700-680=20>>20\n#### 20"
+        },
+        {
+            "output": "The total number of students at the competition is calculated by adding the number of students from 'Know It All High School' (50), 'Karen High' (50 * 3/5 = 30) and 'Novel Corona High School' ((50 + 30) * 2 = 160). So the total number of students is 50 + 30 + 160 = 240.",
+            "answer": "If 50 students came from Know It All High School, then Karen High, which had 3/5 times as many students as Know It All High School, had 3/5*50 = 30 students at the fair.\nThe total number of students from Know It All and Karen high schools is 50+30 = <<50+30=80>>80 students.\nIf Novel Corona had twice the combined number of students from Know It All and Karen high schools, then it had 2*80 = <<2*80=160>>160 students at the competition.\nThe total number of students at the competition is 80+160 = <<80+160=240>>240\n#### 240"
+        },
+        {
+            "output": "The cost of a single necklace was $40,000.",
+            "answer": "Let \"x\" be the price of a single necklace.\nThus, the cost of the earrings would be 3x.\nAnd since all items totaled $240,000, then x+x+x+3x = $240,000\nTherefore, this simplifies to 6x=240,000\nAnd, solving for x we see that the price of a single necklace is x = $<<40000=40000>>40,000\n#### 40,000"
+        },
+        {
+            "output": "The number of ounces of milk produced per week by the cows is 52 cows * 1000 oz/cow/day * 7 days/week = 364,000 oz/week.",
+            "answer": "Per day, the amount of milk produced is 1000*52 = <<1000*52=52000>>52000 oz.\nPer week, the amount of milk produced is 52000*7 = <<52000*7=364000>>364000 oz.\n#### 364000"
+        },
+        {
+            "output": "Jade and Krista drove for a total of 42 hours on their 3-day road trip.",
+            "answer": "Jade drives for a total of 3 days x 8 hours/day = <<3*8=24>>24 hours\nKrista drives for a total of 3 days x 6 hours/day = <<3*6=18>>18 hours\nTogether they drive 24 hours + 18 hours = <<24+18=42>>42 hours\n#### 42"
+        },
+        {
+            "output": "Lisa earned $15 more than Tommy.",
+            "answer": "Lisa earned $60 * 1/2 = $<<60*1/2=30>>30.\nTommy earned $30 * 1/2 = $<<30*1/2=15>>15.\nLisa earned $30 - $15 = $<<30-15=15>>15 more than Tommy.\n#### 15"
+        },
+        {
+            "output": "The custodian will need to fill 50 jugs with cups of water to provide the students with all the water they need in a day.",
+            "answer": "Since each student needs 10 cups of water per day and there are 200 students, the custodian has to provide 200*10 = <<200*10=2000>>2000 cups of water.\nA jug of water needs 40 cups to be full, so 2000 cups of water will fill 2000/40 = <<2000/40=50>>50 jugs\n#### 50"
+        },
+        {
+            "output": "Vicente spent a total of $25.",
+            "answer": "Vicente spent 5 x $2 = $<<5*2=10>>10 for 5 kilograms of rice.\nHe spent 3 x $5 = $<<3*5=15>>15 for 3 pounds of meat.\nTherefore, the total amount he spent was $15 + $10 = $<<15+10=25>>25.\n#### 25"
+        },
+        {
+            "output": "Nancy would make $400 more by turning all her jade into elephant statues instead of giraffe statues.",
+            "answer": "First find how many giraffe statues Nancy can make by dividing the total amount of jade by the amount used per giraffe statue: 1920 g / 120 g/giraffe = <<1920/120=16>>16 giraffes\nThen multiply that number by the price per giraffe to find how much Nancy earns total from giraffes: 16 giraffes * $150/giraffe = $<<16*150=2400>>2400\nThen find how much jade each elephant statue uses by doubling the jade used by the giraffe statues: 120 g/giraffe * 2 = <<120*2=240>>240 g/elephant\nThen find how many elephant statues Nancy can make by dividing the total amount of jade by the amount used per elephant statue: 1920 g / 240 g/elephant = <<1920/240=8>>8 elephant\nMultiply that number by the price per elephant to find Nancy's total earnings from elephants: 8 elephants * $350/elephant = $<<8*350=2800>>2800\nFinally, subtract Nancy's total earnings from the giraffes from her total earnings from the elephants to find the difference: $2800 - $2400 = $<<2800-2400=400>>400\n#### 400"
+        },
+        {
+            "output": "Alton's total profit every week is $36.",
+            "answer": "Alton earns $8 x 7 = $<<8*7=56>>56 per week.\nTherefore, his weekly profit after paying the rent is $56 - $20 = $<<56-20=36>>36.\n#### 36"
+        },
+        {
+            "output": "The profit made from the movie is $5950.",
+            "answer": "The food cost 3*50=$<<3*50=150>>150\nSo the total cost without equipment rental was 1200+150=$<<1200+150=1350>>1350\nSo equipment rental cost 1350*2=$<<1350*2=2700>>2700\nSo the total cost was 2700+1350=$<<2700+1350=4050>>4050\nThat means they made 10000-4050=$<<10000-4050=5950>>5950\n#### 5950"
+        },
+        {
+            "output": "Darwin has 300$ left.",
+            "answer": "600/3=<<600/3=200>>200$ for gas\nAfter buying gas, Darwin has 600-200=<<600-200=400>>400$ left\n400/4=<<400/4=100>>100$ on food\nDarwin has 400-100=<<400-100=300>>300$ left\n#### 300"
+        },
+        {
+            "output": "James makes a profit of $180 from the 600 mile trip.",
+            "answer": "First find the total payment James receives: $0.50/mile * 600 miles = $<<0.50*600=300>>300\nThen find how many gallons of gas he needs to buy: 600 miles / 20 miles/gallon = <<600/20=30>>30 gallons\nThen multiply that number by the price of gas per gallon to find the total cost of the gas: $4.00/gallon * 30 gallons = $<<4*30=120>>120\nThen subtract that amount from James' earnings to find his profit: $300 - $120 = $<<300-120=180>>180\n#### 180"
+        },
+        {
+            "output": "The lowest score the absent student can get for the class to still get a pizza party is 27.",
+            "answer": "The total percentage the class needs to get is 18.75 because 25 x .75 = <<25*.75=18.75>>18.75\nThe total percentage the class has absent the one student is <<18.48=18.48>>18.48\nThe lowest the absent student can get and still have a pizza party is 27% because (18.75-18.48)x 100 = <<(18.75-18.48)*100=27>>27\n#### 27"
+        },
+        {
+            "output": "Granger and Cisco have 108 spots combined.",
+            "answer": "If Rover has 46 spots, then half as many spots as Rover has is 46/2=<<46/2=23>>23 spots.\nIf Cisco has 5 less than half as many spots as Rover has, then Cisco has 23-5=<<23-5=18>>18 spots.\nIf Granger has five times as many spots as Cisco, then Rover has 18*5=<<18*5=90>>90 spots.\nThus, the total combined number of spots that Rover and Cisco have is 90+18=<<90+18=108>>108 spots.\n#### 108"
+        },
+        {
+            "output": "The average temperature for July 4th in Washington, DC over the past 5 years is 84 degrees.",
+            "answer": "Over the past five years, the sum of the temperatures was 90+90+90+79+71=<<90+90+90+79+71=420>>420\nTo find the average temperature you divide the total temperature (420) by 5, so 420/5 = <<420/5=84>>84 degrees\n#### 84"
+        },
+        {
+            "output": "The total amount of money made from selling tickets was $216.",
+            "answer": "The students bought $6*20=$<<6*20=120>>120 worth of tickets\nThe adults bought $8*12=$<<8*12=96>>96 worth of tickets\nTogether $120 + $96 = $<<120+96=216>>216 worth of tickets were sold\n#### 216"
+        },
+        {
+            "output": "43%",
+            "answer": "First convert the ginger to teaspoons: 3 tablespoons * 3 teaspoons/tablespoon = <<3*3=9>>9 teaspoons\nThen convert the garlic to teaspoons: 2 tablespoons * 3 teaspoons/tablespoon = <<2*3=6>>6 teaspoons\nThen find how much chile powder there is: 1 teaspoon * 4 = <<1*4=4>>4 teaspoons\nThen add up the amount of each spice to find the total amount: 9 teaspoons + 6 teaspoons + 4 teaspoons + 1 teaspoons + 1 teaspoon = <<9+6+4+1+1=21>>21 teaspoons\nThen divide the amount of ginger by the total amount of spice paste and multiply by 100% to find the percentage of the spice paste that's ginger: 9 teaspoons / 21 teaspoons * 100% = 42.857, which rounds down to 43%\n#### 43"
+        },
+        {
+            "output": "The ham and bread make up 50% of the total cost.",
+            "answer": "The total cost of buying bread and ham was $50+$150 = $<<50+150=200>>200\nTogether with the cake, Tina paid $200+$200 = $<<200+200=400>>400 for the items\nSince the total percentage for all the items is 100%, the cost of ham and bread is $200/$400 * 100% = <<200/400*100=50>>50% of the total cost of items.\n#### 50"
+        },
+        {
+            "output": "38 ice creams were not sold.",
+            "answer": "There were a total of 50 + 54 = <<50+54=104>>104 ice creams.\nThere were 50 x 3/5 = <<50*3/5=30>>30 chocolate-flavored ice creams sold.\nThere were 54 x 2/3 = <<54*2/3=36>>36 mango-flavored ice creams sold.\nA total of 30 + 36 = <<30+36=66>>66 ice creams were sold.\nSo, 104 - 66 = <<104-66=38>>38 ice creams were not sold.\n#### 38"
+        },
+        {
+            "output": "Patrick, Greg, and Jacob have a total of 50 hours left to finish their homework.",
+            "answer": "If Jacob has 18 hours left to finish his homework, Greg has 18-6 = <<18-6=12>>12 hours left to finish his homework.\nThe total number of hours Jacob and Greg have left to finish their homework is 12+18 = <<12+18=30>>30 hours.\nPatrick has 4 hours less than twice Greg has left to finish his homework, meaning Patrick has 4 hours less than 12*2 = 24 hours left to finish his homework.\nPatrick has 24-4 = <<24-4=20>>20 hours left to finish his homework.\nAltogether, the three have 30+20 = <<30+20=50>>50 hours left to finish their homework.\n#### 50"
+        },
+        {
+            "output": "The three kids saved $40 altogether.",
+            "answer": "Teagan saved 1 cent (.01) x 200 = $2.\nRex has 5 cents (.05) x 100 = $5.\nToni has 10 cents (.10) x 330 = $33.\nTogether, the three kids saved $2 + $5 + $33 = $<<2+5+33=40>>40.\n#### 40"
+        },
+        {
+            "output": "Barkley has buried 42 bones.",
+            "answer": "He gets 10 new bones, every month for 5 months so he has 10*5 = <<10*5=50>>50 dog bones\nHe has 8 bones available which means he has buried 50-8 = <<50-8=42>>42 bones\n#### 42"
+        },
+        {
+            "output": "Michelle paid $12 in total for her taxi ride.",
+            "answer": "The taxi charge for a distance of 4 miles is 4 x $2.5 = $<<4*2.5=10>>10.\nThe total amount that Michelle paid for the ride was $2 + $10 = $<<2+10=12>>12.\n#### 12"
+        },
+        {
+            "output": "Each family member eats 18 chocolate chips.",
+            "answer": "She made 36 cookies because 12 x 3 = <<12*3=36>>36\nThese contain 72 chocolate chips because 36 x 2 = <<36*2=72>>72\nThey each get to eat 18 chocolate chips because 72 / 4 = <<72/4=18>>18\n#### 18"
+        },
+        {
+            "output": "The width of the final painting is 9 feet.",
+            "answer": "Each 5 by 5 painting is 25 square feet because 5 x 5 = <<5*5=25>>25\nAll three of them take up 75 square feet because 3 x 25 = <<3*25=75>>75\nThe 10 by 8 painting takes up 80 square feet because 10 x 8 = <<10*8=80>>80\nThese four paintings take up 155 square feet because 80 + 75 = <<80+75=155>>155\nThe final painting is 45 square feet because 200-155 = <<200-155=45>>45\nIf it is 5 feet wide it is 9 feet tall because 45 / 5 = 9\n#### 9"
+        },
+        {
+            "output": "The quarterback threw 12 passes to the left side of the field.",
+            "answer": "Let x represent the number of passes thrown to the left side of the field\nRight:2x\nCenter:x+2\nTotal:x+2x+x+2=50\n4x+2=50\n4x=48\nx=<<12=12>>12 passes\n#### 12"
+        },
+        {
+            "output": "The school spent $600 in total.",
+            "answer": "The school bought 20 x 10 = <<20*10=200>>200 boxes of pencils.\nThe pencils cost 200 x $2 = $<<200*2=400>>400.\nThe school bought 10 x 5 = <<10*5=50>>50 boxes of markers.\nThe markers cost 50 x $4 = $<<50*4=200>>200.\nThus, the school spent a total of $400 + $200 = $<<400+200=600>>600.\n#### 600"
+        },
+        {
+            "output": "Bethany saw 16 portraits.",
+            "answer": "Let s be the number of still lifes Bethany saw and p be the number of portraits. We know that s + p = 80 and s = 4p.\nSubstituting the second equation into the first equation, we get 4p + p = 80\nCombining like terms, we get 5p = 80\nDividing both sides by 5, we get p = 16\n#### 16"
+        },
+        {
+            "output": "The students counted a total of 28 squirrels.",
+            "answer": "The second student counted 12/3 = 4 more squirrels than the first student.\nThe second student counted 12+4 = <<12+4=16>>16 squirrels.\nTogether, the first and second student counted 12+16 = <<12+16=28>>28 squirrels combined.\n#### 28"
+        },
+        {
+            "output": "Rick has 72 dollars and Sean has 24 dollars.",
+            "answer": "Sean has 40/2+4 = <<40/2+4=24>>24 dollars.\nRick has 24*3 = <<24*3=72>>72 dollars.\nSean and Rick have 24+72 = <<24+72=96>>96 dollars together.\n#### 96"
+        },
+        {
+            "output": "Emmy and Gerry can buy a total of 150 apples.",
+            "answer": "Emmy and Gerry have a total of $200 + $100 = $<<200+100=300>>300.\nTherefore, Emmy and Gerry can buy $300/$2 = <<300/2=150>>150 apples altogether.\n#### 150"
+        },
+        {
+            "output": "Gordon will spend $95.00 on books.",
+            "answer": "He gets 30% off any book over $22 and he buys books that cost $25.00 and $35.00 so the total cost of these books is $25 + $35 = $<<25+35=60.00>>60.00\nAt 30% off, the discount on these books is $60*.30 = $<<60*.30=18.00>>18.00\nThat mean these 2 books will cost $60-$18 = $<<60-18=42.00>>42.00\nHe gets 20% off any book under $20 and he buys books for $18.00, $12.00 and $10.00 so these books together cost $18 + $12 + $10 = $40.00\nat 20% off, the discount on these books is 40*.20 = $8.00\nSo these 3 books will cost $40 - $8 = $<<40-8=32.00>>32.00\nHe has spent $42.00 on the two most expensive books, $32.00 on the 3 cheapest books, and also bought a book for $21.00, so his total comes to $42 + $32 + $21 = $<<42+32+21=95.00>>95.00\n#### 95"
+        },
+        {
+            "output": "Jackie can do 22 push-ups in one minute if she takes two 8-second breaks.",
+            "answer": "There are 60 seconds per minute, so Jackie\u2019s push-up routine takes 1 * 60 = <<60=60>>60 seconds.\nHer breaks last 2 * 8 = <<2*8=16>>16 seconds.\nShe does push-ups for 60 - 16 = <<60-16=44>>44 seconds.\nShe can do a push-up in 10 / 5 = <<10/5=2>>2 seconds.\nTherefore, Jackie can do 44 / 2 = <<44/2=22>>22 push-ups in one minute with breaks.\n#### 22"
+        },
+        {
+            "output": "Ruth prepared 10 sandwiches.",
+            "answer": "Ruth's two cousins ate a total of 2 x 1 = <<2*1=2>>2 sandwiches.\nSo there were 3 + 2 = <<3+2=5>>5 sandwiches left before her two cousins arrived.\nBefore her first cousin arrived, there were 5 + 2 = <<5+2=7>>7 sandwiches.\nRuth and her brother had 1 + 2 = <<1+2=3>>3 sandwiches altogether.\nTherefore, Ruth prepared 7 + 3 = <<7+3=10>>10 sandwiches.\"\n#### 10"
+        },
+        {
+            "output": "Harry has 224 fish.",
+            "answer": "Joe has 8*7 = <<8*7=56>>56 fish.\nHarry has 4*56 = <<4*56=224>>224 fish.\n#### 224"
+        },
+        {
+            "output": "Robe had $630 saved before his car broke.",
+            "answer": "The corner light cost $10 x 2 = $<<10*2=20>>20.\nEach brake disk costs $20 x 3 = $<<20*3=60>>60.\nSo, the total price of the brake disks is $60x 2 = $<<60*2=120>>120.\nHe spent $10 + $20 + $120 = $<<10+20+120=150>>150 for the repair.\nTherefore, Robe has saved $480 + 150 = $<<480+150=630>>630 before his car broke.\n#### 630"
+        },
+        {
+            "output": "Caleb's dad caught 4 more trouts compared to Caleb.",
+            "answer": "Caleb\u2019s dad caught 2 x 3 = <<2*3=6>>6 trouts.\nHis dad caught 6 - 2 = <<6-2=4>>4 more trouts than Caleb.\n#### 4"
+        },
+        {
+            "output": "Mary is 8 years old now.",
+            "answer": "In four years, Suzy will be 20+4=<<20+4=24>>24.\nThen Mary will be 24/2=<<24/2=12>>12.\nThen Mary is now 12-4=<<12-4=8>>8.\n#### 8"
+        },
+        {
+            "output": "Hayes will need 4 packs of detergent pods to do a full year of laundry.",
+            "answer": "He uses 3 detergent pods a week and there are 52 weeks in a year, so he uses 3*52 = <<3*52=156>>156\nHis detergent has 39 pods per pack and he needs 156 pods, so he will need 156/39 = <<156/39=4>>4 packs of detergent pods\n#### 4"
+        },
+        {
+            "output": "The ambulance ride cost Josephine 1700$.",
+            "answer": "Medication:5000(.50)=2500\nOvernight Stays:2500(.25)=625\n2500-625=<<2500-625=1875>>1875\nFood:1875-175=<<1875-175=1700>>1700$\nAmbulance ride:1700$\n#### 1700"
+        },
+        {
+            "output": "The chef served a total of 127 guests.",
+            "answer": "The chef has served 58 - 35 = <<58-35=23>>23 children.\nThe chef has served 23 x 2 = <<23*2=46>>46 seniors.\nTherefore, the total number of guests that the chef has served is 58 + 23 + 46 = <<58+23+46=127>>127.\n#### 127"
+        },
+        {
+            "output": "The bicycle has 60 spokes.",
+            "answer": "The back wheel has double the spokes the front wheel has, which means the back wheel has 20*2=<<20*2=40>>40 spokes.\nIn total, the bicycle has 20+40=<<20+40=60>>60 spokes.\n#### 60"
+        },
+        {
+            "output": "24% of the original cookies remained.",
+            "answer": "Nicole ate 2/5 of the total number of cookies, which is 2/5*600= <<2/5*600=240>>240\nThe total number of cookies that remained in the box after Nicole ate 240 is 600-240 = <<600-240=360>>360\nEduardo then ate 3/5 of the remaining cookies, a total of 3/5*360 = <<3/5*360=216>>216 cookies\nThe total number of cookies that remained after Eduardo ate 216 is 360 - 216 = <<360-216=144>>144\nThe percentage of the cookies that remained out of the original amount is 144/600*100% = 24%\n#### 24"
+        },
+        {
+            "output": "You will save $8 via discounts if you buy 3 gallons of whole milk and 5 boxes of cereal.",
+            "answer": "The discount for each gallon of whole milk is $3 - $2 = $<<3-2=1>>1.\nSo the discount for 3 gallons of whole milk is $1/gallon x 3 gallons = $<<1*3=3>>3.\nThe total discount for 5 boxes of cereal is $1/box x 5 boxes = $<<1*5=5>>5.\nYou will save $3 + $5 = $<<3+5=8>>8 for 3 gallons of whole milk and 5 boxes of cereal.\n#### 8"
+        },
+        {
+            "output": "There are 6 true/false questions.",
+            "answer": "Let x represent the number of true/false questions\nFree response:x+7\nMultiple choice: 2(x+7)=2x+14\nTotal:x+x+7+2x+14=45\n4x+21=45\n4x=24\nx=<<6=6>>6 true/false questions\n#### 6"
+        },
+        {
+            "output": "Mike and Ted planted a total of 250 tomato seeds.",
+            "answer": "Ted planted 2 x 50 = <<2*50=100>>100 tomato seeds.\nSo, Mike and Ted planted 50 + 100 = <<50+100=150>>150 tomato seeds in the morning.\nIn the afternoon, Ted planted 60 - 20 = <<60-20=40>>40 seeds.\nThus, Mike and Ted planted 60 + 40 = <<60+40=100>>100 tomato seeds in the afternoon.\nTherefore, they planted 150 + 100 = <<150+100=250>>250 tomato seed altogether.\n#### 250"
+        },
+        {
+            "output": "James won $114 at the charity raffle.",
+            "answer": "Let W be equal to James\u2019s raffle winnings.\nHe donated half his winnings, so he had W - W/2 = W/2 left.\nHe then spent $2 on a hot dog, so W/2 - 2 = $55.\nThus, half his winnings is W/2 = 55 + 2 = <<55+2=57>>57.\nJames won W = 57 * 2 = $<<57*2=114>>114.\n#### 114"
+        },
+        {
+            "output": "The playground and garden have together 150 yards of fencing.",
+            "answer": "27 * 4 = <<27*4=108>>108 yards\n2 * (12 + 9) = <<2*(12+9)=42>>42 yards\n108 + 42 = <<108+42=150>>150 yards\nThe playground and garden have a combined fence length of 150 yards.\n#### 150"
+        },
+        {
+            "output": "Steve takes home 27200$ a year after taxes, healthcare, and union dues.",
+            "answer": "Taxes:40000(.20)=8000$\nHealthcare:40000(.10)=4000$\nDues:<<800=800>>800$\nTotal:40000-8000-4000-800=<<40000-8000-4000-800=27200>>27,200$\n#### 27,200"
+        },
+        {
+            "output": "Tom needs 7 more boxes of hardwood flooring to complete the job.",
+            "answer": "The entire sq ft of the living room is LxW so the room is 16x20 = <<16*20=320>>320 sq ft\nTom has already put down 250 sq ft so he needs to put down 320-250 = 70 sq ft of flooring\nThe boxes contain 10 sq ft of flooring per box and he needs 70 more sq ft of flooring so he needs 70/10 = <<70/10=7>>7 more boxes\n#### 7"
+        },
+        {
+            "output": "The total amount of ounces eaten by the winner is 15 ounces.",
+            "answer": "Javier ate 7.5 ounces of meat ravioli because 5 x 1.5 = <<7.5=7.5>>7.5\nHe ate 2.5 ounces of pumpkin ravioli because 2 x 1.25 = <<2*1.25=2.5>>2.5\nHe ate 4 ounces of cheese ravioli because 4 x 1 = <<4*1=4>>4\nJavier ate 14 ounces in total because 7.5 + 2.5 + 4 = <<7.5+2.5+4=14>>14\nHis brother ate 15 ounces of pumpkin ravioli because 12 x 1.25 = 15\nThe winner ate 15 ounces in total because 15 > 14\n#### 15"
+        },
+        {
+            "output": "The bakery would make $138.",
+            "answer": "If the bakery can make 12 pies, this means there would be 12 * 3 = <<12*3=36>>36 pie pieces.\nFor all the pieces the bakery would make 36 * 4 = $<<36*4=144>>144.\nThe cost of making 12 pies is 12 * 0.5 = $<<12*0.5=6>>6.\nThat means the bakery would make 144 - 6 = $<<144-6=138>>138.\n#### 138"
+        },
+        {
+            "output": "The total number of messages sent in the Whatsapp group over the four days was 2000.",
+            "answer": "The total number of messages sent last week on Monday and Tuesday is 300+200 = <<300+200=500>>500 messages.\nOn Wednesday, the number of messages was 300 more than the previous day, a total of 300+200 = <<300+200=500>>500 messages.\nIn total, in the three days, the number of messages sent is 500+500 = <<500+500=1000>>1000 messages,\nOn Thursday, the number of messages sent was two times the number sent on Wednesday, totaling 2*500 = <<2*500=1000>>1000 messages.\nIn the four days. the number of messages sent is 1000+1000 = <<1000+1000=2000>>2000\n#### 2000"
+        },
+        {
+            "output": "Amoli and Anayet still need to travel 121 miles.",
+            "answer": "Amoli = 42 * 3 = <<42*3=126>>126 miles\nAnayet = 61 * 2 = <<61*2=122>>122\nTogether = 126 + 122 = <<126+122=248>>248 miles\n369 - 248 = <<369-248=121>>121 miles\nThey still have 121 miles to travel.\n#### 121"
+        },
+        {
+            "output": "The total weight of onions harvested by Titan's father is 10,000 kgs.",
+            "answer": "On one trip, the pickup carries 10 bags * 50 kg/bag = <<10*50=500>>500kg of onions\nAfter 20 trips, the total weight of onions transported to the store is 20 trips * 500 kg/trip = <<20*500=10000>>10000 kgs\n#### 10000"
+        },
+        {
+            "output": "11",
+            "answer": "Let o be the number of obsolete books and d be the number of damaged books. We know that o + d = 69 and o = 6d - 8.\nSubstituting the first equation into the second equation, we get 6d - 8 + d = 69\nCombining like terms, we get 7d - 8 = 69\nAdding 8 to both sides, we get 7d = 77\nDividing both sides by 7, we get d = 11\n#### 11"
+        },
+        {
+            "output": "The scallops will cost $48.00.",
+            "answer": "He\u2019s cooking for 8 people and wants to serve 2 scallops per person so he needs 8*2 = <<8*2=16>>16 scallops\n8 jumbo scallops come in 1 pound and he needs 16 scallops so he will need 16/8 = <<16/8=2>>2 pounds of scallops\nA pound of scallops weigh $24.00 and he needs 2 pounds so it will cost him 24*2 = $<<24*2=48.00>>48.00 for scallops\n#### 48"
+        },
+        {
+            "output": "Helen will need 12 gallons of gas to cut her lawn from March through October.",
+            "answer": "For March, April, September and October, she cuts her lawn 2 a month. There are 4 months so she cuts her yard 2*4 = <<2*4=8>>8 times\nFor May, June, July and August, she cuts her lawn 4 times a month. There are 4 months so she cuts her yard 4*4 = <<4*4=16>>16 times\nDuring the entire 8 month period, she cuts her lawn 8+16 = <<8+16=24>>24 times\nEvery 4th time she cuts, she needs 2 gallons of gas. If she cuts her lawn 24 times a year then she needs to fill up 24/4 = 6 times\nEach time she fills up, it takes 2 gallons of gas so 2*6 = <<2*6=12>>12 gallons of gas per year\n#### 12"
+        },
+        {
+            "output": "Roy spent 6 hours on sports activities in school that week.",
+            "answer": "He goes to.school 5 days a week so if he misses 2 days within the week he was present for 5-2 = <<5-2=3>>3 days\nHe spends 2 hours every day for a total of 2*3 = <<2*3=6>>6 hours\n#### 6"
+        },
+        {
+            "output": "Tory needs to sell 26 more packs of cookies.",
+            "answer": "Tory sold 12 packs + 7 packs = <<12+7=19>>19 packs to his family members.\nTory sold 19 packs + 5 packs = <<19+5=24>>24 packs in total\nHe has to sell 50 packs - 24 packs = <<50-24=26>>26 more packs of cookies to reach his target\n#### 26"
+        },
+        {
+            "output": "Jen ate 11 suckers.",
+            "answer": "Taylor received 5 + 1 = <<5+1=6>>6 suckers.\nHarmony was given 3 + 6 = <<3+6=9>>9 suckers.\nMolly received 9 + 2 = <<9+2=11>>11 suckers from Jen.\nJen originally had 11 * 2 = <<11*2=22>>22 suckers.\nJen ate 22 \u2013 11 = <<22-11=11>>11 suckers.\n#### 11"
+        },
+        {
+            "output": "Julie bought 7 pounds of lettuce in total.",
+            "answer": "The total cost of the green and red lettuce is $8 + $6 = $<<8+6=14>>14.\nJulie bought $14 / $2 =<<14/2=7>>7 pounds of lettuce.\n#### 7"
+        },
+        {
+            "output": "To find the answer, first calculate the total area of the lawn by multiplying the length by the width (22 feet * 36 feet = 792 square feet). Then, calculate the total area the four bags of seeds can cover by multiplying the number of bags by the area one bag can cover (4 bags * 250 square feet = 1,000 square feet). Finally, subtract the total area of the lawn from the total area the four bags of seeds can cover (1,000 square feet - 792 square feet = 208 square feet). Therefore, the leftover grass seed could cover an extra 208 square feet.",
+            "answer": "Drew\u2019s lawn is 22 * 36 = <<22*36=792>>792 square feet.\nHe bought enough grass seed to cover 250 * 4 = <<250*4=1000>>1000 square feet.\nThus, the leftover grass seed can cover 1000 - 792 = <<1000-792=208>>208 square feet.\n#### 208"
+        },
+        {
+            "output": "Jason's monthly payments will be $525.",
+            "answer": "First figure out how much the loan will be: $32,000 - $8,000 = $<<32000-8000=24000>>24,000\nThen divide the loan amount by the number of payments to find the monthly payment before interest: $24,000 / 48 months = $<<24000/48=500>>500/month\nThen multiply the loan amount by 5% to find out how much the interest is: $500/month * .05 = $<<500*.05=25>>25/month\nThen add the interest to the payment amount to find the total monthly payment: $500/month + $25/month = $<<500+25=525>>525/month\n#### 525"
+        },
+        {
+            "output": "The vendor's profit if he sells 5 apples and 5 oranges is $3.",
+            "answer": "A vendor bought each apple for $3/2 = $<<3/2=1.50>>1.50.\nHe will sell each apple at $10/5 = $<<10/5=2>>2 each.\nHis profit for each apple is $2 - $1.50 = $<<2-1.5=0.50>>0.50.\nHis total profit for 5 apples is $0.50 x 5 = $<<0.50*5=2.50>>2.50.\nHe bought each orange for $2.70/3 = $<<2.7/3=0.90>>0.90.\nHis profit for each orange is $1 - $0.90 = $<<1-0.9=0.10>>0.10.\nHis total profit for 5 oranges is $0.10 x 5 = $<<0.10*5=0.50>>0.50.\nTherefore, his total profit for selling 5 apples and 5 oranges is $2.50 + $0.50= $3.\n#### 3"
+        },
+        {
+            "output": "100 more vets recommend Yummy Dog Kibble than Puppy Kibble.",
+            "answer": "The number of vets that recommend Puppy Kibble is 1000*.2=<<1000*.2=200>>200.\nThe number of vets that recommend Yummy Dog Kibble is 1000*.3=<<1000*.3=300>>300 vets.\nThus, 300-200=<<300-200=100>>100 more vets recommend Yummy Dog Kibble than Puppy Kibble.\n#### 100"
+        }
+    ],
+    "act": [
+        {
+            "output": "Jennifer's sister Jordana is currently 80 years old.",
+            "answer": "When Jennifer is 30 years old in ten years, her sister Jordana will be 3*30=90 years old.\nShe's currently 10 years younger, so she's 90 - 10 = 80 years old\n#### 80"
+        },
+        {
+            "output": "Chenny has 7 friends.",
+            "answer": "Chenny has a total of 10 + 4 = <<10+4=14>>14 candies.\nIf each friend will receive 2 candies each, then she has 14 / 2 = <<14/2=7>>7 friends.\n#### 7"
+        },
+        {
+            "output": "Erica took 95% of a whole pie.",
+            "answer": "First, find a common denominator for the fractions by multiplying 5 and 4: 5 * 4 = <<5*4=20>>20.\nThen convert 1/5 to twentieths by multiplying the top and bottom by 4: 1/5 * 4/4 = 4/20.\nThen convert 3/4 to twentieths by multiplying the top and bottom by 5: 3/4 * 5/5 = 15/20\nNow that the two fractions have the same denominator, you can add them: 4/20 + 15/20 = 19/20.\nNow divide 19 by 20 and multiply the answer by 100 to convert the fraction to a percentage: 19/20 * 100 = %<<19/20*100=95>>95.\n#### 95"
+        },
+        {
+            "output": "The total cost of all the items Sean bought is $18.",
+            "answer": "The soda cost 3*1=$<<3*1=3>>3\nSo the soups cost 2*3=$<<2*3=6>>6\nThe sandwich cost 3*3=$<<3*3=9>>9\nSo the total cost of everything was 3+6+9=$<<3+6+9=18>>18\n#### 18"
+        },
+        {
+            "output": "Carlson now owns 900 square meters of land after buying the new land.",
+            "answer": "Carlson bought land that cost $20 per square meter, therefore the size of the land he bought is 8000/20 = 400.\nAnd the size of the other land he bought is 4000/20 = <<4000/20=200>>200.\nTherefore the total size of the land he owns is 400+200+300 = <<400+200+300=900>>900.\n#### 900"
+        },
+        {
+            "output": "The coffee shop made $67.",
+            "answer": "Sale from coffee is 7 x $5 = $<<7*5=35>>35.\nSale from tea is 8 x $4 = $<<8*4=32>>32.\nTotal sales is $35 + $32 = $<<35+32=67>>67.\n#### 67"
+        },
+        {
+            "output": "There are 4 cupcakes remaining.",
+            "answer": "Dani brings 2.5 x 12 = <<2.5*12=30>>30 cupcakes.\nShe needs this many cupcakes to feed everyone in class 27 + 2 = <<27+2=29>>29.\nWith the 3 students calling in sick, there are this many people in class today 29 - 3 = <<29-3=26>>26.\nThere are this many cupcakes left after everyone gets one 30 - 26 = <<30-26=4>>4 cupcakes.\n#### 4"
+        },
+        {
+            "output": "There are 4 slices left.",
+            "answer": "There is a total of 3 x 10 = <<3*10=30>>30 cookie slices.\nThere are 24 + 1 + 1 = <<24+1+1=26>>26 people who ate the cookie pieces.\nThere is 30 - 26 = <<30-26=4>>4 cookie slices left.\n#### 4"
+        },
+        {
+            "output": "Zach spent $832 on renting the car.",
+            "answer": "On Monday Zach spent 620*0.5 = <<620*0.5=310>>310 dollars on miles.\nOn Thursday Zach spent 744*0.5 = <<744*0.5=372>>372 dollars on miles.\nIn total, Zach spent 150+310+372 = <<150+310+372=832>>832 dollars.\n#### 832"
+        },
+        {
+            "output": "Each batch has 3 cookies.",
+            "answer": "There are 81 / 3= <<81/3=27>>27 chips in a batch.\nThus, there are 27 / 9 = <<27/9=3>>3 cookies in a batch.\n#### 3"
+        },
+        {
+            "output": "Carlos's laundry will take a total of 165 minutes.",
+            "answer": "First multiply the number of loads by the time per load to find the washing time: 2 loads * 45 minutes/load = <<2*45=90>>90 minutes\nThen add that time to the drying time to find the total laundry time: 90 minutes + 75 minutes = <<90+75=165>>165 minutes\n#### 165"
+        },
+        {
+            "output": "Eunice will have 1 seed left for the fourth pot.",
+            "answer": "Eunice can plant a total of 3 pots x 3 seeds = <<3*3=9>>9 seeds in three pots.\nSo, only 10 - 9 = <<10-9=1>>1 eggplant seed will be planted in the fourth pot.\n#### 1"
+        },
+        {
+            "output": "Anna has 9 cupcakes left.",
+            "answer": "After giving away 4/5 of the cupcakes, Anna has 60 / 5 = <<60/5=12>>12 cupcakes\nAfter eating 3 cupcakes, Anna has 12 - 3 = <<12-3=9>>9 cupcakes.\n#### 9"
+        },
+        {
+            "output": "There are 110 sharks in total on the two beaches.",
+            "answer": "Since Dana Point beach has four times the number of sharks in Newport beach, there are 4*22 = <<4*22=88>>88 sharks at Dana Point.\nIn total, the two beaches have 88+22 = <<88+22=110>>110 sharks\n#### 110"
+        },
+        {
+            "output": "20 female guests attended the party.",
+            "answer": "The number of males in the party was 2 males / 3 guests * 60 guests = <<2/3*60=40>>40 males\nIf the total number of people at the party was 60, then there were 60 guests - 40 males = <<60-40=20>>20 females.\n#### 20"
+        },
+        {
+            "output": "Liza has $1563 left in her account.",
+            "answer": "On Wednesday, Liza had $800 - $450 = $<<800-450=350>>350 left in her account.\nAfter depositing on Thursday, she had $350 + $1500 = $<<350+1500=1850>>1850 in her account.\nOn Friday, she paid a total of $117 + $100 = $<<117+100=217>>217 for her electricity and internet bills.\nSo, $1850 - $217 = $<<1850-217=1633>>1633 was left on her account on Friday.\nAfter paying her phone bill, Liza has $1633 - $70 = $<<1633-70=1563>>1563 left in her account.\n#### 1563"
+        },
+        {
+            "output": "Uncle Jerry was able to reap a total of 290 tomatoes.",
+            "answer": "Today, Uncle Jerry reaps 120 + 50 = <<120+50=170>>170 tomatoes.\nTherefore, Uncle Jerry reaps a total of 120 + 170 = <<120+170=290>>290 ripe tomatoes.\n#### 290"
+        },
+        {
+            "output": "The unicorn pi\u00f1ata and the treats cost $99 altogether.",
+            "answer": "The four bags of Reese's cost $9 x 4 = $<<9*4=36>>36.\nThe three bags of Snickers cost $5 x 3 = $<<5*3=15>>15.\nThe five bags of Skittles cost $7 x 5 = $<<7*5=35>>35.\nTherefore, the unicorn pi\u00f1ata and the treats cost $13 + $36 + $15 + $35 = $<<13+36+15+35=99>>99.\n#### 99"
+        },
+        {
+            "output": "John spends a total of $3030 on silver and gold.",
+            "answer": "He buys the silver for 1.5*$20=$<<1.5*20=30>>30\nHe bought 1.5*2=<<1.5*2=3>>3 ounces of gold\nThe gold is worth %20*50=$<<20*50=1000>>1000 per ounce\nSo he buys 3*$1000=$<<3*1000=3000>>3000 on gold\nSo he spent $30+$3000=$<<30+3000=3030>>3030 on everything\n#### 3030"
+        },
+        {
+            "output": "24500 apples were packed in two weeks.",
+            "answer": "In the first week, each day they pack 40*50 = <<40*50=2000>>2000 apples\nThe total number of apples packed in the boxes is 2000*7 = <<2000*7=14000>>14000 apples in the first week.\nWhen 500 fewer apples were packed each day in the next week, the total became 2000-500 = <<2000-500=1500>>1500 apples per day.\nThe total number of apples packed in the boxes that week is 1500*7 = <<1500*7=10500>>10500 apples.\nThe total is 14000+10500 = <<14000+10500=24500>>24500 apples for the two weeks\n#### 24500"
+        },
+        {
+            "output": "It will take Tina a total of 52 minutes to both clean the remaining keys and finish her assignment.",
+            "answer": "Tina has already cleaned one key so she has 14 left which take 3 minutes each to clean, 14 x 3 = <<14*3=42>>42 minutes to clean all the keyboard keys.\nHer assignment will take 10 minutes to complete, so she needs 42 minutes + 10 minutes = 52 minutes total before dinner.\n#### 52"
+        },
+        {
+            "output": "Oliver has 32 Monster Club cards.",
+            "answer": "Oliver\u2019s Alien Baseball card collection has 48 / 3 = <<48/3=16>>16 cards.\nOliver has twice as many Monster Club cards, so he has 16 * 2 = <<16*2=32>>32 Monster Club cards.\n#### 32"
+        },
+        {
+            "output": "John can buy 10 packets of corn chips.",
+            "answer": "John wants to buy 15 packets of chips, which will cost him 15 * 2 = $<<15*2=30>>30.\nSo John would have 45 - 30 = $<<45-30=15>>15 left for the corn chips.\nJohn could buy for the rest of the money 15 / 1.5 = <<15/1.5=10>>10 packets of corn chips.\n#### 10"
+        },
+        {
+            "output": "Henri can read 1800 words before his free time is up.",
+            "answer": "He has 3 hours to read because 8 - 3.5 - 1.5 = <<8-3.5-1.5=3>>3\nHe has 180 minutes to read because 3 x 60 = <<3*60=180>>180\nHe can read 1,800 words because 180 x 10 = <<180*10=1800>>1,800\n#### 1800"
+        },
+        {
+            "output": "The boys will need to buy 2 more twelve-sided dice to play their game.",
+            "answer": "Mark has 60% 12 sided dice, so 60/100 * 10 dice in his bag = <<60/100*10=6>>6 12 sided dice.\nJames has 75% 12 sided dice, so 75/100 * 8 dice in his bag = <<75/100*8=6>>6 12 sided dice.\nThey will need to purchase 14 dice - 6 dice - 6 dice = <<14-6-6=2>>2 dice.\n#### 2"
+        },
+        {
+            "output": "The puppy sleeps 16 hours.",
+            "answer": "Luke sleeps 2 hours longer than Connor who sleeps 6 hours so that\u2019s 2+6 = <<2+6=8>>8 hours\nThe new puppy sleeps twice as long as Luke, who sleeps 8 hours, so the puppy sleeps 2*8 = <<2*8=16>>16 hours\n#### 16"
+        },
+        {
+            "output": "House A costs approximately $41,666.67.",
+            "answer": "First figure out how much money Nigella earned from commission by subtracting her base salary from her total earnings: $8,000 - $3,000 = $<<8000-3000=5000>>5,000.\nNext, figure out how much all three houses cost by dividing Nigella's commission money by her commission rate: $5,000 \u00f7 0.02 = $<<5000/0.02=250000>>250,000.\nNext, express each house's price in terms of A's price: B = 3A, and C = 2A - $110,000.\nNow we know that A + 3A + 2A - $110,000 = $250,000.\nWe can combine like terms to find that 6A - $110,000 = $250,000.\nNow we add $110,000 to both sides of the equation and get 6A = $360,000.\nWe can divide both sides by 6 to find A = $60,000.\n#### 60000"
+        },
+        {
+            "output": "There are 48 frogs in both ponds combined.",
+            "answer": "Pond B has 32/2 frogs = <<32/2=16>>16 frogs.\nIn total the ponds have 32 frogs + 16 frogs = <<32+16=48>>48 frogs.\n#### 48"
+        },
+        {
+            "output": "Mickey mounts 98 horses per week.",
+            "answer": "If Minnie mounts three more horses per day than there are days in a week, then Minnie mounts 7+3=<<3+7=10>>10 horses per day.\nTwice as many horses per day as Minnie mounts is 10*2=<<10*2=20>>20 horses per day.\nIf Mickey mounts six less than twice as many horses per day as does Minnie, then Mickey mounts 20-6=<<20-6=14>>14 horses per day.\nSince there are 7 days in a week, then Mickey mounts 7*14=<<7*14=98>>98 horses per week.\n#### 98"
+        },
+        {
+            "output": "The total number of questions asked in the competition was 52.",
+            "answer": "Since Drew got 20 questions right and 6 wrong, she was asked 20+6 = <<20+6=26>>26 questions.\nCarla got twice as many questions wrong as Drew got, a total of 2*6 = <<2*6=12>>12 questions wrong.\nThe total number of questions that Carla was asked is 12+14 = <<12+14=26>>26.\nAltogether, there were 26+26 = <<26+26=52>>52 questions that were asked in the contest.\n#### 52"
+        },
+        {
+            "output": "Shawn will be left with 18 cups of water.",
+            "answer": "For the first 30 minutes, 3*2=<<3*2=6>>6 cups of water came out.\nFor the next 30 minutes, 3*2=<<3*2=6>>6 cups of water came out.\nFor the next hour, 6*4=<<6*4=24>>24 cups of water came out.\nA total of 6+6+24=<<6+6+24=36>>36 cups of water came out.\nShawn had to dump water which left 36/2=<<36/2=18>>18 cups of water.\n#### 18"
+        },
+        {
+            "output": "Yanna kept 36 apples.",
+            "answer": "After giving 18 apples to Zenny, Yanna remained with 60 - 18 = <<60-18=42>>42 apples.\nSince she also gave Andrea 6 apples, Yanna remained with 42 - 6 = <<36=36>>36 apples\nTherefore, Yanna kept 36 apples.\n#### 36"
+        },
+        {
+            "output": "130 chairs must be prepared for the ceremony.",
+            "answer": "There will be 50 x 2 = <<50*2=100>>100 parents that are expected to attend.\n20/2 = <<20/2=10>>10 administrators will attend.\nHence, 50 graduates + 100 parents + 20 teachers + 10 administrators = 180 chairs must be prepared.\n#### 180"
+        },
+        {
+            "output": "The candy seller has 20 candies left.",
+            "answer": "Since there are four clowns at the carousel this year, the candy seller sold 20*4 = <<20*4=80>>80 candies to all the clowns.\nThe thirty children also bought 20*30 = <<20*30=600>>600 candies in total.\nAltogether, the candy seller sold 600+80 = <<600+80=680>>680 candies to the clowns and children at the carousel.\nThe number of candies the candy seller has left is 700-680= <<700-680=20>>20\n#### 20"
+        },
+        {
+            "output": "There were 240 students at the science fair competition.",
+            "answer": "If 50 students came from Know It All High School, then Karen High, which had 3/5 times as many students as Know It All High School, had 3/5*50 = 30 students at the fair.\nThe total number of students from Know It All and Karen high schools is 50+30 = <<50+30=80>>80 students.\nIf Novel Corona had twice the combined number of students from Know It All and Karen high schools, then it had 2*80 = <<2*80=160>>160 students at the competition.\nThe total number of students at the competition is 80+160 = <<80+160=240>>240\n#### 240"
+        },
+        {
+            "output": "The cost of a single necklace is $40,000.",
+            "answer": "Let \"x\" be the price of a single necklace.\nThus, the cost of the earrings would be 3x.\nAnd since all items totaled $240,000, then x+x+x+3x = $240,000\nTherefore, this simplifies to 6x=240,000\nAnd, solving for x we see that the price of a single necklace is x = $<<40000=40000>>40,000\n#### 40,000"
+        },
+        {
+            "output": "The amount of milk produced per week by the cows is 364000 oz.",
+            "answer": "Per day, the amount of milk produced is 1000*52 = <<1000*52=52000>>52000 oz.\nPer week, the amount of milk produced is 52000*7 = <<52000*7=364000>>364000 oz.\n#### 364000"
+        },
+        {
+            "output": "Jade and Krista drove a total of 42 hours altogether.",
+            "answer": "Jade drives for a total of 3 days x 8 hours/day = <<3*8=24>>24 hours\nKrista drives for a total of 3 days x 6 hours/day = <<3*6=18>>18 hours\nTogether they drive 24 hours + 18 hours = <<24+18=42>>42 hours\n#### 42"
+        },
+        {
+            "output": "Lisa earned $15 more than Tommy.",
+            "answer": "Lisa earned $60 * 1/2 = $<<60*1/2=30>>30.\nTommy earned $30 * 1/2 = $<<30*1/2=15>>15.\nLisa earned $30 - $15 = $<<30-15=15>>15 more than Tommy.\n#### 15"
+        },
+        {
+            "output": "The custodian will need to fill 50 jugs of water to provide all the students with the water they need in a day.",
+            "answer": "Since each student needs 10 cups of water per day and there are 200 students, the custodian has to provide 200*10 = <<200*10=2000>>2000 cups of water.\nA jug of water needs 40 cups to be full, so 2000 cups of water will fill 2000/40 = <<2000/40=50>>50 jugs\n#### 50"
+        },
+        {
+            "output": "Vicente spent $25 in total.",
+            "answer": "Vicente spent 5 x $2 = $<<5*2=10>>10 for 5 kilograms of rice.\nHe spent 3 x $5 = $<<3*5=15>>15 for 3 pounds of meat.\nTherefore, the total amount he spent was $15 + $10 = $<<15+10=25>>25.\n#### 25"
+        },
+        {
+            "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: Nancy carves statues out of jade. A giraffe statue takes 120 grams of jade and sells for $150. An elephant statue takes twice as much jade and sells for $350. If Nancy has 1920 grams of jade, how much more money will she make turning it all into elephants instead of giraffes?",
+            "answer": "First find how many giraffe statues Nancy can make by dividing the total amount of jade by the amount used per giraffe statue: 1920 g / 120 g/giraffe = <<1920/120=16>>16 giraffes\nThen multiply that number by the price per giraffe to find how much Nancy earns total from giraffes: 16 giraffes * $150/giraffe = $<<16*150=2400>>2400\nThen find how much jade each elephant statue uses by doubling the jade used by the giraffe statues: 120 g/giraffe * 2 = <<120*2=240>>240 g/elephant\nThen find how many elephant statues Nancy can make by dividing the total amount of jade by the amount used per elephant statue: 1920 g / 240 g/elephant = <<1920/240=8>>8 elephant\nMultiply that number by the price per elephant to find Nancy's total earnings from elephants: 8 elephants * $350/elephant = $<<8*350=2800>>2800\nFinally, subtract Nancy's total earnings from the giraffes from her total earnings from the elephants to find the difference: $2800 - $2400 = $<<2800-2400=400>>400\n#### 400"
+        },
+        {
+            "output": "Alton's total profit every week is $36.",
+            "answer": "Alton earns $8 x 7 = $<<8*7=56>>56 per week.\nTherefore, his weekly profit after paying the rent is $56 - $20 = $<<56-20=36>>36.\n#### 36"
+        },
+        {
+            "output": "The profit they made from the movie is $5950.",
+            "answer": "The food cost 3*50=$<<3*50=150>>150\nSo the total cost without equipment rental was 1200+150=$<<1200+150=1350>>1350\nSo equipment rental cost 1350*2=$<<1350*2=2700>>2700\nSo the total cost was 2700+1350=$<<2700+1350=4050>>4050\nThat means they made 10000-4050=$<<10000-4050=5950>>5950\n#### 5950"
+        },
+        {
+            "output": "Darwin has 300$ left.",
+            "answer": "600/3=<<600/3=200>>200$ for gas\nAfter buying gas, Darwin has 600-200=<<600-200=400>>400$ left\n400/4=<<400/4=100>>100$ on food\nDarwin has 400-100=<<400-100=300>>300$ left\n#### 300"
+        },
+        {
+            "output": "James makes a profit of $180 from the 600 mile trip.",
+            "answer": "First find the total payment James receives: $0.50/mile * 600 miles = $<<0.50*600=300>>300\nThen find how many gallons of gas he needs to buy: 600 miles / 20 miles/gallon = <<600/20=30>>30 gallons\nThen multiply that number by the price of gas per gallon to find the total cost of the gas: $4.00/gallon * 30 gallons = $<<4*30=120>>120\nThen subtract that amount from James' earnings to find his profit: $300 - $120 = $<<300-120=180>>180\n#### 180"
+        },
+        {
+            "output": "The lowest grade the absent student can get for the class to still have an average of 75% and get a pizza party is 27%.",
+            "answer": "The total percentage the class needs to get is 18.75 because 25 x .75 = <<25*.75=18.75>>18.75\nThe total percentage the class has absent the one student is <<18.48=18.48>>18.48\nThe lowest the absent student can get and still have a pizza party is 27% because (18.75-18.48)x 100 = <<(18.75-18.48)*100=27>>27\n#### 27"
+        },
+        {
+            "output": "Combined, Granger and Cisco have 108 spots.",
+            "answer": "If Rover has 46 spots, then half as many spots as Rover has is 46/2=<<46/2=23>>23 spots.\nIf Cisco has 5 less than half as many spots as Rover has, then Cisco has 23-5=<<23-5=18>>18 spots.\nIf Granger has five times as many spots as Cisco, then Rover has 18*5=<<18*5=90>>90 spots.\nThus, the total combined number of spots that Rover and Cisco have is 90+18=<<90+18=108>>108 spots.\n#### 108"
+        },
+        {
+            "output": "The average high temperature for July 4th in Washington, DC over the past 5 years is 84.0 degrees.",
+            "answer": "Over the past five years, the sum of the temperatures was 90+90+90+79+71=<<90+90+90+79+71=420>>420\nTo find the average temperature you divide the total temperature (420) by 5, so 420/5 = <<420/5=84>>84 degrees\n#### 84"
+        },
+        {
+            "output": "216 dollars' worth of tickets were sold.",
+            "answer": "The students bought $6*20=$<<6*20=120>>120 worth of tickets\nThe adults bought $8*12=$<<8*12=96>>96 worth of tickets\nTogether $120 + $96 = $<<120+96=216>>216 worth of tickets were sold\n#### 216"
+        },
+        {
+            "output": "The percentage of the spice paste that is ginger is approximately 43%.",
+            "answer": "First convert the ginger to teaspoons: 3 tablespoons * 3 teaspoons/tablespoon = <<3*3=9>>9 teaspoons\nThen convert the garlic to teaspoons: 2 tablespoons * 3 teaspoons/tablespoon = <<2*3=6>>6 teaspoons\nThen find how much chile powder there is: 1 teaspoon * 4 = <<1*4=4>>4 teaspoons\nThen add up the amount of each spice to find the total amount: 9 teaspoons + 6 teaspoons + 4 teaspoons + 1 teaspoons + 1 teaspoon = <<9+6+4+1+1=21>>21 teaspoons\nThen divide the amount of ginger by the total amount of spice paste and multiply by 100% to find the percentage of the spice paste that's ginger: 9 teaspoons / 21 teaspoons * 100% = 42.857, which rounds down to 43%\n#### 43"
+        },
+        {
+            "output": "The ham and bread make up 50.0% of the total cost.",
+            "answer": "The total cost of buying bread and ham was $50+$150 = $<<50+150=200>>200\nTogether with the cake, Tina paid $200+$200 = $<<200+200=400>>400 for the items\nSince the total percentage for all the items is 100%, the cost of ham and bread is $200/$400 * 100% = <<200/400*100=50>>50% of the total cost of items.\n#### 50"
+        },
+        {
+            "output": "The total amount of ice creams not sold is 38.",
+            "answer": "There were a total of 50 + 54 = <<50+54=104>>104 ice creams.\nThere were 50 x 3/5 = <<50*3/5=30>>30 chocolate-flavored ice creams sold.\nThere were 54 x 2/3 = <<54*2/3=36>>36 mango-flavored ice creams sold.\nA total of 30 + 36 = <<30+36=66>>66 ice creams were sold.\nSo, 104 - 66 = <<104-66=38>>38 ice creams were not sold.\n#### 38"
+        },
+        {
+            "output": "The total number of hours they all have left to finish their homework is 50 hours.",
+            "answer": "If Jacob has 18 hours left to finish his homework, Greg has 18-6 = <<18-6=12>>12 hours left to finish his homework.\nThe total number of hours Jacob and Greg have left to finish their homework is 12+18 = <<12+18=30>>30 hours.\nPatrick has 4 hours less than twice Greg has left to finish his homework, meaning Patrick has 4 hours less than 12*2 = 24 hours left to finish his homework.\nPatrick has 24-4 = <<24-4=20>>20 hours left to finish his homework.\nAltogether, the three have 30+20 = <<30+20=50>>50 hours left to finish their homework.\n#### 50"
+        },
+        {
+            "output": "The three kids saved altogether $40.",
+            "answer": "Teagan saved 1 cent (.01) x 200 = $2.\nRex has 5 cents (.05) x 100 = $5.\nToni has 10 cents (.10) x 330 = $33.\nTogether, the three kids saved $2 + $5 + $33 = $<<2+5+33=40>>40.\n#### 40"
+        },
+        {
+            "output": "Barkley has buried 42 bones.",
+            "answer": "He gets 10 new bones, every month for 5 months so he has 10*5 = <<10*5=50>>50 dog bones\nHe has 8 bones available which means he has buried 50-8 = <<50-8=42>>42 bones\n#### 42"
+        },
+        {
+            "output": "Michelle paid a total of $12 for her ride.",
+            "answer": "The taxi charge for a distance of 4 miles is 4 x $2.5 = $<<4*2.5=10>>10.\nThe total amount that Michelle paid for the ride was $2 + $10 = $<<2+10=12>>12.\n#### 12"
+        },
+        {
+            "output": "Each family member gets 18 chocolate chips.",
+            "answer": "She made 36 cookies because 12 x 3 = <<12*3=36>>36\nThese contain 72 chocolate chips because 36 x 2 = <<36*2=72>>72\nThey each get to eat 18 chocolate chips because 72 / 4 = <<72/4=18>>18\n#### 18"
+        },
+        {
+            "output": "The final painting is 9 feet wide.",
+            "answer": "Each 5 by 5 painting is 25 square feet because 5 x 5 = <<5*5=25>>25\nAll three of them take up 75 square feet because 3 x 25 = <<3*25=75>>75\nThe 10 by 8 painting takes up 80 square feet because 10 x 8 = <<10*8=80>>80\nThese four paintings take up 155 square feet because 80 + 75 = <<80+75=155>>155\nThe final painting is 45 square feet because 200-155 = <<200-155=45>>45\nIf it is 5 feet wide it is 9 feet tall because 45 / 5 = 9\n#### 9"
+        },
+        {
+            "output": "The quarterback threw 12 passes to the left side of the field.",
+            "answer": "Let x represent the number of passes thrown to the left side of the field\nRight:2x\nCenter:x+2\nTotal:x+2x+x+2=50\n4x+2=50\n4x=48\nx=<<12=12>>12 passes\n#### 12"
+        },
+        {
+            "output": "The school spent a total of $600 on pencils and markers.",
+            "answer": "The school bought 20 x 10 = <<20*10=200>>200 boxes of pencils.\nThe pencils cost 200 x $2 = $<<200*2=400>>400.\nThe school bought 10 x 5 = <<10*5=50>>50 boxes of markers.\nThe markers cost 50 x $4 = $<<50*4=200>>200.\nThus, the school spent a total of $400 + $200 = $<<400+200=600>>600.\n#### 600"
+        },
+        {
+            "output": "Bethany saw 16 portraits at the museum.",
+            "answer": "Let s be the number of still lifes Bethany saw and p be the number of portraits. We know that s + p = 80 and s = 4p.\nSubstituting the second equation into the first equation, we get 4p + p = 80\nCombining like terms, we get 5p = 80\nDividing both sides by 5, we get p = 16\n#### 16"
+        },
+        {
+            "output": "Both students counted a combined total of 28 squirrels.",
+            "answer": "The second student counted 12/3 = 4 more squirrels than the first student.\nThe second student counted 12+4 = <<12+4=16>>16 squirrels.\nTogether, the first and second student counted 12+16 = <<12+16=28>>28 squirrels combined.\n#### 28"
+        },
+        {
+            "output": "Rick and Sean have 96 dollars together.",
+            "answer": "Sean has 40/2+4 = <<40/2+4=24>>24 dollars.\nRick has 24*3 = <<24*3=72>>72 dollars.\nSean and Rick have 24+72 = <<24+72=96>>96 dollars together.\n#### 96"
+        },
+        {
+            "output": "Emmy and Gerry can buy 150 apples altogether.",
+            "answer": "Emmy and Gerry have a total of $200 + $100 = $<<200+100=300>>300.\nTherefore, Emmy and Gerry can buy $300/$2 = <<300/2=150>>150 apples altogether.\n#### 150"
+        },
+        {
+            "output": "Gordon will spend $95.00 on books.",
+            "answer": "He gets 30% off any book over $22 and he buys books that cost $25.00 and $35.00 so the total cost of these books is $25 + $35 = $<<25+35=60.00>>60.00\nAt 30% off, the discount on these books is $60*.30 = $<<60*.30=18.00>>18.00\nThat mean these 2 books will cost $60-$18 = $<<60-18=42.00>>42.00\nHe gets 20% off any book under $20 and he buys books for $18.00, $12.00 and $10.00 so these books together cost $18 + $12 + $10 = $40.00\nat 20% off, the discount on these books is 40*.20 = $8.00\nSo these 3 books will cost $40 - $8 = $<<40-8=32.00>>32.00\nHe has spent $42.00 on the two most expensive books, $32.00 on the 3 cheapest books, and also bought a book for $21.00, so his total comes to $42 + $32 + $21 = $<<42+32+21=95.00>>95.00\n#### 95"
+        },
+        {
+            "output": "Jackie can do 22 push-ups in one minute if she takes two 8-second breaks.",
+            "answer": "There are 60 seconds per minute, so Jackie\u2019s push-up routine takes 1 * 60 = <<60=60>>60 seconds.\nHer breaks last 2 * 8 = <<2*8=16>>16 seconds.\nShe does push-ups for 60 - 16 = <<60-16=44>>44 seconds.\nShe can do a push-up in 10 / 5 = <<10/5=2>>2 seconds.\nTherefore, Jackie can do 44 / 2 = <<44/2=22>>22 push-ups in one minute with breaks.\n#### 22"
+        },
+        {
+            "output": "Ruth prepared 10 sandwiches.",
+            "answer": "Ruth's two cousins ate a total of 2 x 1 = <<2*1=2>>2 sandwiches.\nSo there were 3 + 2 = <<3+2=5>>5 sandwiches left before her two cousins arrived.\nBefore her first cousin arrived, there were 5 + 2 = <<5+2=7>>7 sandwiches.\nRuth and her brother had 1 + 2 = <<1+2=3>>3 sandwiches altogether.\nTherefore, Ruth prepared 7 + 3 = <<7+3=10>>10 sandwiches.\"\n#### 10"
+        },
+        {
+            "output": "Harry has 224 fish.",
+            "answer": "Joe has 8*7 = <<8*7=56>>56 fish.\nHarry has 4*56 = <<4*56=224>>224 fish.\n#### 224"
+        },
+        {
+            "output": "Robe had $630 saved before his car broke.",
+            "answer": "The corner light cost $10 x 2 = $<<10*2=20>>20.\nEach brake disk costs $20 x 3 = $<<20*3=60>>60.\nSo, the total price of the brake disks is $60x 2 = $<<60*2=120>>120.\nHe spent $10 + $20 + $120 = $<<10+20+120=150>>150 for the repair.\nTherefore, Robe has saved $480 + 150 = $<<480+150=630>>630 before his car broke.\n#### 630"
+        },
+        {
+            "output": "Caleb's dad caught 4 more trouts than Caleb.",
+            "answer": "Caleb\u2019s dad caught 2 x 3 = <<2*3=6>>6 trouts.\nHis dad caught 6 - 2 = <<6-2=4>>4 more trouts than Caleb.\n#### 4"
+        },
+        {
+            "output": "Mary is currently 8 years old.",
+            "answer": "In four years, Suzy will be 20+4=<<20+4=24>>24.\nThen Mary will be 24/2=<<24/2=12>>12.\nThen Mary is now 12-4=<<12-4=8>>8.\n#### 8"
+        },
+        {
+            "output": "Hayes will need 4 packs of detergent pods to do a full year of laundry.",
+            "answer": "He uses 3 detergent pods a week and there are 52 weeks in a year, so he uses 3*52 = <<3*52=156>>156\nHis detergent has 39 pods per pack and he needs 156 pods, so he will need 156/39 = <<156/39=4>>4 packs of detergent pods\n#### 4"
+        },
+        {
+            "output": "The ambulance ride cost $1700.",
+            "answer": "Medication:5000(.50)=2500\nOvernight Stays:2500(.25)=625\n2500-625=<<2500-625=1875>>1875\nFood:1875-175=<<1875-175=1700>>1700$\nAmbulance ride:1700$\n#### 1700"
+        },
+        {
+            "output": "The total number of guests served is 127.",
+            "answer": "The chef has served 58 - 35 = <<58-35=23>>23 children.\nThe chef has served 23 x 2 = <<23*2=46>>46 seniors.\nTherefore, the total number of guests that the chef has served is 58 + 23 + 46 = <<58+23+46=127>>127.\n#### 127"
+        },
+        {
+            "output": "The bicycle has 60 spokes in total.",
+            "answer": "The back wheel has double the spokes the front wheel has, which means the back wheel has 20*2=<<20*2=40>>40 spokes.\nIn total, the bicycle has 20+40=<<20+40=60>>60 spokes.\n#### 60"
+        },
+        {
+            "output": "24% of the original cookies remained.",
+            "answer": "Nicole ate 2/5 of the total number of cookies, which is 2/5*600= <<2/5*600=240>>240\nThe total number of cookies that remained in the box after Nicole ate 240 is 600-240 = <<600-240=360>>360\nEduardo then ate 3/5 of the remaining cookies, a total of 3/5*360 = <<3/5*360=216>>216 cookies\nThe total number of cookies that remained after Eduardo ate 216 is 360 - 216 = <<360-216=144>>144\nThe percentage of the cookies that remained out of the original amount is 144/600*100% = 24%\n#### 24"
+        },
+        {
+            "output": "You will save $8 via discounts if you buy 3 gallons of whole milk and 5 boxes of cereal.",
+            "answer": "The discount for each gallon of whole milk is $3 - $2 = $<<3-2=1>>1.\nSo the discount for 3 gallons of whole milk is $1/gallon x 3 gallons = $<<1*3=3>>3.\nThe total discount for 5 boxes of cereal is $1/box x 5 boxes = $<<1*5=5>>5.\nYou will save $3 + $5 = $<<3+5=8>>8 for 3 gallons of whole milk and 5 boxes of cereal.\n#### 8"
+        },
+        {
+            "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: Stacy is a high school Calculus teacher.  She assigns 45 problems for homework.  There are twice as many multiple choice problems as free response, and 7 more free response than true/false.  How many true/false questions are there?",
+            "answer": "Let x represent the number of true/false questions\nFree response:x+7\nMultiple choice: 2(x+7)=2x+14\nTotal:x+x+7+2x+14=45\n4x+21=45\n4x=24\nx=<<6=6>>6 true/false questions\n#### 6"
+        },
+        {
+            "output": "Mike and Ted planted a total of 250 tomato seeds.",
+            "answer": "Ted planted 2 x 50 = <<2*50=100>>100 tomato seeds.\nSo, Mike and Ted planted 50 + 100 = <<50+100=150>>150 tomato seeds in the morning.\nIn the afternoon, Ted planted 60 - 20 = <<60-20=40>>40 seeds.\nThus, Mike and Ted planted 60 + 40 = <<60+40=100>>100 tomato seeds in the afternoon.\nTherefore, they planted 150 + 100 = <<150+100=250>>250 tomato seed altogether.\n#### 250"
+        },
+        {
+            "output": "James won $114 at the charity raffle.",
+            "answer": "Let W be equal to James\u2019s raffle winnings.\nHe donated half his winnings, so he had W - W/2 = W/2 left.\nHe then spent $2 on a hot dog, so W/2 - 2 = $55.\nThus, half his winnings is W/2 = 55 + 2 = <<55+2=57>>57.\nJames won W = 57 * 2 = $<<57*2=114>>114.\n#### 114"
+        },
+        {
+            "output": "The total length of fencing around the playground and garden together is 150 yards.",
+            "answer": "27 * 4 = <<27*4=108>>108 yards\n2 * (12 + 9) = <<2*(12+9)=42>>42 yards\n108 + 42 = <<108+42=150>>150 yards\nThe playground and garden have a combined fence length of 150 yards.\n#### 150"
+        },
+        {
+            "output": "Steve takes home $27,200 a year after taxes, healthcare, and local union dues.",
+            "answer": "Taxes:40000(.20)=8000$\nHealthcare:40000(.10)=4000$\nDues:<<800=800>>800$\nTotal:40000-8000-4000-800=<<40000-8000-4000-800=27200>>27,200$\n#### 27,200"
+        },
+        {
+            "output": "Tom needs 7 more boxes to complete the job.",
+            "answer": "The entire sq ft of the living room is LxW so the room is 16x20 = <<16*20=320>>320 sq ft\nTom has already put down 250 sq ft so he needs to put down 320-250 = 70 sq ft of flooring\nThe boxes contain 10 sq ft of flooring per box and he needs 70 more sq ft of flooring so he needs 70/10 = <<70/10=7>>7 more boxes\n#### 7"
+        },
+        {
+            "output": "The winner of the eating contest is Javier's brother who ate a total of 15.0 ounces of ravioli.",
+            "answer": "Javier ate 7.5 ounces of meat ravioli because 5 x 1.5 = <<7.5=7.5>>7.5\nHe ate 2.5 ounces of pumpkin ravioli because 2 x 1.25 = <<2*1.25=2.5>>2.5\nHe ate 4 ounces of cheese ravioli because 4 x 1 = <<4*1=4>>4\nJavier ate 14 ounces in total because 7.5 + 2.5 + 4 = <<7.5+2.5+4=14>>14\nHis brother ate 15 ounces of pumpkin ravioli because 12 x 1.25 = 15\nThe winner ate 15 ounces in total because 15 > 14\n#### 15"
+        },
+        {
+            "output": "The bakery would make $138 in an hour if it sells all the pie pieces.",
+            "answer": "If the bakery can make 12 pies, this means there would be 12 * 3 = <<12*3=36>>36 pie pieces.\nFor all the pieces the bakery would make 36 * 4 = $<<36*4=144>>144.\nThe cost of making 12 pies is 12 * 0.5 = $<<12*0.5=6>>6.\nThat means the bakery would make 144 - 6 = $<<144-6=138>>138.\n#### 138"
+        },
+        {
+            "output": "The total number of messages sent in the Whatsapp group after the four days is 2000.",
+            "answer": "The total number of messages sent last week on Monday and Tuesday is 300+200 = <<300+200=500>>500 messages.\nOn Wednesday, the number of messages was 300 more than the previous day, a total of 300+200 = <<300+200=500>>500 messages.\nIn total, in the three days, the number of messages sent is 500+500 = <<500+500=1000>>1000 messages,\nOn Thursday, the number of messages sent was two times the number sent on Wednesday, totaling 2*500 = <<2*500=1000>>1000 messages.\nIn the four days. the number of messages sent is 1000+1000 = <<1000+1000=2000>>2000\n#### 2000"
+        },
+        {
+            "output": "They still need to travel 121 miles.",
+            "answer": "Amoli = 42 * 3 = <<42*3=126>>126 miles\nAnayet = 61 * 2 = <<61*2=122>>122\nTogether = 126 + 122 = <<126+122=248>>248 miles\n369 - 248 = <<369-248=121>>121 miles\nThey still have 121 miles to travel.\n#### 121"
+        },
+        {
+            "output": "The total weight of onions harvested by Titan's father is 10000 kgs.",
+            "answer": "On one trip, the pickup carries 10 bags * 50 kg/bag = <<10*50=500>>500kg of onions\nAfter 20 trips, the total weight of onions transported to the store is 20 trips * 500 kg/trip = <<20*500=10000>>10000 kgs\n#### 10000"
+        },
+        {
+            "output": "The number of damaged books is 11.",
+            "answer": "Let o be the number of obsolete books and d be the number of damaged books. We know that o + d = 69 and o = 6d - 8.\nSubstituting the first equation into the second equation, we get 6d - 8 + d = 69\nCombining like terms, we get 7d - 8 = 69\nAdding 8 to both sides, we get 7d = 77\nDividing both sides by 7, we get d = 11\n#### 11"
+        },
+        {
+            "output": "The scallops will cost Nate $48.",
+            "answer": "He\u2019s cooking for 8 people and wants to serve 2 scallops per person so he needs 8*2 = <<8*2=16>>16 scallops\n8 jumbo scallops come in 1 pound and he needs 16 scallops so he will need 16/8 = <<16/8=2>>2 pounds of scallops\nA pound of scallops weigh $24.00 and he needs 2 pounds so it will cost him 24*2 = $<<24*2=48.00>>48.00 for scallops\n#### 48"
+        },
+        {
+            "output": "Helen will need 36 gallons of gas to cut her lawn from March through October.",
+            "answer": "For March, April, September and October, she cuts her lawn 2 a month. There are 4 months so she cuts her yard 2*4 = <<2*4=8>>8 times\nFor May, June, July and August, she cuts her lawn 4 times a month. There are 4 months so she cuts her yard 4*4 = <<4*4=16>>16 times\nDuring the entire 8 month period, she cuts her lawn 8+16 = <<8+16=24>>24 times\nEvery 4th time she cuts, she needs 2 gallons of gas. If she cuts her lawn 24 times a year then she needs to fill up 24/4 = 6 times\nEach time she fills up, it takes 2 gallons of gas so 2*6 = <<2*6=12>>12 gallons of gas per year\n#### 12"
+        },
+        {
+            "output": "Roy spent 6 hours on sports activities in school that week.",
+            "answer": "He goes to.school 5 days a week so if he misses 2 days within the week he was present for 5-2 = <<5-2=3>>3 days\nHe spends 2 hours every day for a total of 2*3 = <<2*3=6>>6 hours\n#### 6"
+        },
+        {
+            "output": "Tory needs to sell 26 more packs of cookies.",
+            "answer": "Tory sold 12 packs + 7 packs = <<12+7=19>>19 packs to his family members.\nTory sold 19 packs + 5 packs = <<19+5=24>>24 packs in total\nHe has to sell 50 packs - 24 packs = <<50-24=26>>26 more packs of cookies to reach his target\n#### 26"
+        },
+        {
+            "output": "Jen ate 11 suckers.",
+            "answer": "Taylor received 5 + 1 = <<5+1=6>>6 suckers.\nHarmony was given 3 + 6 = <<3+6=9>>9 suckers.\nMolly received 9 + 2 = <<9+2=11>>11 suckers from Jen.\nJen originally had 11 * 2 = <<11*2=22>>22 suckers.\nJen ate 22 \u2013 11 = <<22-11=11>>11 suckers.\n#### 11"
+        },
+        {
+            "output": "Julie bought a total of 7 pounds of lettuce.",
+            "answer": "The total cost of the green and red lettuce is $8 + $6 = $<<8+6=14>>14.\nJulie bought $14 / $2 =<<14/2=7>>7 pounds of lettuce.\n#### 7"
+        },
+        {
+            "output": "Drew does not have any leftover grass seed. In fact, he does not have enough. He would need an additional 208 square feet of grass seed coverage to fully reseed his lawn.",
+            "answer": "Drew\u2019s lawn is 22 * 36 = <<22*36=792>>792 square feet.\nHe bought enough grass seed to cover 250 * 4 = <<250*4=1000>>1000 square feet.\nThus, the leftover grass seed can cover 1000 - 792 = <<1000-792=208>>208 square feet.\n#### 208"
+        },
+        {
+            "output": "Jason's monthly payments will be $525.",
+            "answer": "First figure out how much the loan will be: $32,000 - $8,000 = $<<32000-8000=24000>>24,000\nThen divide the loan amount by the number of payments to find the monthly payment before interest: $24,000 / 48 months = $<<24000/48=500>>500/month\nThen multiply the loan amount by 5% to find out how much the interest is: $500/month * .05 = $<<500*.05=25>>25/month\nThen add the interest to the payment amount to find the total monthly payment: $500/month + $25/month = $<<500+25=525>>525/month\n#### 525"
+        },
+        {
+            "output": "The vendor's profit if he sells 5 apples and 5 oranges is $3.",
+            "answer": "A vendor bought each apple for $3/2 = $<<3/2=1.50>>1.50.\nHe will sell each apple at $10/5 = $<<10/5=2>>2 each.\nHis profit for each apple is $2 - $1.50 = $<<2-1.5=0.50>>0.50.\nHis total profit for 5 apples is $0.50 x 5 = $<<0.50*5=2.50>>2.50.\nHe bought each orange for $2.70/3 = $<<2.7/3=0.90>>0.90.\nHis profit for each orange is $1 - $0.90 = $<<1-0.9=0.10>>0.10.\nHis total profit for 5 oranges is $0.10 x 5 = $<<0.10*5=0.50>>0.50.\nTherefore, his total profit for selling 5 apples and 5 oranges is $2.50 + $0.50= $3.\n#### 3"
+        },
+        {
+            "output": "There are 100 more vets who recommend Yummy Dog Kibble than Puppy Kibble.",
+            "answer": "The number of vets that recommend Puppy Kibble is 1000*.2=<<1000*.2=200>>200.\nThe number of vets that recommend Yummy Dog Kibble is 1000*.3=<<1000*.3=300>>300 vets.\nThus, 300-200=<<300-200=100>>100 more vets recommend Yummy Dog Kibble than Puppy Kibble.\n#### 100"
+        }
+    ],
+    "react": [
+        {
+            "output": "Jennifer's sister Jordana is currently 80 years old.",
+            "answer": "When Jennifer is 30 years old in ten years, her sister Jordana will be 3*30=90 years old.\nShe's currently 10 years younger, so she's 90 - 10 = 80 years old\n#### 80"
+        },
+        {
+            "output": "Chenny has 7 friends.",
+            "answer": "Chenny has a total of 10 + 4 = <<10+4=14>>14 candies.\nIf each friend will receive 2 candies each, then she has 14 / 2 = <<14/2=7>>7 friends.\n#### 7"
+        },
+        {
+            "output": "Erica took 95% of a whole pie.",
+            "answer": "First, find a common denominator for the fractions by multiplying 5 and 4: 5 * 4 = <<5*4=20>>20.\nThen convert 1/5 to twentieths by multiplying the top and bottom by 4: 1/5 * 4/4 = 4/20.\nThen convert 3/4 to twentieths by multiplying the top and bottom by 5: 3/4 * 5/5 = 15/20\nNow that the two fractions have the same denominator, you can add them: 4/20 + 15/20 = 19/20.\nNow divide 19 by 20 and multiply the answer by 100 to convert the fraction to a percentage: 19/20 * 100 = %<<19/20*100=95>>95.\n#### 95"
+        },
+        {
+            "output": "$15",
+            "answer": "The soda cost 3*1=$<<3*1=3>>3\nSo the soups cost 2*3=$<<2*3=6>>6\nThe sandwich cost 3*3=$<<3*3=9>>9\nSo the total cost of everything was 3+6+9=$<<3+6+9=18>>18\n#### 18"
+        },
+        {
+            "output": "Carlson's land is now 900 square meters after buying the new land.",
+            "answer": "Carlson bought land that cost $20 per square meter, therefore the size of the land he bought is 8000/20 = 400.\nAnd the size of the other land he bought is 4000/20 = <<4000/20=200>>200.\nTherefore the total size of the land he owns is 400+200+300 = <<400+200+300=900>>900.\n#### 900"
+        },
+        {
+            "output": "The coffee shop made $67.",
+            "answer": "Sale from coffee is 7 x $5 = $<<7*5=35>>35.\nSale from tea is 8 x $4 = $<<8*4=32>>32.\nTotal sales is $35 + $32 = $<<35+32=67>>67.\n#### 67"
+        },
+        {
+            "output": "4 cupcakes",
+            "answer": "Dani brings 2.5 x 12 = <<2.5*12=30>>30 cupcakes.\nShe needs this many cupcakes to feed everyone in class 27 + 2 = <<27+2=29>>29.\nWith the 3 students calling in sick, there are this many people in class today 29 - 3 = <<29-3=26>>26.\nThere are this many cupcakes left after everyone gets one 30 - 26 = <<30-26=4>>4 cupcakes.\n#### 4"
+        },
+        {
+            "output": "4 slices are left.",
+            "answer": "There is a total of 3 x 10 = <<3*10=30>>30 cookie slices.\nThere are 24 + 1 + 1 = <<24+1+1=26>>26 people who ate the cookie pieces.\nThere is 30 - 26 = <<30-26=4>>4 cookie slices left.\n#### 4"
+        },
+        {
+            "output": "Zach spent $832 on the car rental.",
+            "answer": "On Monday Zach spent 620*0.5 = <<620*0.5=310>>310 dollars on miles.\nOn Thursday Zach spent 744*0.5 = <<744*0.5=372>>372 dollars on miles.\nIn total, Zach spent 150+310+372 = <<150+310+372=832>>832 dollars.\n#### 832"
+        },
+        {
+            "output": "There are 3 cookies in a batch.",
+            "answer": "There are 81 / 3= <<81/3=27>>27 chips in a batch.\nThus, there are 27 / 9 = <<27/9=3>>3 cookies in a batch.\n#### 3"
+        },
+        {
+            "output": "165 minutes",
+            "answer": "First multiply the number of loads by the time per load to find the washing time: 2 loads * 45 minutes/load = <<2*45=90>>90 minutes\nThen add that time to the drying time to find the total laundry time: 90 minutes + 75 minutes = <<90+75=165>>165 minutes\n#### 165"
+        },
+        {
+            "output": "1",
+            "answer": "Eunice can plant a total of 3 pots x 3 seeds = <<3*3=9>>9 seeds in three pots.\nSo, only 10 - 9 = <<10-9=1>>1 eggplant seed will be planted in the fourth pot.\n#### 1"
+        },
+        {
+            "output": "Anna has 9 cupcakes left.",
+            "answer": "After giving away 4/5 of the cupcakes, Anna has 60 / 5 = <<60/5=12>>12 cupcakes\nAfter eating 3 cupcakes, Anna has 12 - 3 = <<12-3=9>>9 cupcakes.\n#### 9"
+        },
+        {
+            "output": "There are 110 sharks in total on the two beaches.",
+            "answer": "Since Dana Point beach has four times the number of sharks in Newport beach, there are 4*22 = <<4*22=88>>88 sharks at Dana Point.\nIn total, the two beaches have 88+22 = <<88+22=110>>110 sharks\n#### 110"
+        },
+        {
+            "output": "20 female guests attended the party.",
+            "answer": "The number of males in the party was 2 males / 3 guests * 60 guests = <<2/3*60=40>>40 males\nIf the total number of people at the party was 60, then there were 60 guests - 40 males = <<60-40=20>>20 females.\n#### 20"
+        },
+        {
+            "output": "Liza has $1563 left in her account.",
+            "answer": "On Wednesday, Liza had $800 - $450 = $<<800-450=350>>350 left in her account.\nAfter depositing on Thursday, she had $350 + $1500 = $<<350+1500=1850>>1850 in her account.\nOn Friday, she paid a total of $117 + $100 = $<<117+100=217>>217 for her electricity and internet bills.\nSo, $1850 - $217 = $<<1850-217=1633>>1633 was left on her account on Friday.\nAfter paying her phone bill, Liza has $1633 - $70 = $<<1633-70=1563>>1563 left in her account.\n#### 1563"
+        },
+        {
+            "output": "Uncle Jerry reaped a total of 290 tomatoes.",
+            "answer": "Today, Uncle Jerry reaps 120 + 50 = <<120+50=170>>170 tomatoes.\nTherefore, Uncle Jerry reaps a total of 120 + 170 = <<120+170=290>>290 ripe tomatoes.\n#### 290"
+        },
+        {
+            "output": "The unicorn pi\u00f1ata and the treats cost $99 altogether.",
+            "answer": "The four bags of Reese's cost $9 x 4 = $<<9*4=36>>36.\nThe three bags of Snickers cost $5 x 3 = $<<5*3=15>>15.\nThe five bags of Skittles cost $7 x 5 = $<<7*5=35>>35.\nTherefore, the unicorn pi\u00f1ata and the treats cost $13 + $36 + $15 + $35 = $<<13+36+15+35=99>>99.\n#### 99"
+        },
+        {
+            "output": "John spends $3030 in total.",
+            "answer": "He buys the silver for 1.5*$20=$<<1.5*20=30>>30\nHe bought 1.5*2=<<1.5*2=3>>3 ounces of gold\nThe gold is worth %20*50=$<<20*50=1000>>1000 per ounce\nSo he buys 3*$1000=$<<3*1000=3000>>3000 on gold\nSo he spent $30+$3000=$<<30+3000=3030>>3030 on everything\n#### 3030"
+        },
+        {
+            "output": "The total number of apples packed in the two weeks was 24,500.",
+            "answer": "In the first week, each day they pack 40*50 = <<40*50=2000>>2000 apples\nThe total number of apples packed in the boxes is 2000*7 = <<2000*7=14000>>14000 apples in the first week.\nWhen 500 fewer apples were packed each day in the next week, the total became 2000-500 = <<2000-500=1500>>1500 apples per day.\nThe total number of apples packed in the boxes that week is 1500*7 = <<1500*7=10500>>10500 apples.\nThe total is 14000+10500 = <<14000+10500=24500>>24500 apples for the two weeks\n#### 24500"
+        },
+        {
+            "output": "It will take Tina 52 minutes in total to both clean the remaining keys and finish her assignment.",
+            "answer": "Tina has already cleaned one key so she has 14 left which take 3 minutes each to clean, 14 x 3 = <<14*3=42>>42 minutes to clean all the keyboard keys.\nHer assignment will take 10 minutes to complete, so she needs 42 minutes + 10 minutes = 52 minutes total before dinner.\n#### 52"
+        },
+        {
+            "output": "Oliver has 32 Monster Club cards.",
+            "answer": "Oliver\u2019s Alien Baseball card collection has 48 / 3 = <<48/3=16>>16 cards.\nOliver has twice as many Monster Club cards, so he has 16 * 2 = <<16*2=32>>32 Monster Club cards.\n#### 32"
+        },
+        {
+            "output": "John can buy 10 packets of corn chips.",
+            "answer": "John wants to buy 15 packets of chips, which will cost him 15 * 2 = $<<15*2=30>>30.\nSo John would have 45 - 30 = $<<45-30=15>>15 left for the corn chips.\nJohn could buy for the rest of the money 15 / 1.5 = <<15/1.5=10>>10 packets of corn chips.\n#### 10"
+        },
+        {
+            "output": "Henri can read 1800 words before his free time is up.",
+            "answer": "He has 3 hours to read because 8 - 3.5 - 1.5 = <<8-3.5-1.5=3>>3\nHe has 180 minutes to read because 3 x 60 = <<3*60=180>>180\nHe can read 1,800 words because 180 x 10 = <<180*10=1800>>1,800\n#### 1800"
+        },
+        {
+            "output": "The boys need to buy 2 more dice to play their game.",
+            "answer": "Mark has 60% 12 sided dice, so 60/100 * 10 dice in his bag = <<60/100*10=6>>6 12 sided dice.\nJames has 75% 12 sided dice, so 75/100 * 8 dice in his bag = <<75/100*8=6>>6 12 sided dice.\nThey will need to purchase 14 dice - 6 dice - 6 dice = <<14-6-6=2>>2 dice.\n#### 2"
+        },
+        {
+            "output": "The puppy sleeps 16 hours a night.",
+            "answer": "Luke sleeps 2 hours longer than Connor who sleeps 6 hours so that\u2019s 2+6 = <<2+6=8>>8 hours\nThe new puppy sleeps twice as long as Luke, who sleeps 8 hours, so the puppy sleeps 2*8 = <<2*8=16>>16 hours\n#### 16"
+        },
+        {
+            "output": "House A costs $60,000.",
+            "answer": "First figure out how much money Nigella earned from commission by subtracting her base salary from her total earnings: $8,000 - $3,000 = $<<8000-3000=5000>>5,000.\nNext, figure out how much all three houses cost by dividing Nigella's commission money by her commission rate: $5,000 \u00f7 0.02 = $<<5000/0.02=250000>>250,000.\nNext, express each house's price in terms of A's price: B = 3A, and C = 2A - $110,000.\nNow we know that A + 3A + 2A - $110,000 = $250,000.\nWe can combine like terms to find that 6A - $110,000 = $250,000.\nNow we add $110,000 to both sides of the equation and get 6A = $360,000.\nWe can divide both sides by 6 to find A = $60,000.\n#### 60000"
+        },
+        {
+            "output": "There are 48 frogs in both ponds combined.",
+            "answer": "Pond B has 32/2 frogs = <<32/2=16>>16 frogs.\nIn total the ponds have 32 frogs + 16 frogs = <<32+16=48>>48 frogs.\n#### 48"
+        },
+        {
+            "output": "Mickey mounts 98 horses per week.",
+            "answer": "If Minnie mounts three more horses per day than there are days in a week, then Minnie mounts 7+3=<<3+7=10>>10 horses per day.\nTwice as many horses per day as Minnie mounts is 10*2=<<10*2=20>>20 horses per day.\nIf Mickey mounts six less than twice as many horses per day as does Minnie, then Mickey mounts 20-6=<<20-6=14>>14 horses per day.\nSince there are 7 days in a week, then Mickey mounts 7*14=<<7*14=98>>98 horses per week.\n#### 98"
+        },
+        {
+            "output": "52",
+            "answer": "Since Drew got 20 questions right and 6 wrong, she was asked 20+6 = <<20+6=26>>26 questions.\nCarla got twice as many questions wrong as Drew got, a total of 2*6 = <<2*6=12>>12 questions wrong.\nThe total number of questions that Carla was asked is 12+14 = <<12+14=26>>26.\nAltogether, there were 26+26 = <<26+26=52>>52 questions that were asked in the contest.\n#### 52"
+        },
+        {
+            "output": "First, we calculate the total amount of water for the first hour: 2 cups per 10 minutes is the same as 2*6=12 cups in 60 minutes. The same amount of water flows in the second hour. Then, for the third hour, the sink flows at a rate of 4 cups per 10 minutes, which is 4*6=24 cups in 60 minutes. So, the total amount of water that flowed from the sink is 12+12+24=48 cups. After Shawn dumps half of the water away, he is left with 48/2=24 cups.",
+            "answer": "For the first 30 minutes, 3*2=<<3*2=6>>6 cups of water came out.\nFor the next 30 minutes, 3*2=<<3*2=6>>6 cups of water came out.\nFor the next hour, 6*4=<<6*4=24>>24 cups of water came out.\nA total of 6+6+24=<<6+6+24=36>>36 cups of water came out.\nShawn had to dump water which left 36/2=<<36/2=18>>18 cups of water.\n#### 18"
+        },
+        {
+            "output": "Yanna kept 36 apples.",
+            "answer": "After giving 18 apples to Zenny, Yanna remained with 60 - 18 = <<60-18=42>>42 apples.\nSince she also gave Andrea 6 apples, Yanna remained with 42 - 6 = <<36=36>>36 apples\nTherefore, Yanna kept 36 apples.\n#### 36"
+        },
+        {
+            "output": "180 chairs must be prepared for the ceremony.",
+            "answer": "There will be 50 x 2 = <<50*2=100>>100 parents that are expected to attend.\n20/2 = <<20/2=10>>10 administrators will attend.\nHence, 50 graduates + 100 parents + 20 teachers + 10 administrators = 180 chairs must be prepared.\n#### 180"
+        },
+        {
+            "output": "The candy seller has 320 candies left.",
+            "answer": "Since there are four clowns at the carousel this year, the candy seller sold 20*4 = <<20*4=80>>80 candies to all the clowns.\nThe thirty children also bought 20*30 = <<20*30=600>>600 candies in total.\nAltogether, the candy seller sold 600+80 = <<600+80=680>>680 candies to the clowns and children at the carousel.\nThe number of candies the candy seller has left is 700-680= <<700-680=20>>20\n#### 20"
+        },
+        {
+            "output": "First, calculate the number of students from Karen High, which is 3/5 times the number of students from Know It All High School, i.e., 3/5 * 50 = 30 students. Then, calculate the total number of students from the first two schools, i.e., 50 (Know It All High School) + 30 (Karen High) = 80 students. The number of students from Novel Corona High School is twice the combined number of students from the first two schools, i.e., 2 * 80 = 160 students. Adding the numbers of students from all three schools, we have 50 (Know It All High School) + 30 (Karen High) + 160 (Novel Corona High School) = 240 students in total at the competition.",
+            "answer": "If 50 students came from Know It All High School, then Karen High, which had 3/5 times as many students as Know It All High School, had 3/5*50 = 30 students at the fair.\nThe total number of students from Know It All and Karen high schools is 50+30 = <<50+30=80>>80 students.\nIf Novel Corona had twice the combined number of students from Know It All and Karen high schools, then it had 2*80 = <<2*80=160>>160 students at the competition.\nThe total number of students at the competition is 80+160 = <<80+160=240>>240\n#### 240"
+        },
+        {
+            "output": "$40,000",
+            "answer": "Let \"x\" be the price of a single necklace.\nThus, the cost of the earrings would be 3x.\nAnd since all items totaled $240,000, then x+x+x+3x = $240,000\nTherefore, this simplifies to 6x=240,000\nAnd, solving for x we see that the price of a single necklace is x = $<<40000=40000>>40,000\n#### 40,000"
+        },
+        {
+            "output": "The cattle breeder's 52 dairy cows produce 364000 oz of milk per week.",
+            "answer": "Per day, the amount of milk produced is 1000*52 = <<1000*52=52000>>52000 oz.\nPer week, the amount of milk produced is 52000*7 = <<52000*7=364000>>364000 oz.\n#### 364000"
+        },
+        {
+            "output": "They drove for 42 hours altogether.",
+            "answer": "Jade drives for a total of 3 days x 8 hours/day = <<3*8=24>>24 hours\nKrista drives for a total of 3 days x 6 hours/day = <<3*6=18>>18 hours\nTogether they drive 24 hours + 18 hours = <<24+18=42>>42 hours\n#### 42"
+        },
+        {
+            "output": "$15",
+            "answer": "Lisa earned $60 * 1/2 = $<<60*1/2=30>>30.\nTommy earned $30 * 1/2 = $<<30*1/2=15>>15.\nLisa earned $30 - $15 = $<<30-15=15>>15 more than Tommy.\n#### 15"
+        },
+        {
+            "output": "The custodian will have to fill 50 water jugs.",
+            "answer": "Since each student needs 10 cups of water per day and there are 200 students, the custodian has to provide 200*10 = <<200*10=2000>>2000 cups of water.\nA jug of water needs 40 cups to be full, so 2000 cups of water will fill 2000/40 = <<2000/40=50>>50 jugs\n#### 50"
+        },
+        {
+            "output": "Vicente spent $25 in total.",
+            "answer": "Vicente spent 5 x $2 = $<<5*2=10>>10 for 5 kilograms of rice.\nHe spent 3 x $5 = $<<3*5=15>>15 for 3 pounds of meat.\nTherefore, the total amount he spent was $15 + $10 = $<<15+10=25>>25.\n#### 25"
+        },
+        {
+            "output": "Nancy will make $400 more by turning all the jade into elephants instead of giraffes.",
+            "answer": "First find how many giraffe statues Nancy can make by dividing the total amount of jade by the amount used per giraffe statue: 1920 g / 120 g/giraffe = <<1920/120=16>>16 giraffes\nThen multiply that number by the price per giraffe to find how much Nancy earns total from giraffes: 16 giraffes * $150/giraffe = $<<16*150=2400>>2400\nThen find how much jade each elephant statue uses by doubling the jade used by the giraffe statues: 120 g/giraffe * 2 = <<120*2=240>>240 g/elephant\nThen find how many elephant statues Nancy can make by dividing the total amount of jade by the amount used per elephant statue: 1920 g / 240 g/elephant = <<1920/240=8>>8 elephant\nMultiply that number by the price per elephant to find Nancy's total earnings from elephants: 8 elephants * $350/elephant = $<<8*350=2800>>2800\nFinally, subtract Nancy's total earnings from the giraffes from her total earnings from the elephants to find the difference: $2800 - $2400 = $<<2800-2400=400>>400\n#### 400"
+        },
+        {
+            "output": "Alton's total profit every week is $36.",
+            "answer": "Alton earns $8 x 7 = $<<8*7=56>>56 per week.\nTherefore, his weekly profit after paying the rent is $56 - $20 = $<<56-20=36>>36.\n#### 36"
+        },
+        {
+            "output": "Let's calculate:",
+            "answer": "The food cost 3*50=$<<3*50=150>>150\nSo the total cost without equipment rental was 1200+150=$<<1200+150=1350>>1350\nSo equipment rental cost 1350*2=$<<1350*2=2700>>2700\nSo the total cost was 2700+1350=$<<2700+1350=4050>>4050\nThat means they made 10000-4050=$<<10000-4050=5950>>5950\n#### 5950"
+        },
+        {
+            "output": "Darwin has 300$ left.",
+            "answer": "600/3=<<600/3=200>>200$ for gas\nAfter buying gas, Darwin has 600-200=<<600-200=400>>400$ left\n400/4=<<400/4=100>>100$ on food\nDarwin has 400-100=<<400-100=300>>300$ left\n#### 300"
+        },
+        {
+            "output": "The income from the trip is $0.50/mile * 600 miles = $300. The gas needed for the trip is 600 miles / 20 miles/gallon = 30 gallons. The cost of gas is $4.00/gallon * 30 gallons = $120. Thus, the profit from the trip is $300 - $120 = $180.",
+            "answer": "First find the total payment James receives: $0.50/mile * 600 miles = $<<0.50*600=300>>300\nThen find how many gallons of gas he needs to buy: 600 miles / 20 miles/gallon = <<600/20=30>>30 gallons\nThen multiply that number by the price of gas per gallon to find the total cost of the gas: $4.00/gallon * 30 gallons = $<<4*30=120>>120\nThen subtract that amount from James' earnings to find his profit: $300 - $120 = $<<300-120=180>>180\n#### 180"
+        },
+        {
+            "output": "The class is guaranteed a pizza party regardless of the score of the absent student. Even if the student received a score of 0%, the average score would still remain above 75%.",
+            "answer": "The total percentage the class needs to get is 18.75 because 25 x .75 = <<25*.75=18.75>>18.75\nThe total percentage the class has absent the one student is <<18.48=18.48>>18.48\nThe lowest the absent student can get and still have a pizza party is 27% because (18.75-18.48)x 100 = <<(18.75-18.48)*100=27>>27\n#### 27"
+        },
+        {
+            "output": "Granger and Cisco have a combined total of 108 spots.",
+            "answer": "If Rover has 46 spots, then half as many spots as Rover has is 46/2=<<46/2=23>>23 spots.\nIf Cisco has 5 less than half as many spots as Rover has, then Cisco has 23-5=<<23-5=18>>18 spots.\nIf Granger has five times as many spots as Cisco, then Rover has 18*5=<<18*5=90>>90 spots.\nThus, the total combined number of spots that Rover and Cisco have is 90+18=<<90+18=108>>108 spots.\n#### 108"
+        },
+        {
+            "output": "The average temperature for July 4th in Washington, DC over the past 5 years is 84.0 degrees.",
+            "answer": "Over the past five years, the sum of the temperatures was 90+90+90+79+71=<<90+90+90+79+71=420>>420\nTo find the average temperature you divide the total temperature (420) by 5, so 420/5 = <<420/5=84>>84 degrees\n#### 84"
+        },
+        {
+            "output": "The total dollar amount of tickets sold is $216.",
+            "answer": "The students bought $6*20=$<<6*20=120>>120 worth of tickets\nThe adults bought $8*12=$<<8*12=96>>96 worth of tickets\nTogether $120 + $96 = $<<120+96=216>>216 worth of tickets were sold\n#### 216"
+        },
+        {
+            "output": "42%",
+            "answer": "First convert the ginger to teaspoons: 3 tablespoons * 3 teaspoons/tablespoon = <<3*3=9>>9 teaspoons\nThen convert the garlic to teaspoons: 2 tablespoons * 3 teaspoons/tablespoon = <<2*3=6>>6 teaspoons\nThen find how much chile powder there is: 1 teaspoon * 4 = <<1*4=4>>4 teaspoons\nThen add up the amount of each spice to find the total amount: 9 teaspoons + 6 teaspoons + 4 teaspoons + 1 teaspoons + 1 teaspoon = <<9+6+4+1+1=21>>21 teaspoons\nThen divide the amount of ginger by the total amount of spice paste and multiply by 100% to find the percentage of the spice paste that's ginger: 9 teaspoons / 21 teaspoons * 100% = 42.857, which rounds down to 43%\n#### 43"
+        },
+        {
+            "output": "The cost of the ham and bread is 50% of the total cost of all the items.",
+            "answer": "The total cost of buying bread and ham was $50+$150 = $<<50+150=200>>200\nTogether with the cake, Tina paid $200+$200 = $<<200+200=400>>400 for the items\nSince the total percentage for all the items is 100%, the cost of ham and bread is $200/$400 * 100% = <<200/400*100=50>>50% of the total cost of items.\n#### 50"
+        },
+        {
+            "output": "38 ice creams were not sold.",
+            "answer": "There were a total of 50 + 54 = <<50+54=104>>104 ice creams.\nThere were 50 x 3/5 = <<50*3/5=30>>30 chocolate-flavored ice creams sold.\nThere were 54 x 2/3 = <<54*2/3=36>>36 mango-flavored ice creams sold.\nA total of 30 + 36 = <<30+36=66>>66 ice creams were sold.\nSo, 104 - 66 = <<104-66=38>>38 ice creams were not sold.\n#### 38"
+        },
+        {
+            "output": "The total number of hours they all have left to finish their homework is 50 hours.",
+            "answer": "If Jacob has 18 hours left to finish his homework, Greg has 18-6 = <<18-6=12>>12 hours left to finish his homework.\nThe total number of hours Jacob and Greg have left to finish their homework is 12+18 = <<12+18=30>>30 hours.\nPatrick has 4 hours less than twice Greg has left to finish his homework, meaning Patrick has 4 hours less than 12*2 = 24 hours left to finish his homework.\nPatrick has 24-4 = <<24-4=20>>20 hours left to finish his homework.\nAltogether, the three have 30+20 = <<30+20=50>>50 hours left to finish their homework.\n#### 50"
+        },
+        {
+            "output": "The three kids saved a total of $40.",
+            "answer": "Teagan saved 1 cent (.01) x 200 = $2.\nRex has 5 cents (.05) x 100 = $5.\nToni has 10 cents (.10) x 330 = $33.\nTogether, the three kids saved $2 + $5 + $33 = $<<2+5+33=40>>40.\n#### 40"
+        },
+        {
+            "output": "Barkley has buried 42 bones.",
+            "answer": "He gets 10 new bones, every month for 5 months so he has 10*5 = <<10*5=50>>50 dog bones\nHe has 8 bones available which means he has buried 50-8 = <<50-8=42>>42 bones\n#### 42"
+        },
+        {
+            "output": "$12",
+            "answer": "The taxi charge for a distance of 4 miles is 4 x $2.5 = $<<4*2.5=10>>10.\nThe total amount that Michelle paid for the ride was $2 + $10 = $<<2+10=12>>12.\n#### 12"
+        },
+        {
+            "output": "Each family member gets 18 chocolate chips.",
+            "answer": "She made 36 cookies because 12 x 3 = <<12*3=36>>36\nThese contain 72 chocolate chips because 36 x 2 = <<36*2=72>>72\nThey each get to eat 18 chocolate chips because 72 / 4 = <<72/4=18>>18\n#### 18"
+        },
+        {
+            "output": "The final painting is 9 feet wide.",
+            "answer": "Each 5 by 5 painting is 25 square feet because 5 x 5 = <<5*5=25>>25\nAll three of them take up 75 square feet because 3 x 25 = <<3*25=75>>75\nThe 10 by 8 painting takes up 80 square feet because 10 x 8 = <<10*8=80>>80\nThese four paintings take up 155 square feet because 80 + 75 = <<80+75=155>>155\nThe final painting is 45 square feet because 200-155 = <<200-155=45>>45\nIf it is 5 feet wide it is 9 feet tall because 45 / 5 = 9\n#### 9"
+        },
+        {
+            "output": "The quarterback threw 12 passes to the left side of the field.",
+            "answer": "Let x represent the number of passes thrown to the left side of the field\nRight:2x\nCenter:x+2\nTotal:x+2x+x+2=50\n4x+2=50\n4x=48\nx=<<12=12>>12 passes\n#### 12"
+        },
+        {
+            "output": "The school spent $600 in total on pencils and markers.",
+            "answer": "The school bought 20 x 10 = <<20*10=200>>200 boxes of pencils.\nThe pencils cost 200 x $2 = $<<200*2=400>>400.\nThe school bought 10 x 5 = <<10*5=50>>50 boxes of markers.\nThe markers cost 50 x $4 = $<<50*4=200>>200.\nThus, the school spent a total of $400 + $200 = $<<400+200=600>>600.\n#### 600"
+        },
+        {
+            "output": "Bethany saw 16 portraits at the museum.",
+            "answer": "Let s be the number of still lifes Bethany saw and p be the number of portraits. We know that s + p = 80 and s = 4p.\nSubstituting the second equation into the first equation, we get 4p + p = 80\nCombining like terms, we get 5p = 80\nDividing both sides by 5, we get p = 16\n#### 16"
+        },
+        {
+            "output": "28 squirrels",
+            "answer": "The second student counted 12/3 = 4 more squirrels than the first student.\nThe second student counted 12+4 = <<12+4=16>>16 squirrels.\nTogether, the first and second student counted 12+16 = <<12+16=28>>28 squirrels combined.\n#### 28"
+        },
+        {
+            "output": "Rick and Sean have 96 dollars in total.",
+            "answer": "Sean has 40/2+4 = <<40/2+4=24>>24 dollars.\nRick has 24*3 = <<24*3=72>>72 dollars.\nSean and Rick have 24+72 = <<24+72=96>>96 dollars together.\n#### 96"
+        },
+        {
+            "output": "Emmy and Gerry can buy 150 apples altogether.",
+            "answer": "Emmy and Gerry have a total of $200 + $100 = $<<200+100=300>>300.\nTherefore, Emmy and Gerry can buy $300/$2 = <<300/2=150>>150 apples altogether.\n#### 150"
+        },
+        {
+            "output": "$17.50 + $24.50 + $14.40 + $9.60 + $8.00 + $21.00 = $95.00",
+            "answer": "He gets 30% off any book over $22 and he buys books that cost $25.00 and $35.00 so the total cost of these books is $25 + $35 = $<<25+35=60.00>>60.00\nAt 30% off, the discount on these books is $60*.30 = $<<60*.30=18.00>>18.00\nThat mean these 2 books will cost $60-$18 = $<<60-18=42.00>>42.00\nHe gets 20% off any book under $20 and he buys books for $18.00, $12.00 and $10.00 so these books together cost $18 + $12 + $10 = $40.00\nat 20% off, the discount on these books is 40*.20 = $8.00\nSo these 3 books will cost $40 - $8 = $<<40-8=32.00>>32.00\nHe has spent $42.00 on the two most expensive books, $32.00 on the 3 cheapest books, and also bought a book for $21.00, so his total comes to $42 + $32 + $21 = $<<42+32+21=95.00>>95.00\n#### 95"
+        },
+        {
+            "output": "Jackie can do 22 push-ups in one minute if she takes two 8-second breaks.",
+            "answer": "There are 60 seconds per minute, so Jackie\u2019s push-up routine takes 1 * 60 = <<60=60>>60 seconds.\nHer breaks last 2 * 8 = <<2*8=16>>16 seconds.\nShe does push-ups for 60 - 16 = <<60-16=44>>44 seconds.\nShe can do a push-up in 10 / 5 = <<10/5=2>>2 seconds.\nTherefore, Jackie can do 44 / 2 = <<44/2=22>>22 push-ups in one minute with breaks.\n#### 22"
+        },
+        {
+            "output": "Ruth prepared 10 sandwiches.",
+            "answer": "Ruth's two cousins ate a total of 2 x 1 = <<2*1=2>>2 sandwiches.\nSo there were 3 + 2 = <<3+2=5>>5 sandwiches left before her two cousins arrived.\nBefore her first cousin arrived, there were 5 + 2 = <<5+2=7>>7 sandwiches.\nRuth and her brother had 1 + 2 = <<1+2=3>>3 sandwiches altogether.\nTherefore, Ruth prepared 7 + 3 = <<7+3=10>>10 sandwiches.\"\n#### 10"
+        },
+        {
+            "output": "Harry has 224 fish.",
+            "answer": "Joe has 8*7 = <<8*7=56>>56 fish.\nHarry has 4*56 = <<4*56=224>>224 fish.\n#### 224"
+        },
+        {
+            "output": "$630",
+            "answer": "The corner light cost $10 x 2 = $<<10*2=20>>20.\nEach brake disk costs $20 x 3 = $<<20*3=60>>60.\nSo, the total price of the brake disks is $60x 2 = $<<60*2=120>>120.\nHe spent $10 + $20 + $120 = $<<10+20+120=150>>150 for the repair.\nTherefore, Robe has saved $480 + 150 = $<<480+150=630>>630 before his car broke.\n#### 630"
+        },
+        {
+            "output": "Caleb's dad caught 4 more trouts than Caleb.",
+            "answer": "Caleb\u2019s dad caught 2 x 3 = <<2*3=6>>6 trouts.\nHis dad caught 6 - 2 = <<6-2=4>>4 more trouts than Caleb.\n#### 4"
+        },
+        {
+            "output": "Mary is 8 years old.",
+            "answer": "In four years, Suzy will be 20+4=<<20+4=24>>24.\nThen Mary will be 24/2=<<24/2=12>>12.\nThen Mary is now 12-4=<<12-4=8>>8.\n#### 8"
+        },
+        {
+            "output": "Hayes needs around 4 packs of detergent pods to do a full year of laundry.",
+            "answer": "He uses 3 detergent pods a week and there are 52 weeks in a year, so he uses 3*52 = <<3*52=156>>156\nHis detergent has 39 pods per pack and he needs 156 pods, so he will need 156/39 = <<156/39=4>>4 packs of detergent pods\n#### 4"
+        },
+        {
+            "output": "The ambulance ride cost 1700$.",
+            "answer": "Medication:5000(.50)=2500\nOvernight Stays:2500(.25)=625\n2500-625=<<2500-625=1875>>1875\nFood:1875-175=<<1875-175=1700>>1700$\nAmbulance ride:1700$\n#### 1700"
+        },
+        {
+            "output": "The total number of guests served is 127.",
+            "answer": "The chef has served 58 - 35 = <<58-35=23>>23 children.\nThe chef has served 23 x 2 = <<23*2=46>>46 seniors.\nTherefore, the total number of guests that the chef has served is 58 + 23 + 46 = <<58+23+46=127>>127.\n#### 127"
+        },
+        {
+            "output": "60",
+            "answer": "The back wheel has double the spokes the front wheel has, which means the back wheel has 20*2=<<20*2=40>>40 spokes.\nIn total, the bicycle has 20+40=<<20+40=60>>60 spokes.\n#### 60"
+        },
+        {
+            "output": "24%",
+            "answer": "Nicole ate 2/5 of the total number of cookies, which is 2/5*600= <<2/5*600=240>>240\nThe total number of cookies that remained in the box after Nicole ate 240 is 600-240 = <<600-240=360>>360\nEduardo then ate 3/5 of the remaining cookies, a total of 3/5*360 = <<3/5*360=216>>216 cookies\nThe total number of cookies that remained after Eduardo ate 216 is 360 - 216 = <<360-216=144>>144\nThe percentage of the cookies that remained out of the original amount is 144/600*100% = 24%\n#### 24"
+        },
+        {
+            "output": "You will save $8 via discounts.",
+            "answer": "The discount for each gallon of whole milk is $3 - $2 = $<<3-2=1>>1.\nSo the discount for 3 gallons of whole milk is $1/gallon x 3 gallons = $<<1*3=3>>3.\nThe total discount for 5 boxes of cereal is $1/box x 5 boxes = $<<1*5=5>>5.\nYou will save $3 + $5 = $<<3+5=8>>8 for 3 gallons of whole milk and 5 boxes of cereal.\n#### 8"
+        },
+        {
+            "output": "There are 8 true/false questions.",
+            "answer": "Let x represent the number of true/false questions\nFree response:x+7\nMultiple choice: 2(x+7)=2x+14\nTotal:x+x+7+2x+14=45\n4x+21=45\n4x=24\nx=<<6=6>>6 true/false questions\n#### 6"
+        },
+        {
+            "output": "They planted 250 tomato seeds altogether.",
+            "answer": "Ted planted 2 x 50 = <<2*50=100>>100 tomato seeds.\nSo, Mike and Ted planted 50 + 100 = <<50+100=150>>150 tomato seeds in the morning.\nIn the afternoon, Ted planted 60 - 20 = <<60-20=40>>40 seeds.\nThus, Mike and Ted planted 60 + 40 = <<60+40=100>>100 tomato seeds in the afternoon.\nTherefore, they planted 150 + 100 = <<150+100=250>>250 tomato seed altogether.\n#### 250"
+        },
+        {
+            "output": "James won $114.",
+            "answer": "Let W be equal to James\u2019s raffle winnings.\nHe donated half his winnings, so he had W - W/2 = W/2 left.\nHe then spent $2 on a hot dog, so W/2 - 2 = $55.\nThus, half his winnings is W/2 = 55 + 2 = <<55+2=57>>57.\nJames won W = 57 * 2 = $<<57*2=114>>114.\n#### 114"
+        },
+        {
+            "output": "The playground and the garden together have a total of 150 yards of fencing.",
+            "answer": "27 * 4 = <<27*4=108>>108 yards\n2 * (12 + 9) = <<2*(12+9)=42>>42 yards\n108 + 42 = <<108+42=150>>150 yards\nThe playground and garden have a combined fence length of 150 yards.\n#### 150"
+        },
+        {
+            "output": "Steve takes home $27,200 a year after all deductions.",
+            "answer": "Taxes:40000(.20)=8000$\nHealthcare:40000(.10)=4000$\nDues:<<800=800>>800$\nTotal:40000-8000-4000-800=<<40000-8000-4000-800=27200>>27,200$\n#### 27,200"
+        },
+        {
+            "output": "Tom needs 7 more boxes to complete the job.",
+            "answer": "The entire sq ft of the living room is LxW so the room is 16x20 = <<16*20=320>>320 sq ft\nTom has already put down 250 sq ft so he needs to put down 320-250 = 70 sq ft of flooring\nThe boxes contain 10 sq ft of flooring per box and he needs 70 more sq ft of flooring so he needs 70/10 = <<70/10=7>>7 more boxes\n#### 7"
+        },
+        {
+            "output": "The winner of the eating contest is Javier's brother, who ate a total of 15 ounces of ravioli.",
+            "answer": "Javier ate 7.5 ounces of meat ravioli because 5 x 1.5 = <<7.5=7.5>>7.5\nHe ate 2.5 ounces of pumpkin ravioli because 2 x 1.25 = <<2*1.25=2.5>>2.5\nHe ate 4 ounces of cheese ravioli because 4 x 1 = <<4*1=4>>4\nJavier ate 14 ounces in total because 7.5 + 2.5 + 4 = <<7.5+2.5+4=14>>14\nHis brother ate 15 ounces of pumpkin ravioli because 12 x 1.25 = 15\nThe winner ate 15 ounces in total because 15 > 14\n#### 15"
+        },
+        {
+            "output": "The bakery would make $138.",
+            "answer": "If the bakery can make 12 pies, this means there would be 12 * 3 = <<12*3=36>>36 pie pieces.\nFor all the pieces the bakery would make 36 * 4 = $<<36*4=144>>144.\nThe cost of making 12 pies is 12 * 0.5 = $<<12*0.5=6>>6.\nThat means the bakery would make 144 - 6 = $<<144-6=138>>138.\n#### 138"
+        },
+        {
+            "output": "2000 messages were sent in the Whatsapp group after the four days.",
+            "answer": "The total number of messages sent last week on Monday and Tuesday is 300+200 = <<300+200=500>>500 messages.\nOn Wednesday, the number of messages was 300 more than the previous day, a total of 300+200 = <<300+200=500>>500 messages.\nIn total, in the three days, the number of messages sent is 500+500 = <<500+500=1000>>1000 messages,\nOn Thursday, the number of messages sent was two times the number sent on Wednesday, totaling 2*500 = <<2*500=1000>>1000 messages.\nIn the four days. the number of messages sent is 1000+1000 = <<1000+1000=2000>>2000\n#### 2000"
+        },
+        {
+            "output": "Amoli and Anayet still need to travel 121 miles.",
+            "answer": "Amoli = 42 * 3 = <<42*3=126>>126 miles\nAnayet = 61 * 2 = <<61*2=122>>122\nTogether = 126 + 122 = <<126+122=248>>248 miles\n369 - 248 = <<369-248=121>>121 miles\nThey still have 121 miles to travel.\n#### 121"
+        },
+        {
+            "output": "The total weight of onions harvested by Titan's father is 10000 kgs.",
+            "answer": "On one trip, the pickup carries 10 bags * 50 kg/bag = <<10*50=500>>500kg of onions\nAfter 20 trips, the total weight of onions transported to the store is 20 trips * 500 kg/trip = <<20*500=10000>>10000 kgs\n#### 10000"
+        },
+        {
+            "output": "Erin found 11 damaged books.",
+            "answer": "Let o be the number of obsolete books and d be the number of damaged books. We know that o + d = 69 and o = 6d - 8.\nSubstituting the first equation into the second equation, we get 6d - 8 + d = 69\nCombining like terms, we get 7d - 8 = 69\nAdding 8 to both sides, we get 7d = 77\nDividing both sides by 7, we get d = 11\n#### 11"
+        },
+        {
+            "output": "$48.00",
+            "answer": "He\u2019s cooking for 8 people and wants to serve 2 scallops per person so he needs 8*2 = <<8*2=16>>16 scallops\n8 jumbo scallops come in 1 pound and he needs 16 scallops so he will need 16/8 = <<16/8=2>>2 pounds of scallops\nA pound of scallops weigh $24.00 and he needs 2 pounds so it will cost him 24*2 = $<<24*2=48.00>>48.00 for scallops\n#### 48"
+        },
+        {
+            "output": "Helen will need 16 gallons of gas to cut her lawn from March through October.",
+            "answer": "For March, April, September and October, she cuts her lawn 2 a month. There are 4 months so she cuts her yard 2*4 = <<2*4=8>>8 times\nFor May, June, July and August, she cuts her lawn 4 times a month. There are 4 months so she cuts her yard 4*4 = <<4*4=16>>16 times\nDuring the entire 8 month period, she cuts her lawn 8+16 = <<8+16=24>>24 times\nEvery 4th time she cuts, she needs 2 gallons of gas. If she cuts her lawn 24 times a year then she needs to fill up 24/4 = 6 times\nEach time she fills up, it takes 2 gallons of gas so 2*6 = <<2*6=12>>12 gallons of gas per year\n#### 12"
+        },
+        {
+            "output": "Roy spent 6 hours on sports activities in school that week.",
+            "answer": "He goes to.school 5 days a week so if he misses 2 days within the week he was present for 5-2 = <<5-2=3>>3 days\nHe spends 2 hours every day for a total of 2*3 = <<2*3=6>>6 hours\n#### 6"
+        },
+        {
+            "output": "Tory needs to sell 26 more packs of cookies.",
+            "answer": "Tory sold 12 packs + 7 packs = <<12+7=19>>19 packs to his family members.\nTory sold 19 packs + 5 packs = <<19+5=24>>24 packs in total\nHe has to sell 50 packs - 24 packs = <<50-24=26>>26 more packs of cookies to reach his target\n#### 26"
+        },
+        {
+            "output": "Jen ate 11 suckers.",
+            "answer": "Taylor received 5 + 1 = <<5+1=6>>6 suckers.\nHarmony was given 3 + 6 = <<3+6=9>>9 suckers.\nMolly received 9 + 2 = <<9+2=11>>11 suckers from Jen.\nJen originally had 11 * 2 = <<11*2=22>>22 suckers.\nJen ate 22 \u2013 11 = <<22-11=11>>11 suckers.\n#### 11"
+        },
+        {
+            "output": "Julie bought a total of 7 pounds of lettuce.",
+            "answer": "The total cost of the green and red lettuce is $8 + $6 = $<<8+6=14>>14.\nJulie bought $14 / $2 =<<14/2=7>>7 pounds of lettuce.\n#### 7"
+        },
+        {
+            "output": "The leftover grass seed could cover an extra 208 square feet.",
+            "answer": "Drew\u2019s lawn is 22 * 36 = <<22*36=792>>792 square feet.\nHe bought enough grass seed to cover 250 * 4 = <<250*4=1000>>1000 square feet.\nThus, the leftover grass seed can cover 1000 - 792 = <<1000-792=208>>208 square feet.\n#### 208"
+        },
+        {
+            "output": "Jason's monthly payments will be approximately $552.71.",
+            "answer": "First figure out how much the loan will be: $32,000 - $8,000 = $<<32000-8000=24000>>24,000\nThen divide the loan amount by the number of payments to find the monthly payment before interest: $24,000 / 48 months = $<<24000/48=500>>500/month\nThen multiply the loan amount by 5% to find out how much the interest is: $500/month * .05 = $<<500*.05=25>>25/month\nThen add the interest to the payment amount to find the total monthly payment: $500/month + $25/month = $<<500+25=525>>525/month\n#### 525"
+        },
+        {
+            "output": "$3",
+            "answer": "A vendor bought each apple for $3/2 = $<<3/2=1.50>>1.50.\nHe will sell each apple at $10/5 = $<<10/5=2>>2 each.\nHis profit for each apple is $2 - $1.50 = $<<2-1.5=0.50>>0.50.\nHis total profit for 5 apples is $0.50 x 5 = $<<0.50*5=2.50>>2.50.\nHe bought each orange for $2.70/3 = $<<2.7/3=0.90>>0.90.\nHis profit for each orange is $1 - $0.90 = $<<1-0.9=0.10>>0.10.\nHis total profit for 5 oranges is $0.10 x 5 = $<<0.10*5=0.50>>0.50.\nTherefore, his total profit for selling 5 apples and 5 oranges is $2.50 + $0.50= $3.\n#### 3"
+        },
+        {
+            "output": "100 more vets recommend Yummy Dog Kibble than Puppy Kibble.",
+            "answer": "The number of vets that recommend Puppy Kibble is 1000*.2=<<1000*.2=200>>200.\nThe number of vets that recommend Yummy Dog Kibble is 1000*.3=<<1000*.3=300>>300 vets.\nThus, 300-200=<<300-200=100>>100 more vets recommend Yummy Dog Kibble than Puppy Kibble.\n#### 100"
+        }
+    ]
+}

@@ -272,15 +272,16 @@ def run_specific_template(json_path: str, template_file: str, prompt_type: Promp
 
 if __name__ == "__main__":
     input_file = "./data/input/gsm8k.json"
-    
-    # standard_template = "standard.txt"
-    # run_specific_template(input_file, standard_template, PromptType.STANDARD)
+    input_file = "./data/input/hotpot.json"
 
-    # cot_template = "cot.txt" 
-    # run_specific_template(input_file, cot_template, PromptType.COT)
+    standard_template = "standard.txt"
+    run_specific_template(input_file, standard_template, PromptType.STANDARD)
+
+    cot_template = "cot.txt" 
+    run_specific_template(input_file, cot_template, PromptType.COT)
     
     act_template = "act.txt"
     run_specific_template(input_file, act_template, PromptType.ACT)
     
-    # react_template = "react.txt"
-    # run_specific_template(input_file, react_template, PromptType.REACT)
+    react_template = "react.txt"
+    run_specific_template(input_file, react_template, PromptType.REACT)
