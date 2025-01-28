@@ -1,32 +1,28 @@
 import json
 from collections import defaultdict
 
-# JSON 파일 경로 설정
+
 file_path = "hotpot_scoring_results.json" 
 
-# 추론 방식별 스코어 평균 계산 함수
+
 def calculate_average_scores(file_path):
-    # 파일에서 JSON 데이터 로드
     with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
     
-    # 추론 방식별 점수를 저장할 딕셔너리
+  
     scores_by_type = defaultdict(list)
 
-    # 데이터를 순회하며 추론 방식별 점수 그룹화
     for item in data:
         inference_type = item["inference_type"]
         score = item["score"]
         scores_by_type[inference_type].append(score)
 
-    # 추론 방식별 평균 계산
     average_scores = {}
     for inference_type, scores in scores_by_type.items():
         average_scores[inference_type] = sum(scores) / len(scores)
 
     return average_scores
 
-# 평균 스코어 계산 및 출력
 try:
     average_scores = calculate_average_scores(file_path)
     print("\n추론 방식별 평균 스코어:")

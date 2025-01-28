@@ -34,7 +34,6 @@ def generate_template(output, answer):
 
 
 def evaluate_similarity(data):
-    # 모든 평가 항목을 하나의 리스트로 합치고 무작위로 섞기
     all_items = []
     for inference_type, items in data.items():
         for item in items:
@@ -48,20 +47,16 @@ def evaluate_similarity(data):
         output = item["output"]
         answer = item["answer"]
         inference_type = item["inference_type"]
-        
-        # 프롬프트 생성
         prompt = generate_template(output, answer)
         
-        # LLM 호출
+
         response = model.invoke(prompt) 
         response_text = response.content.strip() 
-        # 점수를 숫자 형식으로 변환
         try:
             score = float(response_text)
         except ValueError:
-            score = 0.0  # 유효하지 않은 점수일 경우 기본값
+            score = 0.0 
         
-        # 결과 저장
         results.append({
             "output": output,
             "answer": answer,
@@ -71,28 +66,22 @@ def evaluate_similarity(data):
         print(f"Processed: Output: {output}, Answer: {answer}, Score: {score}, Type: {inference_type}")
     return results
 
-# 결과를 파일로 저장
+
 def save_results_to_file(results, output_file):
     with open(output_file, 'w', encoding='utf-8') as file:
         json.dump(results, file, ensure_ascii=False, indent=4)
 
-# main 함수 정의
+
 def main():
-    # 경로 직접 지정
     input_file = "hotpot_results.json"
     output_file = "hotpot_scoring_results.json"
     
-    # JSON 데이터 읽기
+
     with open(input_file, 'r', encoding='utf-8') as file:
         data = json.load(file)
-    
-    # 유사성 평가
     results = evaluate_similarity(data)
-    
-    # 결과 저장
     save_results_to_file(results, output_file)
     print(f"Results saved to {output_file}")
 
-# 메인 함수 실행
 if __name__ == "__main__":
     main()
