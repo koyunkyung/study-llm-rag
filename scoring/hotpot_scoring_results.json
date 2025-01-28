@@ -1,0 +1,2409 @@
+추론 방식별 평균 스코어:
+cot: 1.44
+react: 1.86
+act: 2.06
+standard: 1.21
+
+
+[
+    {
+        "output": "The query does not provide enough information to conclusively determine what award Flossie Bailey received that was named after the first female self-made millionaire in America.",
+        "answer": "Madam C. J. Walker",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Both St. Anthony Messenger and Revolver are magazines.",
+        "answer": "magazine",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The company that Robinsons-May is a subsidiary of, The May Department Stores Company, was founded by David May.",
+        "answer": "David May",
+        "score": 4.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "1858",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Argentine Americans",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The adoptive brothers who were co-emperors of Rome during the Nerva-Antonine dynasty were Marcus Aurelius and Lucius Verus.",
+        "answer": "Lucius Verus, Marcus Aurelius",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find the necessary information to answer your question.",
+        "answer": "1698",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Thought: {",
+        "answer": "the northwest tip of Canisteo Peninsula in Amundsen Sea",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Tim Roth gained recognition earlier than Polly Draper.",
+        "answer": "Timothy Simon \"Tim\" Roth",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find the information about which viral disease causing brain inflammation that China Bio-Immunity has developed a vaccine for. The available tools have not provided sufficient information. I recommend checking the latest updates from reliable health and news websites.",
+        "answer": "Rabies",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Yes, Norman Z. McLeod and Sam Wanamaker are both directors.",
+        "answer": "yes",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The query does not provide enough information to determine the film festival at which a movie featuring Carlo Buccirosso premiered.",
+        "answer": "Cannes Film Festival",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find information about the series starring Al Harrington or its eighth season renewal date. It's possible that this information isn't available or the query might need more specific details about the series.",
+        "answer": "March 23, 2017",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Bedknobs and Broomsticks",
+        "answer": "Bedknobs and Broomsticks",
+        "score": 5.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The home of the Greensky Bluegrass band is Kalamazoo, Michigan. Unfortunately, I couldn't find the specific location where they created their first album.",
+        "answer": "Bell's Brewery, Inc.",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Dollhouse",
+        "answer": "Dollhouse",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The query does not provide enough information to determine which genus, Hymenosporum or Agrostemma, is more closely related to Pittosporum.",
+        "answer": "Hymenosporum flavum",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The Soft Cell song that was sampled in a Rihanna song that had three video versions is 'Tainted Love'.",
+        "answer": "Tainted Love",
+        "score": 5.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to answer this query.",
+        "answer": "Switzerland",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "WMBH is located in the southwest corner of Missouri.",
+        "answer": "southwestern",
+        "score": 4.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I wasn't able to find the information needed to answer your question.",
+        "answer": "Neha Sharma",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Lee Grant was born first. She was born in the mid-1920s, while Colin Campbell was born on January 17, 1937.",
+        "answer": "James Colin Campbell",
+        "score": 1.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to confidently answer this query. One possibility could be the 2015 Accra flood and fire disaster, but without more specific context or information, it's difficult to be certain.",
+        "answer": "an explosion and a fire occurred at a petrol station",
+        "score": 2.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Chiwetel Ejiofor",
+        "answer": "Chiwetel Ejiofor",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to answer the question confidently without access to external resources.",
+        "answer": "about 26,000.",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Yes, Norman Z. McLeod and Sam Wanamaker are both directors.",
+        "answer": "yes",
+        "score": 4.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The UCF Knights represent the University of Central Florida in all seasons. They participate in various sports across different seasons.",
+        "answer": "2010 NCAA Division",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Citgo",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "James Colin Campbell",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Yes, both Tímea Babos and Jack Sock are professional tennis players. Tímea Babos is a Hungarian player who was a former world No. 1 in doubles, and Jack Sock is an American player who was a former professional tennis player, now a pickleball player.",
+        "answer": "yes",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Sissy Spacek won an Academy Award for Best Actress for the Thomas Rickman film 'Coal Miner's Daughter'.",
+        "answer": "Coal Miner's Daughter",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The query doesn't provide enough information to determine the third area that José Rubia Barcia wrote about concerning this Spanish poet and playwright.",
+        "answer": "theatre director",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find any information about a Purdue University's professor of forest ecology from 1947 to 1973, and therefore I cannot identify the group of islands named after them.",
+        "answer": "the northwest tip of Canisteo Peninsula in Amundsen Sea",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "theatre director",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "BBC Formula One",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Saul og David has more acts.",
+        "answer": "Saul og David",
+        "score": 3.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "American playwright and Nobel laureate in Literature",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The 2011 UEFA Champions League Final was held at Wembley Stadium in London, but without more specific information, it's unclear which stadium in London hosted the matches in the 2010–11 UEFA Champions League knockout phase.",
+        "answer": "Wembley",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Chiwetel Ejiofor",
+        "answer": "Chiwetel Ejiofor",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "October 17, 2017",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Greensky Bluegrass band is from Kalamazoo, Michigan. Unfortunately, the location of where they created their first album could not be determined with the available resources.",
+        "answer": "Bell's Brewery, Inc.",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "March 23, 2017",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Rear Adm. J. Edward Snyder",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The MVP of the 2013 McDonald's All-American Boys Game, Aaron Gordon, played for the Denver Nuggets in the NBA.",
+        "answer": "Orlando Magic",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The query does not provide enough information to confidently determine the correct answer.",
+        "answer": "Netflix",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "No, neither The Day the Universe Changed nor Lennon or McCartney are American documentary short films.",
+        "answer": "no",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "1940",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: Which album was released first, \"Talk That Talk\" or \"Loud\"?",
+        "answer": "Loud",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: What relationship does Fred Gehrke have to the 23rd overall pick in the 2010 Major League Baseball Draft?",
+        "answer": "great-grandfather",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Daniel Patrick Moynihan was elected more times.",
+        "answer": "Daniel Patrick \"Pat\" Moynihan",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The production company that co-owned by Kevin Loader and Rodger Michell that produced My Cousin Rachel is Free Range Films.",
+        "answer": "Free Range Films",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: Who was the captain of the only battleship to provide gunfire support during the Vietnam War?",
+        "answer": "Rear Adm. J. Edward Snyder",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: Which was published first Polarity or The Farming Game?",
+        "answer": "The Farming Game",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "marker pen",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Lisa Simpson converts to Buddhism in Season 13 of The Simpsons.",
+        "answer": "\"The Simpsons\"' thirteenth season",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The CNN journalist and two-time Pulitzer winner who inspired the Half the Sky Movement is Nicholas D. Kristof.",
+        "answer": "Nicholas Kristof",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "A business such as Eatza Pizza or Pizza Fusion, which have more than 10 locations, are considered to be a chain or a franchise.",
+        "answer": "restaurant chain",
+        "score": 3.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The population of London, where Deep Purple was formed, was about 9.8 million in 2011.",
+        "answer": "about 26,000.",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Shenandoah National Park",
+        "answer": "Shenandoah National Park",
+        "score": 5.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The query cannot be answered accurately with the information provided.",
+        "answer": "sixth season",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: What singer who was the seventh place finalist on the 7th season of American Idol first recorded the song Like My Mother Does",
+        "answer": "Kristy Lee Cook",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "1698",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The production company co-owned by Kevin Loader and Rodger Michell that produced My Cousin Rachel is Free Range Films.",
+        "answer": "Free Range Films",
+        "score": 5.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "an explosion and a fire occurred at a petrol station",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The formative year for the company eventually replaced by Suez Canal Authority was 1858.",
+        "answer": "1858",
+        "score": 3.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The Doncaster Belles played against Knowsley United Women in the 1994 FA Women's Cup Final held at Glanford Park.",
+        "answer": "Knowsley United Women",
+        "score": 4.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I'm sorry, but with the available tools and current information, I can't provide a definitive answer to when Mark Henry appears as a 'legend' in a professional wrestling video game.",
+        "answer": "October 17, 2017",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The team that drafted Derrick Hamilton in 2004, the San Francisco 49ers, belongs to the National Football Conference (NFC).",
+        "answer": "National Football Conference (NFC) West",
+        "score": 2.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Greensky Bluegrass band is from Kalamazoo, Michigan.",
+        "answer": "Bell's Brewery, Inc.",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The query does not provide enough information to determine who the actress is.",
+        "answer": "Neha Sharma",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Shenandoah National Park",
+        "answer": "Shenandoah National Park",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I don't have enough information to answer your question.",
+        "answer": "Rear Adm. J. Edward Snyder",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Daniel Patrick Moynihan was elected more times. He served as a Senator from 1977 until 2001. Dennis Kux, however, was a diplomat and ambassador, roles that are appointed, not elected.",
+        "answer": "Daniel Patrick \"Pat\" Moynihan",
+        "score": 1.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: Who is the star of the 2003 comedy that has a single from Candycoatedwaterdrops on its soundtrack?",
+        "answer": "Jim Carrey",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "The British actor born on 10 July 1977 who starred in '12 Years a Slave' is Chiwetel Ejiofor.",
+        "answer": "Chiwetel Ejiofor",
+        "score": 5.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The Shenandoah National Park contains the Thornton River and the Blue Ridge Mountains.",
+        "answer": "Shenandoah National Park",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The query does not provide sufficient information to determine when Mark Henry will appear as a 'legend' in a professional wrestling video game.",
+        "answer": "October 17, 2017",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I'm sorry, but there is not enough information available to accurately answer your query about why John Ruskin named his album.",
+        "answer": "marker pen",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Wes Archer",
+        "answer": "Wes Archer",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Gérald Genta worked with the luxury Swiss watch manufacturer IWC Schaffhausen, which was founded by American watchmaker Florentine Ariosto Jones.",
+        "answer": "International Watch Co.",
+        "score": 4.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "The query does not provide enough information to determine the location of the group of islands named after the Purdue University professor of forest ecology from 1947 to 1973.",
+        "answer": "the northwest tip of Canisteo Peninsula in Amundsen Sea",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to answer the query.",
+        "answer": "The Farming Game",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The Airbus A350, which was intended to compete with the Boeing 777X, has two variants: the A350-900 typically carries 300 to 350 passengers, and the A350-1000 accommodates 350 to 410 passengers.",
+        "answer": "280 to 366",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I'm sorry, but with the available tools and data, I am unable to determine which State capital of Rajasthan is 140km from Mundawar.",
+        "answer": "Jaipur",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to answer this question.",
+        "answer": "X",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I'm sorry, but I was unable to determine the first female self-made millionaire in America, which is crucial to answering your question about the award Flossie Bailey received. Please try asking again later or providing more specific details.",
+        "answer": "Madam C. J. Walker",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The Cascade Locks and Canal is located farther West than Lake Worth Lagoon.",
+        "answer": "Cascade Locks and Canal",
+        "score": 2.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Allan McNish is a co-commentator for BBC Formula One coverage.",
+        "answer": "BBC Formula One",
+        "score": 3.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The Farming Game was published first.",
+        "answer": "The Farming Game",
+        "score": 4.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I wasn't able to find the specific information about the distance of Mundawar from the capital of the state Rajasthan. However, Mundawar is in the Indian state of Rajasthan.",
+        "answer": "Jaipur",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Without specific and detailed information on the exact breeds that contributed to the creation of the Schapendoes, it can be reasoned that the Bull Terrier has its origins in a greater number of other dog breeds.",
+        "answer": "Bull Terrier",
+        "score": 2.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The information provided is not sufficient to answer the question.",
+        "answer": "Jim Carrey",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The birthday of the oldest among Vicente García and Ximena Sariñana is March 30, 1983.",
+        "answer": "March 30, 1983",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "1940",
+        "answer": "1940",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find the information you're looking for.",
+        "answer": "Free Range Films",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The first episode of Season 2 of Rick and Morty was directed by Wes Archer.",
+        "answer": "Wes Archer",
+        "score": 4.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Bull Terrier",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "sixth season",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Boston",
+        "answer": "Karachi, Pakistan",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The movie for which Jason O'Bryan was nominated for a Grammy for best soundtrack is 'Y Tu Mamá También', which was directed by Alfonso Cuarón.",
+        "answer": "Alfonso Cuarón",
+        "score": 2.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Bedknobs and Broomsticks",
+        "answer": "Bedknobs and Broomsticks",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: Which dog breed, the Schapendoes or the Bull Terrier, has its origins in a greater number of other dog breeds?",
+        "answer": "Bull Terrier",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Marcus Aurelius and Lucius Verus were the adoptive brothers who were co-emperors of Rome during the Nerva-Antonine dynasty.",
+        "answer": "Lucius Verus, Marcus Aurelius",
+        "score": 4.5,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, I couldn't find specific information about 'Cranium' and 'Twin Tin Bots'. However, based on my general knowledge, I can say that both 'Cranium' and 'Twin Tin Bots' are known to be board games.",
+        "answer": "games",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "'Tainted Love' by Soft Cell was sampled in Rihanna's song 'SOS'.",
+        "answer": "Tainted Love",
+        "score": 4.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "St. Anthony Messenger and Revolver are both magazines.",
+        "answer": "magazine",
+        "score": 4.5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Louis Zamperini, the main character in 'Unbroken', was an Olympic distance runner. He competed in the 5,000 m race for the United States in the 1936 Berlin Olympics, where he finished 8th and set a new lap record.",
+        "answer": "Olympic distance runner",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Prince Michael of Prussia was a member of the House of Hohenzollern, which arose in the town of Hechingen in the late 11th century.",
+        "answer": "Hechingen in Swabia",
+        "score": 1.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Alfonso Cuarón directed the movie for which Jason O'Bryan was nominated for a grammy for best soundtrack.",
+        "answer": "Alfonso Cuarón",
+        "score": 4.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The university in Pullman, Washington is named Washington State University, not named after a specific person.",
+        "answer": "Edward R. Murrow",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The main character in Unbroken, Louis \"Louie\" Zamperini, was an Olympic distance runner. He qualified for the United States in the 5,000 m race for the 1936 Berlin Olympics, where he finished 8th and set a new lap record in the process.",
+        "answer": "Olympic distance runner",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Sheryl WuDunn is the CNN journalist and two-time Pulitzer winner who inspired the Half the Sky Movement.",
+        "answer": "Nicholas Kristof",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "IWC (International Watch Company)",
+        "answer": "International Watch Co.",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The TV series 'Dollhouse' was directed and written by the same person as 'Buffy the Vampire Slayer' and starred Tahmoh Penikett.",
+        "answer": "Dollhouse",
+        "score": 2.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "hardcore",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The company eventually replaced by Suez Canal Authority, the Suez Canal Company, was formed in 1858.",
+        "answer": "1858",
+        "score": 2.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Travel Service (now Smartwings) has their head office located at Václav Havel Airport Prague.",
+        "answer": "Václav Havel Airport",
+        "score": 4.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The British explorer is Sir Ranulph Fiennes.",
+        "answer": "Sir Ranulph Twisleton-Wykeham-Fiennes",
+        "score": 4.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Jay Van Andel",
+        "answer": "Jay Van Andel",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Chiwetel Ejiofor",
+        "answer": "Chiwetel Ejiofor",
+        "score": 5.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but without more specific information about Marc Shiller's ancestry or cultural heritage, it's not possible to accurately determine his ethnic group.",
+        "answer": "Argentine Americans",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I can't provide the exact date without more information. Currently, I don't have access to a tool that can provide the specific information required to answer your query.",
+        "answer": "March 23, 2017",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find the information you're looking for.",
+        "answer": "Citgo",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The opera 'Saul og David' has more acts than 'Parsifal'. 'Saul og David' has four acts, while 'Parsifal' has three.",
+        "answer": "Saul og David",
+        "score": 2.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "magazine",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "\"Loud\" was released first.",
+        "answer": "Loud",
+        "score": 3.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Radio station WMBH is located in Joplin, Missouri, which is in the southwestern corner of the state.",
+        "answer": "southwestern",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "No, both 'The Day the Universe Changed' and 'Lennon or McCartney' are not American documentary short films. 'The Day the Universe Changed' is a British documentary television series. 'Lennon or McCartney' is a Canadian documentary short film.",
+        "answer": "no",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "The Airbus A350, which is a likely competitor to the Boeing 777X, has two variants with different seating capacities. The A350-900 typically carries 300 to 350 passengers, and the A350-1000 accommodates 350 to 410 passengers.",
+        "answer": "280 to 366",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Van Andel Institute was founded in part by Jay Van Andel, an American businessman best known as co-founder of the Amway Corporation.",
+        "answer": "Jay Van Andel",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Raymond Ochoa voices an Apatosaurus in the Pixar film 'The Good Dinosaur'.",
+        "answer": "Apatosaurus",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The university in Pullman, Washington is called Washington State University, it is not named after a specific person but rather the state of Washington.",
+        "answer": "Edward R. Murrow",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "the northwest tip of Canisteo Peninsula in Amundsen Sea",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I was not able to find specific information on the ethnic group that Marc Shiller belongs to. Ethnicity can be complex and multifaceted, encompassing elements like nationality, culture, ancestry, and self-identification. It's also private information that someone might or might not choose to disclose.",
+        "answer": "Argentine Americans",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "about 26,000.",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I was unable to find specific information on which film festival a movie featuring Carlo Buccirosso premiered at due to search restrictions.",
+        "answer": "Cannes Film Festival",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Aamir Khan is the younger brother in the duo that composed Aati Kya Khandala.",
+        "answer": "Lalit",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The British explorer who partnered with Mike Stroud on polar expeditions and holds several endurance records is Sir Ranulph Fiennes.",
+        "answer": "Sir Ranulph Twisleton-Wykeham-Fiennes",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Kevin Spacey",
+        "answer": "Kevin Spacey",
+        "score": 5.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The Doncaster Belles played against Knowsley United Women in the 1994 FA Women's Cup Final held at Glanford Park.",
+        "answer": "Knowsley United Women",
+        "score": 4.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Yes, Tímea Babos and Jack Sock are tennis players.",
+        "answer": "yes",
+        "score": 4.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The TV series that was directed and written by the same person as 'Buffy the Vampire Slayer' (Joss Whedon) and starred Tahmoh Penikett is 'Dollhouse'.",
+        "answer": "Dollhouse",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "'The Middle', the TV show where Charlie McDermott plays Axl Heck, premiered on September 30, 2009.",
+        "answer": "September 30, 2009",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Denmark men's national ice hockey",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The query does not provide enough information to determine the specific Nobel laureate to whom Clifford Odets is considered a successor.",
+        "answer": "American playwright and Nobel laureate in Literature",
+        "score": 1.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Nicholas Kristof",
+        "answer": "Nicholas Kristof",
+        "score": 5.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Daniel Patrick Moynihan was elected more times.",
+        "answer": "Daniel Patrick \"Pat\" Moynihan",
+        "score": 1.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I was unable to find the number of solo albums for both Marty Raybon and Greg Graffin. Therefore, I cannot determine who has more solo albums.",
+        "answer": "Gregory Walter Graffin",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The main character in Unbroken, Louis Zamperini, competed as a runner in the 1936 Olympics.",
+        "answer": "Olympic distance runner",
+        "score": 4.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Aaron Gordon, the MVP of the 2013 McDonald's All-American Boys Game, plays for the Denver Nuggets.",
+        "answer": "Orlando Magic",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I cannot confidently answer this query based on the information provided and my existing knowledge.",
+        "answer": "Knowsley United Women",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to answer the query.",
+        "answer": "its air-cushioned sole (dubbed \"Bouncing Soles\"), upper shape, welted construction and yellow stitching",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Washington State University in Pullman, Washington is named after George Washington, the first President of the United States.",
+        "answer": "Edward R. Murrow",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Allan McNish, a winner of the 2013 6 Hours of Silverstone, is a co-commentator for BBC Formula One coverage.",
+        "answer": "BBC Formula One",
+        "score": 4.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Sissy Spacek won an Academy Award for Best Actress for the Thomas Rickman film \"Coal Miner's Daughter.\"",
+        "answer": "Coal Miner's Daughter",
+        "score": 4.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to answer the query confidently.",
+        "answer": "Richard Masur",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The actor who appeared in both 'The Usual Suspects' (1995) and 'Baby Driver' (2017) is Kevin Spacey.",
+        "answer": "Kevin Spacey",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "No single director directed both 'Last Days' and 'Point Break'. 'Last Days' was directed by Gus Van Sant and 'Point Break' was directed by Kathryn Bigelow (1991 version) and Ericson Core (2015 version).",
+        "answer": "Kathryn Bigelow",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Kevin Spacey",
+        "answer": "Kevin Spacey",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I currently don't have enough information to determine which season of The Simpsons includes an episode co-written by Jennifer Ventimilia.",
+        "answer": "sixth season",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "280 to 366",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "4 April 1963",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Yes, both Norman Z. McLeod and Sam Wanamaker were directors.",
+        "answer": "yes",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Tim Roth gained recognition earlier than Polly Draper.",
+        "answer": "Timothy Simon \"Tim\" Roth",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Jaipur",
+        "answer": "Jaipur",
+        "score": 5.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "David May",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Yes, Bloody Mary and Sidecar share a common ingredient: lemon juice.",
+        "answer": "no",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Yes, Tímea Babos and Jack Sock are tennis players.",
+        "answer": "yes",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Raymond Ochoa voices the dinosaur Arlo in the Pixar film \"The Good Dinosaur\".",
+        "answer": "Apatosaurus",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I don't have enough information to answer your question.",
+        "answer": "Jim Carrey",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Liam Gallagher",
+        "answer": "Noel Gallagher",
+        "score": 1.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The team that drafted Derrick Hamilton in 2004, the San Francisco 49ers, belongs to the National Football Conference (NFC).",
+        "answer": "National Football Conference (NFC) West",
+        "score": 2.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "July 26, 1959",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to determine which band, Swervedriver or Incubus, was formed first.",
+        "answer": "Swervedriver",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The act that Whaling in Australia and Right whales have in common is the ban on whaling implemented by the Australian government in 1978.",
+        "answer": "hunt",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Raymond Ochoa voices an Apatosaurus named Arlo in the Pixar film 'The Good Dinosaur'.",
+        "answer": "Apatosaurus",
+        "score": 4.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Yes, both Norman Z. McLeod and Sam Wanamaker were directors.",
+        "answer": "yes",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "There were no adoptive brothers who served as co-emperors during the Nerva-Antonine dynasty.",
+        "answer": "Lucius Verus, Marcus Aurelius",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The query doesn't provide enough information to give an accurate answer.",
+        "answer": "BBC Formula One",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Potomac River",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Cannes Film Festival",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The 2010-2011 UEFA Champions League Final was held at Wembley Stadium in London.",
+        "answer": "Wembley",
+        "score": 4.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Bedknobs and Broomsticks is a British-influenced film. It is based upon the books by English children's author Mary Norton.",
+        "answer": "Bedknobs and Broomsticks",
+        "score": 3.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to answer the question accurately.",
+        "answer": "marker pen",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Knowsley United Women",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Gus Van Sant directed the film 'Last Days' and Kathryn Bigelow directed the film 'Point Break'. So, there is no single director who directed both films.",
+        "answer": "Kathryn Bigelow",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: When would be the professional wrestling video game release in which Mark Henry will appear as \"legend\"?",
+        "answer": "October 17, 2017",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: What relationship does Fred Gehrke have to the 23rd overall pick in the 2010 Major League Baseball Draft?",
+        "answer": "great-grandfather",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "American",
+        "answer": "American",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The Cascade Locks and Canal are located farther West than Lake Worth Lagoon.",
+        "answer": "Cascade Locks and Canal",
+        "score": 3.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Lisa Simpson converts to Buddhism in Season 13 of 'The Simpsons'.",
+        "answer": "\"The Simpsons\"' thirteenth season",
+        "score": 1.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The act that Whaling in Australia and Right whale have in common is whaling. Right whales were a preferred target for whalers due to their docile nature and high blubber content, and whaling was a major maritime industry in Australia where right whales were among the species hunted.",
+        "answer": "hunt",
+        "score": 2.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "The song by Soft Cell that was sampled in a Rihanna song is 'Tainted Love'. This sample is used in Rihanna's song 'SOS', which has three different video versions.",
+        "answer": "Tainted Love",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Beena Sarwar is the editor of the Aman ki Asha (Hope for Peace) initiative, which is jointly sponsored by the Jang group in Pakistan and the Times of India in India. Therefore, the initiative is based in two cities - one in Pakistan and one in India.",
+        "answer": "Karachi, Pakistan",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Hymenosporum is more closely related to the widespread genus Pittosporum.",
+        "answer": "Hymenosporum flavum",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Both the 2010–11 UEFA Champions League knockout phase and the 2011 UEFA Champions League Final were held at Wembley Stadium in London, England.",
+        "answer": "Wembley",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "The Airbus A350 XWB, which competes with the Boeing 777X, typically seats between 325 to 440 passengers depending on the specific model and configuration.",
+        "answer": "280 to 366",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Jennifer Ventimilia co-wrote the teleplay of the episode 'Round Springfield', which was part of the sixth season of The Simpsons.",
+        "answer": "sixth season",
+        "score": 2.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Václav Havel Airport",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: What is the birthday of the oldest among Vicente García and Ximena Sariñana?",
+        "answer": "March 30, 1983",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "The University Joe Odom played football for, Purdue University, is located in West Lafayette, Indiana, United States.",
+        "answer": "West Lafayette, Indiana",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Cranium and Twin Tin Bots are both board games.",
+        "answer": "games",
+        "score": 4.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Thought: {",
+        "answer": "Neha Sharma",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "The University that Joe Odom played football for, Purdue University, is located in West Lafayette, Indiana, United States.",
+        "answer": "West Lafayette, Indiana",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Greater Rochester International Airport",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: Which rock band based in Louisville, Kentucky released their second studio album in 2004?",
+        "answer": "Flaw",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Kevin Spacey was born on July 26, 1959.",
+        "answer": "July 26, 1959",
+        "score": 5.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I'm sorry, but I don't have enough information to answer your question.",
+        "answer": "Cannes Film Festival",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The younger brother in the composer duo that composed 'Aati Kya Khandala' is Lalit Pandit.",
+        "answer": "Lalit",
+        "score": 5.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I'm sorry, but I am unable to determine which is located farther West, the Cascade Locks and Canal or Lake Worth Lagoon, due to limitations in the available tools.",
+        "answer": "Cascade Locks and Canal",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Donald Cammell and Justin David Swibel have both held the same number of positions in the film industry.",
+        "answer": "Justin David Swibel",
+        "score": 2.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Minister for Social Protection",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The query doesn't provide enough information to determine the city in which the newspaper sponsoring the peace initiative that Beena Sarwar edits is based.",
+        "answer": "Karachi, Pakistan",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The University where Joe Odom played football for is located in Birmingham, Alabama, United States.",
+        "answer": "West Lafayette, Indiana",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to answer the query.",
+        "answer": "Minister for Social Protection",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to answer this question confidently without external resources.",
+        "answer": "Vice President George",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: License to Drive featured what future president of the Screen Actors Guild?",
+        "answer": "Richard Masur",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "David May",
+        "answer": "David May",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to answer the question.",
+        "answer": "Wes Archer",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Raymond Ochoa voices an Apatosaurus in the Pixar film 'The Good Dinosaur'.",
+        "answer": "Apatosaurus",
+        "score": 3.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: When was the American actor, film director which  Dana Brunetti is the president of his company born",
+        "answer": "July 26, 1959",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Sophia Dallas' husband was George Mifflin Dallas, who served as Vice President under the 11th president of the United States.",
+        "answer": "Vice President George",
+        "score": 4.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Gregory Walter Graffin",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "great-grandfather",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Other writers of the 20th century",
+        "answer": "theatre director",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Raymond S. Persi, the director of the Simpsons episode 'Little Big Girl', is of American nationality.",
+        "answer": "American",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Jim Carrey",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I cannot provide a confident answer to your query as my attempts to find this information have been unsuccessful.",
+        "answer": "Sir Ranulph Twisleton-Wykeham-Fiennes",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "No, Bloody Mary and Sidecar do not share any ingredients in common. Bloody Mary is made with vodka, tomato juice, and other spices and flavorings, while Sidecar is traditionally made with brandy, orange liqueur and lemon juice.",
+        "answer": "no",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to answer this query.",
+        "answer": "southwestern",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Cristiano Ronaldo",
+        "answer": "Nani",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to confidently answer this query.",
+        "answer": "Kristy Lee Cook",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Yes, both Tímea Babos and Jack Sock are tennis players.",
+        "answer": "yes",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "These businesses are considered to be chains.",
+        "answer": "restaurant chain",
+        "score": 2.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry but I cannot find any information about an album named by John Ruskin. John Ruskin was a prominent writer, art critic, and polymath of the Victorian era, known for his writings on a variety of subjects, but there is no record of him naming an album.",
+        "answer": "marker pen",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to answer the question.",
+        "answer": "Boston, Massachusetts",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Liam Gallagher",
+        "answer": "Noel Gallagher",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "2010 NCAA Division",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to answer this query without using external resources.",
+        "answer": "Bell's Brewery, Inc.",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The query does not provide enough information to determine when this person first served as President of Cuba.",
+        "answer": "1940",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "West Lafayette, Indiana",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to answer this question.",
+        "answer": "Orlando Magic",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Lisa Simpson converts to Buddhism in season 13 of 'The Simpsons'.",
+        "answer": "\"The Simpsons\"' thirteenth season",
+        "score": 1.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to answer this question.",
+        "answer": "Loud",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Engelbert Dollfuss, one of the signatories of the Rome Protocols, was assassinated as part of a failed coup attempt by Nazi agents.",
+        "answer": "a failed coup attempt",
+        "score": 4.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Tim Roth gained recognition earlier. He was nominated for the BAFTA Award for Most Promising Newcomer for his film debut The Hit in 1984. Polly Draper gained recognition for her starring role in the ABC drama television series Thirtysomething in 1987.",
+        "answer": "Timothy Simon \"Tim\" Roth",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "The movie \"License to Drive\" did not feature any future presidents of the Screen Actors Guild.",
+        "answer": "Richard Masur",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to answer the query.",
+        "answer": "Flaw",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Graham Norton, the host of the British Academy Television Awards 2009, was born on 4 April 1963.",
+        "answer": "4 April 1963",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Cranium and Twin Tin Bots are both board games.",
+        "answer": "games",
+        "score": 2.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Engelbert Dollfuss was assassinated as part of the July Putsch, a failed coup attempt by Austrian Nazis.",
+        "answer": "a failed coup attempt",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The query lacks sufficient information to provide an accurate answer.",
+        "answer": "Nani",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The host of the 'British Academy Television Awards 2009', Graham Norton, was born on 4 April 1963.",
+        "answer": "4 April 1963",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Rabies",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "American",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I was unable to find the longitude data for both Cascade Locks and Canal and Lake Worth Lagoon.",
+        "answer": "Cascade Locks and Canal",
+        "score": 2.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find the specific information about the current team Zdeno Chára is serving as captain for.",
+        "answer": "Boston, Massachusetts",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I was unable to find information on the location of the 642nd Aviation Support Battalion.",
+        "answer": "Greater Rochester International Airport",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Flaw",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: From which country is the largest known example of European Iron Age silver work?",
+        "answer": "Switzerland",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to answer the question.",
+        "answer": "Justin David Swibel",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Mads Bødker last played for the team SønderjyskE, which is controlled by Danmarks Ishockey Union.",
+        "answer": "Denmark men's national ice hockey",
+        "score": 1.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The band X had more stable members. The original members of X remained the same throughout their active years, while The La's frequently changed their line-up.",
+        "answer": "X",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Boston, Massachusetts",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The cause of the death of over 250 people in Accra, Ghana, was an explosion and a fire at a petrol station on June 3, 2015.",
+        "answer": "an explosion and a fire occurred at a petrol station",
+        "score": 4.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Swervedriver formed first in 1989, before Incubus which formed in 1991.",
+        "answer": "Swervedriver",
+        "score": 2.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "The company that was eventually replaced by the Suez Canal Authority was formed in 1858.",
+        "answer": "1858",
+        "score": 2.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "a failed coup attempt",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Rabies",
+        "answer": "Rabies",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to answer the question.",
+        "answer": "4 April 1963",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Lisa Simpson converts to Buddhism in Season 13 of The Simpsons.",
+        "answer": "\"The Simpsons\"' thirteenth season",
+        "score": 1.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Swervedriver was formed before Incubus.",
+        "answer": "Swervedriver",
+        "score": 2.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Vice President George",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Flossie Bailey received the Madam C. J. Walker Medal.",
+        "answer": "Madam C. J. Walker",
+        "score": 2.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "David May founded the company that Robinsons-May is a subsidiary of.",
+        "answer": "David May",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Travel Service, now known as Smartwings, has their head office located at Václav Havel Airport Prague in Ruzyně, 6th district, Prague, the capital of the Czech Republic.",
+        "answer": "Václav Havel Airport",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "St. Anthony Messenger and Revolver are both magazines.",
+        "answer": "magazine",
+        "score": 4.5,
+        "inference_type": "act"
+    },
+    {
+        "output": "The band 'X' had more stable members than 'The La's'.",
+        "answer": "X",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Kevin Spacey is the actor who appeared in both 'The Usual Suspects' and 'Baby Driver'.",
+        "answer": "Kevin Spacey",
+        "score": 5.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: Who directed both Last Days and Point Break?",
+        "answer": "Kathryn Bigelow",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The Manchester United and Portuguese national winger who scored a goal in the 2009 FA Community Shield is Nani.",
+        "answer": "Nani",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Neither Greater Rochester International Airport nor Valley International Airport is home to the 642nd Aviation Support Battalion.",
+        "answer": "Greater Rochester International Airport",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "José Rubia Barcia published a great number of books and articles on Valle Inclán, Unamuno, Federico García Lorca and other writers of the 20th century. So beyond being a Spanish poet and playwright, he also wrote about other writers of the 20th century.",
+        "answer": "theatre director",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Swervedriver formed first.",
+        "answer": "Swervedriver",
+        "score": 4.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "X",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to answer this query confidently.",
+        "answer": "Denmark men's national ice hockey",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Hymenosporum is more closely related to the widespread genus Pittosporum.",
+        "answer": "Hymenosporum flavum",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Based on the information provided, it can be assumed that Marc Shiller is likely of Argentine or Hispanic ethnicity. However, without more detailed information about his family background, culture, and personal identification, we can't say for certain.",
+        "answer": "Argentine Americans",
+        "score": 2.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: License to Drive featured what future president of the Screen Actors Guild?",
+        "answer": "Richard Masur",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Scotland",
+        "answer": "Switzerland",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find the information you're looking for.",
+        "answer": "Netflix",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to answer this query.",
+        "answer": "James Colin Campbell",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "A business such as Eatza Pizza or Pizza Fusion, which have more than 10 locations, is considered to be a chain.",
+        "answer": "restaurant chain",
+        "score": 2.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "The main character in Unbroken, Louis Zamperini, competed as a runner in the Olympics.",
+        "answer": "Olympic distance runner",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Jay Van Andel",
+        "answer": "Jay Van Andel",
+        "score": 5.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "\"Tainted Love\" by Soft Cell was sampled in Rihanna's song \"SOS\".",
+        "answer": "Tainted Love",
+        "score": 4.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to answer the query confidently.",
+        "answer": "Alfonso Cuarón",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Both Whaling in Australia and the Right whale are subject to conservation efforts under various laws and acts.",
+        "answer": "hunt",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to answer the query.",
+        "answer": "Saul og David",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Orlando Magic",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Engelbert Dollfuss, one of the signatories of the Rome Protocols, was assassinated as part of a failed coup attempt by Nazi agents.",
+        "answer": "a failed coup attempt",
+        "score": 4.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: What is the name of the company in Independent Hill, Virginia that is also headquartered in Houston Texas?",
+        "answer": "Citgo",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "The show is \"Friends\".",
+        "answer": "Friends",
+        "score": 4.5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "'The Middle' premiered on September 30, 2009.",
+        "answer": "September 30, 2009",
+        "score": 5.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I'm sorry, but with the available resources, I was unable to identify the artist who created the 'Scotch Hausen' album and their influences in electronic dance music.",
+        "answer": "hardcore",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "A business such as Eatza Pizza or Pizza Fusion, which have more than 10 locations, are considered to be a restaurant chain.",
+        "answer": "restaurant chain",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: Which is the younger brother in the composer duo that composed Aati Kya Khandala?",
+        "answer": "Lalit",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find the information you're looking for.",
+        "answer": "1698",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Hymenosporum is more closely related to the widespread genus Pittosporum.",
+        "answer": "Hymenosporum flavum",
+        "score": 1.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Fulgencio Batista, who had claimed that Fidel Castro was killed in the 26th July Movement but was proven wrong by Herbert Matthews, first served as President of Cuba in 1940.",
+        "answer": "1940",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "March 30, 1983",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The captain of the USS New Jersey, the only battleship to provide gunfire support during the Vietnam War, was Captain J. Edward Snyder Jr.",
+        "answer": "Rear Adm. J. Edward Snyder",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "\"Dollhouse\"",
+        "answer": "Dollhouse",
+        "score": 5.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find the information you're looking for.",
+        "answer": "July 26, 1959",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Daniel Patrick Moynihan was elected more times.",
+        "answer": "Daniel Patrick \"Pat\" Moynihan",
+        "score": 1.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: For which Thomas Rickman film did Sissy Spacek win an Academy Award for Best Actress?",
+        "answer": "Coal Miner's Daughter",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The album 'Loud' was released before 'Talk That Talk'.",
+        "answer": "Loud",
+        "score": 1.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "its air-cushioned sole (dubbed \"Bouncing Soles\"), upper shape, welted construction and yellow stitching",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The query does not provide enough information to determine when the eighth season was renewed for the series starring Al Harrington.",
+        "answer": "March 23, 2017",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "No, neither 'The Day the Universe Changed' nor 'Lennon or McCartney' are American documentary short films. The former is a British documentary television series and the latter is a Canadian documentary short film.",
+        "answer": "no",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find the exact number of solo albums for Marty Raybon and Greg Graffin due to some issues with the tools. Therefore, I am unable to answer your question.",
+        "answer": "Gregory Walter Graffin",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Saul og David",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I'm unable to find specific information about an event that caused the death of over 250 people in Accra, Ghana.",
+        "answer": "an explosion and a fire occurred at a petrol station",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The query does not provide enough information to determine a specific season. The UCF Knights represent the University of Central Florida in various sports across different seasons throughout the year.",
+        "answer": "2010 NCAA Division",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Eugene O'Neill",
+        "answer": "American playwright and Nobel laureate in Literature",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: Which is the younger brother in the composer duo that composed Aati Kya Khandala?",
+        "answer": "Lalit",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Friends",
+        "answer": "Friends",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I wasn't able to find any information on the 'Scotch Hausen' album or its artist. Therefore, I cannot provide information on who influenced the electronic dance music artist who made this album.",
+        "answer": "hardcore",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I'm sorry, but I was unable to find any specific footwear brand referenced in the album Pork Soda. It seems that 'Pork Soda' is an album by the American rock band Primus and there is no clear information about any footwear brand associated with it.",
+        "answer": "its air-cushioned sole (dubbed \"Bouncing Soles\"), upper shape, welted construction and yellow stitching",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Karachi, Pakistan",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The House of Hohenzollern arose in the town of Hechingen.",
+        "answer": "Hechingen in Swabia",
+        "score": 2.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Zdeno Chára is not currently serving as the captain of any team. He last served as the captain of the Boston Bruins.",
+        "answer": "Boston, Massachusetts",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Nani",
+        "answer": "Nani",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Easy",
+        "answer": "Netflix",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Based on the information gathered, both Donald Cammell and Justin David Swibel have held multiple positions in the film industry. Donald Cammell has worked as a painter, screenwriter, and film director. Justin David Swibel has worked as a screenwriter, director, and producer. It's hard to compare the two directly as their roles are different, but in terms of sheer number of roles, Justin David Swibel has held more positions in the film industry.",
+        "answer": "Justin David Swibel",
+        "score": 2.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "The CNN journalist and two-time Pulitzer winner who inspired the Half the Sky Movement is Nicholas Kristof.",
+        "answer": "Nicholas Kristof",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Neha Sharma",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I am currently unable to obtain the information needed to answer your question.",
+        "answer": "Flaw",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Justin David Swibel",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Yes, both Bloody Mary and Sidecar cocktails share lemon juice as a common ingredient.",
+        "answer": "no",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The National Park that contains both the Thornton River and the Blue Ridge Mountains is the Shenandoah National Park.",
+        "answer": "Shenandoah National Park",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "southwestern",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The population of London, where Deep Purple was formed, was about 9.8 million in 2011.",
+        "answer": "about 26,000.",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "No, both The Day the Universe Changed and Lennon or McCartney are not American documentary short films.",
+        "answer": "no",
+        "score": 4.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The TV show 'The Middle' featuring Charlie McDermott as Axl Heck premiered on September 30, 2009.",
+        "answer": "September 30, 2009",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "George Mifflin Dallas",
+        "answer": "Vice President George",
+        "score": 2.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to answer the query.",
+        "answer": "hardcore",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Madam C. J. Walker",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Lucius Verus and Marcus Aurelius were adoptive brothers who were co-emperors of Rome during the Nerva-Antonine dynasty.",
+        "answer": "Lucius Verus, Marcus Aurelius",
+        "score": 4.5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: What is the name of the series who's first season was released on Netflix on September 22, 2016 and stars actor pronounced as John-a-kite?",
+        "answer": "Netflix",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "The team that drafted Derrick Hamilton in 2004, the San Francisco 49ers, belongs to the National Football Conference (NFC).",
+        "answer": "National Football Conference (NFC) West",
+        "score": 2.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: What singer who was the seventh place finalist on the 7th season of American Idol first recorded the song Like My Mother Does",
+        "answer": "Kristy Lee Cook",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Mads Bødker lastly played for SønderjyskE of the Danish Metal Ligaen.",
+        "answer": "Denmark men's national ice hockey",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to answer the query.",
+        "answer": "March 30, 1983",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Wes Archer",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "IWC Schaffhausen",
+        "answer": "International Watch Co.",
+        "score": 2.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: For which Thomas Rickman film did Sissy Spacek win an Academy Award for Best Actress?",
+        "answer": "Coal Miner's Daughter",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Kristy Lee Cook",
+        "answer": "Kristy Lee Cook",
+        "score": 5.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "I don't have enough information to answer this query.",
+        "answer": "Potomac River",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: Was Lee Grant or Colin Campbell born first?",
+        "answer": "James Colin Campbell",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: What river runs along the neighborhood where Ashley Estes Kavanaugh's wedding was held?",
+        "answer": "Potomac River",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Hechingen",
+        "answer": "Hechingen in Swabia",
+        "score": 4.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Liam Gallagher",
+        "answer": "Noel Gallagher",
+        "score": 1.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The Leader of Fine Gael from 2016 to 2017, Leo Varadkar, held the position of Minister for Social Protection.",
+        "answer": "Minister for Social Protection",
+        "score": 4.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Gérald Genta worked with the luxury Swiss watch manufacturer IWC Schaffhausen, which was founded by American watchmaker Florentine Ariosto Jones.",
+        "answer": "International Watch Co.",
+        "score": 2.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Simon Harris, the current Leader of Fine Gael, served as the Minister for Health from 2016 until 2017.",
+        "answer": "Minister for Social Protection",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Tim Roth gained recognition earlier than Polly Draper.",
+        "answer": "Timothy Simon \"Tim\" Roth",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to answer this query.",
+        "answer": "Gregory Walter Graffin",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find information about a footwear brand referenced in the album Pork Soda.",
+        "answer": "its air-cushioned sole (dubbed \"Bouncing Soles\"), upper shape, welted construction and yellow stitching",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Alfonso Cuarón",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Kathryn Bigelow directed Point Break, but Gus Van Sant directed Last Days. There is no single director who directed both films.",
+        "answer": "Kathryn Bigelow",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The TV show \"The Middle,\" featuring Charlie McDermott as Axl Heck, premiered on September 30, 2009.",
+        "answer": "September 30, 2009",
+        "score": 5.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Vaclav Havel Airport",
+        "answer": "Václav Havel Airport",
+        "score": 5.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Jay Van Andel",
+        "answer": "Jay Van Andel",
+        "score": 5.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Based on the information provided, it is likely that Fred Gehrke does not have a direct relationship to the 23rd overall pick in the 2010 Major League Baseball Draft.",
+        "answer": "great-grandfather",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The team that drafted Derrick Hamilton in 2004, the San Francisco 49ers, belongs to the National Football Conference (NFC).",
+        "answer": "National Football Conference (NFC) West",
+        "score": 2.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The query does not provide enough information to determine the answer.",
+        "answer": "1698",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The lead vocals on the Oasis hit single 'Some Might Say', which had an acoustic debut in drummer Tony McCarroll's last concert, were sang by Liam Gallagher.",
+        "answer": "Noel Gallagher",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Yes, Bloody Mary and Sidecar share a common ingredient, which is lemon juice.",
+        "answer": "no",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "'Bedknobs and Broomsticks' is a British-influenced film.",
+        "answer": "Bedknobs and Broomsticks",
+        "score": 3.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I don't have enough information to answer the query.",
+        "answer": "Rabies",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The House of Hohenzollern, that Prince Michael of Prussia was a member of, arose in the town of Hechingen.",
+        "answer": "Hechingen in Swabia",
+        "score": 2.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "'Friends'",
+        "answer": "Friends",
+        "score": 5.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The query does not provide enough information to determine the name of the company.",
+        "answer": "Citgo",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The act that Whaling in Australia and Right whales have in common is the act of hunting or whaling. However, this practice is now largely outlawed.",
+        "answer": "hunt",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The University in Pullman, Washington is named after George Washington.",
+        "answer": "Edward R. Murrow",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Jaipur",
+        "answer": "Jaipur",
+        "score": 5.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The British explorer and holder of several endurance records who partnered with Mike Stroud on polar expeditions is Ranulph Fiennes.",
+        "answer": "Sir Ranulph Twisleton-Wykeham-Fiennes",
+        "score": 4.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Free Range Films",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Eugene O'Neill",
+        "answer": "American playwright and Nobel laureate in Literature",
+        "score": 1.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I don't have enough information to answer the question.",
+        "answer": "American",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "I'm sorry, but I don't have enough information to answer your question.",
+        "answer": "Potomac River",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find the information about the largest known example of European Iron Age silver work.",
+        "answer": "Switzerland",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "The show that aired on NBC from September 22, 1994, to May 6, 2004, and has the fifteenth episode entitled, 'The One with the Girl Who Hits Joey' is 'Friends'.",
+        "answer": "Friends",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "I'm sorry, but I am unable to find the information you're asking for because the search requests are failing due to too many attempts. Please try again later.",
+        "answer": "Greater Rochester International Airport",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Wembley Stadium",
+        "answer": "Wembley",
+        "score": 4.5,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: Which dog breed, the Schapendoes or the Bull Terrier, has its origins in a greater number of other dog breeds?",
+        "answer": "Bull Terrier",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "I'm sorry, but I couldn't find a satisfactory answer within the allowed number of iterations. Here's what I know so far: user: Which was published first Polarity or The Farming Game?",
+        "answer": "The Farming Game",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Cranium and Twin Tin Bots are both board games.",
+        "answer": "games",
+        "score": 2.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The query is too vague. Please provide more details such as the specific sport and year.",
+        "answer": "2010 NCAA Division",
+        "score": 0.0,
+        "inference_type": "react"
+    }
+]
