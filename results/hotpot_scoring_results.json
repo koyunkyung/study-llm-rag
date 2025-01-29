@@ -1,0 +1,2402 @@
+[
+    {
+        "output": "4 April 1963",
+        "answer": "4 April 1963",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Václav Havel Airport.",
+        "answer": "Václav Havel Airport",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Denver Nuggets",
+        "answer": "Orlando Magic",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Apatosaurus",
+        "answer": "Apatosaurus",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Jaipur",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Rabies",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "marker pen",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Cannes Film Festival",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "sixth season",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "IWC Schaffhausen",
+        "answer": "International Watch Co.",
+        "score": 4.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "magazine",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "X",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Yes",
+        "answer": "yes",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Friends",
+        "answer": "Friends",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Hechingen",
+        "answer": "Hechingen in Swabia",
+        "score": 3.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Karachi",
+        "answer": "Karachi, Pakistan",
+        "score": 4.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "July Putsch",
+        "answer": "a failed coup attempt",
+        "score": 1.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Shenandoah National Park",
+        "answer": "Shenandoah National Park",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Free Range Films",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "a failed coup attempt",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "theatre director",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Information not found",
+        "answer": "Switzerland",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Wes Archer",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Cannes Film Festival",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Citgo",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "James Colin Campbell",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "No",
+        "answer": "no",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Yes",
+        "answer": "yes",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Swervedriver",
+        "answer": "Swervedriver",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Bull Terrier",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Neha Sharma",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "1858",
+        "answer": "1858",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Boston, Massachusetts",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Daniel Patrick \"Pat\" Moynihan",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "The Farming Game",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "October 17, 2017",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Gus Van Sant, Kathryn Bigelow",
+        "answer": "Kathryn Bigelow",
+        "score": 4.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "National Football Conference (NFC) West",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "National Football Conference",
+        "answer": "National Football Conference (NFC) West",
+        "score": 3.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "the northwest tip of Canisteo Peninsula in Amundsen Sea",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Saul og David",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Netflix",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Wembley Stadium",
+        "answer": "Wembley",
+        "score": 4.5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Kristy Lee Cook",
+        "answer": "Kristy Lee Cook",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "1940",
+        "answer": "1940",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "SønderjyskE",
+        "answer": "Denmark men's national ice hockey",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Boston, Massachusetts, United States",
+        "answer": "Boston, Massachusetts",
+        "score": 4.5,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Knowsley United Women",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "July 26, 1959",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Madam C. J. Walker",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Lemon juice",
+        "answer": "no",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Liam Gallagher",
+        "answer": "Noel Gallagher",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Whaling",
+        "answer": "hunt",
+        "score": 2.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Shenandoah National Park",
+        "answer": "Shenandoah National Park",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "'Loud'",
+        "answer": "Loud",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Lalit Pandit",
+        "answer": "Lalit",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Season 13",
+        "answer": "\"The Simpsons\"' thirteenth season",
+        "score": 2.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Karachi, Pakistan",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Tainted Love",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "1698",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Jay Van Andel",
+        "answer": "Jay Van Andel",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Yes",
+        "answer": "yes",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "State of Washington",
+        "answer": "Edward R. Murrow",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Rabies",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "George Mifflin Dallas",
+        "answer": "Vice President George",
+        "score": 2.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "'Tainted Love'",
+        "answer": "Tainted Love",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Yes",
+        "answer": "yes",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "October 17, 2017",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Václav Havel Airport",
+        "answer": "Václav Havel Airport",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Daniel Patrick Moynihan",
+        "answer": "Daniel Patrick \"Pat\" Moynihan",
+        "score": 4.5,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "March 23, 2017",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "David May",
+        "answer": "David May",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Citgo",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "4 April 1963",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Bull Terrier",
+        "answer": "Bull Terrier",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Minister for Social Protection",
+        "answer": "Minister for Social Protection",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "the northwest tip of Canisteo Peninsula in Amundsen Sea",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Flaw",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Alfonso Cuarón",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Coal Miner's Daughter",
+        "answer": "Coal Miner's Daughter",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "All seasons",
+        "answer": "2010 NCAA Division",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Karachi, Pakistan",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Magazines",
+        "answer": "magazine",
+        "score": 4.5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Abu Malik",
+        "answer": "Lalit",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "David May",
+        "answer": "David May",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Lemon juice",
+        "answer": "no",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "West Lafayette, Indiana",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Coal Miner's Daughter",
+        "answer": "Coal Miner's Daughter",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "X",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Southwestern corner",
+        "answer": "southwestern",
+        "score": 4.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Greater Rochester International Airport",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Alfonso Cuarón",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Bedknobs and Broomsticks",
+        "answer": "Bedknobs and Broomsticks",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "David May",
+        "answer": "David May",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Knowsley United Women",
+        "answer": "Knowsley United Women",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Free Range Films",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "International Watch Co.",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Greater Rochester International Airport",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Flaw",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Gregory Walter Graffin",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "280 to 366",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Nani",
+        "answer": "Nani",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "IWC",
+        "answer": "International Watch Co.",
+        "score": 4.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "hardcore",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Sixth",
+        "answer": "sixth season",
+        "score": 2.5,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "James Colin Campbell",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "BBC Formula One",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Wembley Stadium",
+        "answer": "Wembley",
+        "score": 4.5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Cascade Locks and Canal",
+        "answer": "Cascade Locks and Canal",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "October 17, 2017",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "'Coal Miner's Daughter'",
+        "answer": "Coal Miner's Daughter",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Chiwetel Ejiofor",
+        "answer": "Chiwetel Ejiofor",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Chain of restaurants",
+        "answer": "restaurant chain",
+        "score": 5.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Jay Van Andel",
+        "answer": "Jay Van Andel",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "1858",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Swervedriver",
+        "answer": "Swervedriver",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "American",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Marty Raybon",
+        "answer": "Gregory Walter Graffin",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Lalit",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "1858",
+        "answer": "1858",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "1858",
+        "answer": "1858",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "BBC Formula One",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Potomac River",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Cascade Locks and Canal",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "James Colin Campbell",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "marker pen",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Argentine Americans",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "July 26, 1959",
+        "answer": "July 26, 1959",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Knowsley United Women",
+        "answer": "Knowsley United Women",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Yes",
+        "answer": "yes",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Argentine Americans",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Marcus Aurelius and Lucius Verus",
+        "answer": "Lucius Verus, Marcus Aurelius",
+        "score": 5.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Vaclav Havel Airport",
+        "answer": "Václav Havel Airport",
+        "score": 5.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Chain",
+        "answer": "restaurant chain",
+        "score": 2.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "games",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Apatosaurus",
+        "answer": "Apatosaurus",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "theatre director",
+        "answer": "theatre director",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Wes Archer",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Switzerland",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "About 9.8 million",
+        "answer": "about 26,000.",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "A failed coup attempt by Nazi agents",
+        "answer": "a failed coup attempt",
+        "score": 4.5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Hymenosporum",
+        "answer": "Hymenosporum flavum",
+        "score": 4.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "games",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Richard Masur",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Shenandoah National Park",
+        "answer": "Shenandoah National Park",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Netflix",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "southwestern",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "July 26, 1959",
+        "answer": "July 26, 1959",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "great-grandfather",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Neha Sharma",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Yes",
+        "answer": "yes",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Swervedriver",
+        "answer": "Swervedriver",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "March 30, 1983",
+        "answer": "March 30, 1983",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "1940",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "1940",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "October 17, 2017",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Tim Roth",
+        "answer": "Timothy Simon \"Tim\" Roth",
+        "score": 4.5,
+        "inference_type": "react"
+    },
+    {
+        "output": "13th season",
+        "answer": "\"The Simpsons\"' thirteenth season",
+        "score": 3.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Bell's Brewery, Inc.",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Kathryn Bigelow",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Kalamazoo, Michigan",
+        "answer": "Bell's Brewery, Inc.",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Loud",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Airwalk's focus on skate culture and athletic footwear",
+        "answer": "its air-cushioned sole (dubbed \"Bouncing Soles\"), upper shape, welted construction and yellow stitching",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Minister for Health",
+        "answer": "Minister for Social Protection",
+        "score": 2.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "13",
+        "answer": "\"The Simpsons\"' thirteenth season",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Potomac River",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Hechingen",
+        "answer": "Hechingen in Swabia",
+        "score": 4.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "March 30, 1983",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Bell's Brewery, Inc.",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Magazines",
+        "answer": "magazine",
+        "score": 4.5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Whaling",
+        "answer": "hunt",
+        "score": 2.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Václav Havel Airport Prague",
+        "answer": "Václav Havel Airport",
+        "score": 4.5,
+        "inference_type": "act"
+    },
+    {
+        "output": "4 April 1963",
+        "answer": "4 April 1963",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Chiwetel Ejiofor",
+        "answer": "Chiwetel Ejiofor",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Hechingen",
+        "answer": "Hechingen in Swabia",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Kevin Spacey",
+        "answer": "Kevin Spacey",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Loud",
+        "answer": "Loud",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "its air-cushioned sole (dubbed \"Bouncing Soles\"), upper shape, welted construction and yellow stitching",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "March 23, 2017",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Nicholas Kristof",
+        "answer": "Nicholas Kristof",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "September 30, 2009",
+        "answer": "September 30, 2009",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "great-grandfather",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Daniel Patrick Moynihan",
+        "answer": "Daniel Patrick \"Pat\" Moynihan",
+        "score": 4.5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Saul og David",
+        "answer": "Saul og David",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "David May",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Chains or franchises",
+        "answer": "restaurant chain",
+        "score": 4.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Gregory Walter Graffin",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "George Mifflin Dallas",
+        "answer": "Vice President George",
+        "score": 2.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "the northwest tip of Canisteo Peninsula in Amundsen Sea",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Captain J. Edward Snyder Jr.",
+        "answer": "Rear Adm. J. Edward Snyder",
+        "score": 3.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Rabies",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Friends",
+        "answer": "Friends",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Dollhouse",
+        "answer": "Dollhouse",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Nicholas Donabet Kristof",
+        "answer": "Nicholas Kristof",
+        "score": 4.5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Failed coup attempt by Nazi agents",
+        "answer": "a failed coup attempt",
+        "score": 4.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Neha Sharma",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "National Football Conference (NFC) West",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Dollhouse",
+        "answer": "Dollhouse",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Unclear",
+        "answer": "Justin David Swibel",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Neha Sharma",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "No",
+        "answer": "no",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Netflix",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "SønderjyskE",
+        "answer": "Denmark men's national ice hockey",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Bull Terrier",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Yes, lemon juice.",
+        "answer": "no",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Wembley Stadium",
+        "answer": "Wembley",
+        "score": 4.5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "West Lafayette, Indiana, USA",
+        "answer": "West Lafayette, Indiana",
+        "score": 4.5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Hymenosporum",
+        "answer": "Hymenosporum flavum",
+        "score": 4.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Wes Archer",
+        "answer": "Wes Archer",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "270 to 440",
+        "answer": "280 to 366",
+        "score": 2.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Orlando Magic",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "George Washington",
+        "answer": "Edward R. Murrow",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Bedknobs and Broomsticks",
+        "answer": "Bedknobs and Broomsticks",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Saul og David",
+        "answer": "Saul og David",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Alyssa Milano",
+        "answer": "Richard Masur",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Swervedriver",
+        "answer": "Swervedriver",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Free Range Films",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "marker pen",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "about 26,000.",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "George Washington",
+        "answer": "Edward R. Murrow",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Alfonso Cuarón",
+        "answer": "Alfonso Cuarón",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Not named after a specific individual",
+        "answer": "Edward R. Murrow",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "March 23, 2017",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Washington D.C., United States",
+        "answer": "Boston, Massachusetts",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "The Farming Game",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "4 April 1963",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "BBC Formula One",
+        "answer": "BBC Formula One",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "July 26, 1959",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Potomac River",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "marker pen",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "2010 NCAA Division",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "September 30, 2009",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Jim Carrey",
+        "answer": "Jim Carrey",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "West Lafayette, Indiana",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Kevin Spacey",
+        "answer": "Kevin Spacey",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Kristy Lee Cook",
+        "answer": "Kristy Lee Cook",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Vice President George",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "its air-cushioned sole (dubbed \"Bouncing Soles\"), upper shape, welted construction and yellow stitching",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "American",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Jaipur",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Coal Miner's Daughter",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Nani",
+        "answer": "Nani",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "No one",
+        "answer": "Kathryn Bigelow",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Justin David Swibel",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Denmark men's national ice hockey",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "about 26,000.",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Argentine Americans",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Hechingen in Swabia",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Arlo, an Apatosaurus.",
+        "answer": "Apatosaurus",
+        "score": 4.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "magazine",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Easy",
+        "answer": "Netflix",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Jay Van Andel",
+        "answer": "Jay Van Andel",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "No",
+        "answer": "no",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Hymenosporum flavum",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "hardcore",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Flaw",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Jim Carrey",
+        "answer": "Jim Carrey",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Bell's Brewery, Inc.",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "'Saul og David'",
+        "answer": "Saul og David",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Eugene O'Neill",
+        "answer": "American playwright and Nobel laureate in Literature",
+        "score": 1.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Jim Carrey",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Yes",
+        "answer": "yes",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Citgo",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "'Friends'",
+        "answer": "Friends",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Marcus Aurelius and Lucius Verus",
+        "answer": "Lucius Verus, Marcus Aurelius",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Boston",
+        "answer": "Karachi, Pakistan",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "1698",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "southwestern",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "The Farming Game",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Olympic distance runner",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "2015 flooding and fire disaster",
+        "answer": "an explosion and a fire occurred at a petrol station",
+        "score": 1.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Rear Adm. J. Edward Snyder",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Greater Rochester International Airport",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "great-grandfather",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "great-grandfather",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "its air-cushioned sole (dubbed \"Bouncing Soles\"), upper shape, welted construction and yellow stitching",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Southwestern corner",
+        "answer": "southwestern",
+        "score": 4.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Nicholas D. Kristof",
+        "answer": "Nicholas Kristof",
+        "score": 4.5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "13",
+        "answer": "\"The Simpsons\"' thirteenth season",
+        "score": 1.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Bedknobs and Broomsticks",
+        "answer": "Bedknobs and Broomsticks",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "No",
+        "answer": "no",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "American playwright and Nobel laureate in Literature",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "1940",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "March 30, 1983",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "X",
+        "answer": "X",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Board games",
+        "answer": "games",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Citgo",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Madam C. J. Walker",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Potomac River",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The Farming Game",
+        "answer": "The Farming Game",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Competed in the 5,000-meter race",
+        "answer": "Olympic distance runner",
+        "score": 2.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Bull Terrier",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Jay Van Andel",
+        "answer": "Jay Van Andel",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Timothy Simon \"Tim\" Roth",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Tainted Love",
+        "answer": "Tainted Love",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Nicholas Kristof",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "an explosion and a fire occurred at a petrol station",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "1698",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Madam C. J. Walker Medal",
+        "answer": "Madam C. J. Walker",
+        "score": 4.5,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Justin David Swibel",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Cascade Locks and Canal",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "George Mifflin Dallas",
+        "answer": "Vice President George",
+        "score": 2.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "National Football Conference",
+        "answer": "National Football Conference (NFC) West",
+        "score": 3.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Lalit",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Jaipur",
+        "answer": "Jaipur",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Wembley Stadium",
+        "answer": "Wembley",
+        "score": 4.5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Prohibition or ban on whaling",
+        "answer": "hunt",
+        "score": 1.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Kristy Lee Cook",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Friends",
+        "answer": "Friends",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "280 to 366",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Denmark men's national ice hockey",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Yes",
+        "answer": "yes",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "1698",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "He competed in the 5,000 m race in the 1936 Berlin Olympics, finishing 8th and setting a new lap record.",
+        "answer": "Olympic distance runner",
+        "score": 3.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "September 30, 2009",
+        "answer": "September 30, 2009",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Kevin Spacey",
+        "answer": "Kevin Spacey",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Explosion and fire at a petrol station",
+        "answer": "an explosion and a fire occurred at a petrol station",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Chiwetel Ejiofor",
+        "answer": "Chiwetel Ejiofor",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Bedknobs and Broomsticks",
+        "answer": "Bedknobs and Broomsticks",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Sir Ranulph Fiennes",
+        "answer": "Sir Ranulph Twisleton-Wykeham-Fiennes",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Explosion and fire at a petrol station",
+        "answer": "an explosion and a fire occurred at a petrol station",
+        "score": 4.5,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "2010 NCAA Division",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "'Loud'",
+        "answer": "Loud",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Scotland",
+        "answer": "Switzerland",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Apatosaurus",
+        "answer": "Apatosaurus",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Need more details",
+        "answer": "2010 NCAA Division",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Noel Gallagher",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "writers of the 20th century and political essays",
+        "answer": "theatre director",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "hardcore",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "March 30, 1983",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Sir Ranulph Fiennes",
+        "answer": "Sir Ranulph Twisleton-Wykeham-Fiennes",
+        "score": 4.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "James Colin Campbell",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Greater Rochester International Airport",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Wes Archer",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Boston, Massachusetts",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Jim Carrey",
+        "answer": "Jim Carrey",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Marcus Aurelius and Lucius Verus",
+        "answer": "Lucius Verus, Marcus Aurelius",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Sir Ranulph Fiennes",
+        "answer": "Sir Ranulph Twisleton-Wykeham-Fiennes",
+        "score": 4.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "International Watch Company (IWC)",
+        "answer": "International Watch Co.",
+        "score": 5.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Kristy Lee Cook",
+        "answer": "Kristy Lee Cook",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Rear Adm. J. Edward Snyder",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Lucius Verus and Marcus Aurelius",
+        "answer": "Lucius Verus, Marcus Aurelius",
+        "score": 5.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "sixth season",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Knowsley United Women",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Protection",
+        "answer": "hunt",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Minister for Social Protection",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "300 to 410",
+        "answer": "280 to 366",
+        "score": 2.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Timothy Simon \"Tim\" Roth",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "American",
+        "answer": "American",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Cannes Film Festival",
+        "answer": "Cannes Film Festival",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Jaipur",
+        "answer": "Jaipur",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "about 26,000.",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "hardcore",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "West Lafayette, Indiana, United States",
+        "answer": "West Lafayette, Indiana",
+        "score": 4.5,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Sir Ranulph Twisleton-Wykeham-Fiennes",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Richard Masur",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "theatre director",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Gregory Walter Graffin",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "BBC Formula One coverage",
+        "answer": "BBC Formula One",
+        "score": 4.5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Board games",
+        "answer": "games",
+        "score": 4.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "American playwright and Nobel laureate in Literature",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Shenandoah National Park",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Minister for Social Protection",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Denver Nuggets",
+        "answer": "Orlando Magic",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Dollhouse",
+        "answer": "Dollhouse",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Ran in the 1936 Berlin Olympics.",
+        "answer": "Olympic distance runner",
+        "score": 2.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Nani",
+        "answer": "Nani",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Madam C. J. Walker",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Richard Masur",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Argentine Americans",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "American",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Kathryn Bigelow",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Free Range Films",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Liam Gallagher",
+        "answer": "Noel Gallagher",
+        "score": 1.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Nani",
+        "answer": "Nani",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Chain business or Franchise",
+        "answer": "restaurant chain",
+        "score": 3.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Dollhouse",
+        "answer": "Dollhouse",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Cascade Locks and Canal",
+        "answer": "Cascade Locks and Canal",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Daniel Patrick Moynihan",
+        "answer": "Daniel Patrick \"Pat\" Moynihan",
+        "score": 4.5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Tim Roth",
+        "answer": "Timothy Simon \"Tim\" Roth",
+        "score": 4.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "September 30, 2009",
+        "answer": "September 30, 2009",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Chiwetel Ejiofor",
+        "answer": "Chiwetel Ejiofor",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Cannes Film Festival",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Liam Gallagher",
+        "answer": "Noel Gallagher",
+        "score": 1.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "Rear Adm. J. Edward Snyder",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "Alfonso Cuarón",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Eugene O'Neill",
+        "answer": "American playwright and Nobel laureate in Literature",
+        "score": 1.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "Rabies",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Denmark",
+        "answer": "Switzerland",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "March 23, 2017",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Kevin Spacey",
+        "answer": "Kevin Spacey",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Minnesota Timberwolves",
+        "answer": "Orlando Magic",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "X",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "Hymenosporum",
+        "answer": "Hymenosporum flavum",
+        "score": 4.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "the northwest tip of Canisteo Peninsula in Amundsen Sea",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "Flaw",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "sixth season",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "They have held the same number of positions",
+        "answer": "Justin David Swibel",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "'Tainted Love'",
+        "answer": "Tainted Love",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "no",
+        "score": 0.0,
+        "inference_type": "cot"
+    }
+]
