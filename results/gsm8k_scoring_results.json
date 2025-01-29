@@ -1,0 +1,2402 @@
+[
+    {
+        "output": "180",
+        "answer": "180",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "240",
+        "answer": "240",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "15",
+        "answer": "18",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "11",
+        "answer": "11",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "900",
+        "answer": "900",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "18",
+        "answer": "18",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "240",
+        "answer": "240",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "48",
+        "answer": "48",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "10000",
+        "answer": "10000",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "26",
+        "answer": "26",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "216",
+        "answer": "216",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "24",
+        "answer": "24",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "8",
+        "answer": "8",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "50",
+        "answer": "50",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "10",
+        "answer": "10",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "630",
+        "answer": "630",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "10",
+        "answer": "10",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "1",
+        "answer": "1",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "25",
+        "answer": "25",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "32",
+        "answer": "32",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "26",
+        "answer": "26",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "15",
+        "answer": "15",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "150",
+        "answer": "150",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "186",
+        "answer": "127",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "9",
+        "answer": "9",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "36",
+        "answer": "36",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "2",
+        "answer": "2",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "15",
+        "answer": "15",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "50",
+        "answer": "80",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "27200",
+        "answer": "27,200",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "290",
+        "answer": "290",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "38.00",
+        "answer": "40",
+        "score": 3.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "84.0",
+        "answer": "84",
+        "score": 5.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "110",
+        "answer": "110",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "20",
+        "answer": "20",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "150",
+        "answer": "150",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "11",
+        "answer": "11",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "290",
+        "answer": "290",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "None",
+        "answer": "525",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "52",
+        "answer": "52",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "810",
+        "answer": "630",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "36%",
+        "answer": "24",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "121",
+        "answer": "121",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "250",
+        "answer": "250",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "84",
+        "answer": "84",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "130,000",
+        "answer": "60000",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "165",
+        "answer": "165",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "60000",
+        "answer": "60000",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "5.60",
+        "answer": "3",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "900",
+        "answer": "900",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "9",
+        "answer": "9",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "38",
+        "answer": "38",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "2150",
+        "answer": "1700",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "2080",
+        "answer": "400",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "11",
+        "answer": "11",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "18",
+        "answer": "18",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "600",
+        "answer": "600",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "150",
+        "answer": "150",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "48",
+        "answer": "48",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "11",
+        "answer": "11",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "300",
+        "answer": "300",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "127",
+        "answer": "127",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "95",
+        "answer": "95",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "42",
+        "answer": "42",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "48",
+        "answer": "48",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "6",
+        "answer": "6",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "50",
+        "answer": "50",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "832",
+        "answer": "832",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "3020",
+        "answer": "3030",
+        "score": 4.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "48",
+        "answer": "48",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "16",
+        "answer": "16",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "224",
+        "answer": "224",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "24, 72",
+        "answer": "96",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "400",
+        "answer": "400",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "2000",
+        "answer": "2000",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "95.00",
+        "answer": "95",
+        "score": 5.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "60",
+        "answer": "60",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "48.00",
+        "answer": "48",
+        "score": 5.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "180",
+        "answer": "180",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "4600",
+        "answer": "5950",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "165",
+        "answer": "165",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "10",
+        "answer": "12",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "1200",
+        "answer": "900",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "10",
+        "answer": "10",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "180",
+        "answer": "180",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "100",
+        "answer": "100",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "42",
+        "answer": "42",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "10",
+        "answer": "10",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "20",
+        "answer": "9",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "29600",
+        "answer": "27,200",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "26",
+        "answer": "26",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "11",
+        "answer": "11",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "42",
+        "answer": "42",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "6",
+        "answer": "6",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "108",
+        "answer": "108",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "20",
+        "answer": "20",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "84",
+        "answer": "99",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "24, 72",
+        "answer": "96",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "36",
+        "answer": "36",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "40000",
+        "answer": "40,000",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "24500",
+        "answer": "24500",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "5950",
+        "answer": "5950",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "28",
+        "answer": "28",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "100",
+        "answer": "100",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "24500",
+        "answer": "24500",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "350",
+        "answer": "240",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "9",
+        "answer": "18",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "16",
+        "answer": "16",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "300.0",
+        "answer": "300",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "600",
+        "answer": "600",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "8",
+        "answer": "6",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "40",
+        "answer": "40",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "1",
+        "answer": "4",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "30",
+        "answer": "22",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "95",
+        "answer": "95",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "None",
+        "answer": "43",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "16",
+        "answer": "16",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "41666.67",
+        "answer": "60000",
+        "score": 2.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "150",
+        "answer": "150",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "32",
+        "answer": "32",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "10",
+        "answer": "10",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "9",
+        "answer": "9",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "42",
+        "answer": "42",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "15",
+        "answer": "15",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "250",
+        "answer": "250",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "98",
+        "answer": "98",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "44",
+        "answer": "52",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "36",
+        "answer": "36",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "40",
+        "answer": "25",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "1563",
+        "answer": "1563",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "2",
+        "answer": "4",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "224",
+        "answer": "224",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "100",
+        "answer": "100",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "320",
+        "answer": "20",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "1",
+        "answer": "1",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "150",
+        "answer": "150",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "96",
+        "answer": "96",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "14",
+        "answer": "8",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "18",
+        "answer": "18",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "16",
+        "answer": "16",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "67",
+        "answer": "67",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "36",
+        "answer": "36",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "121",
+        "answer": "121",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "98",
+        "answer": "98",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "208",
+        "answer": "208",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "108",
+        "answer": "108",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "10",
+        "answer": "10",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "9",
+        "answer": "9",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "832",
+        "answer": "832",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "180",
+        "answer": "180",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "20",
+        "answer": "20",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "224",
+        "answer": "224",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "8",
+        "answer": "8",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "52",
+        "answer": "52",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "50",
+        "answer": "50",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "1700",
+        "answer": "1700",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "99",
+        "answer": "99",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "16",
+        "answer": "16",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "150",
+        "answer": "150",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "5950",
+        "answer": "5950",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "44",
+        "answer": "50",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "42",
+        "answer": "42",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "60",
+        "answer": "60",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "290",
+        "answer": "290",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "38",
+        "answer": "38",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "15",
+        "answer": "18",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "3",
+        "answer": "3",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "42",
+        "answer": "42",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "110",
+        "answer": "110",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "40000",
+        "answer": "40,000",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "364000",
+        "answer": "364000",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "8",
+        "answer": "8",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "6",
+        "answer": "6",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "16",
+        "answer": "16",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "27200",
+        "answer": "27,200",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "15",
+        "answer": "15",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "114",
+        "answer": "114",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "240",
+        "answer": "240",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "18",
+        "answer": "18",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "6",
+        "answer": "6",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "88.20",
+        "answer": "95",
+        "score": 2.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "127",
+        "answer": "127",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "15",
+        "answer": "11",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "216",
+        "answer": "216",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "18",
+        "answer": "18",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "882",
+        "answer": "832",
+        "score": 2.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "99",
+        "answer": "99",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "300",
+        "answer": "300",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "1700",
+        "answer": "1700",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "67",
+        "answer": "67",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "630",
+        "answer": "630",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "400",
+        "answer": "400",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "2",
+        "answer": "2",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "27200",
+        "answer": "27,200",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "250",
+        "answer": "250",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "9",
+        "answer": "9",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "110",
+        "answer": "110",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "27",
+        "answer": "27",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "40000",
+        "answer": "40,000",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "1800",
+        "answer": "1800",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "22",
+        "answer": "22",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "24",
+        "answer": "24",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "114",
+        "answer": "114",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "130",
+        "answer": "180",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "20",
+        "answer": "20",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "200",
+        "answer": "216",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "364000",
+        "answer": "364000",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "10000",
+        "answer": "10000",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "165",
+        "answer": "165",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "48",
+        "answer": "48",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "180",
+        "answer": "180",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "832",
+        "answer": "832",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "240",
+        "answer": "250",
+        "score": 2.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "18",
+        "answer": "18",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "16",
+        "answer": "16",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "3",
+        "answer": "3",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "208",
+        "answer": "208",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "170",
+        "answer": "180",
+        "score": 2.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "10",
+        "answer": "10",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "400",
+        "answer": "400",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "36",
+        "answer": "36",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "127",
+        "answer": "127",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "290",
+        "answer": "290",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "11",
+        "answer": "6",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "12",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "1563",
+        "answer": "1563",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "28",
+        "answer": "28",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "5950",
+        "answer": "5950",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "50",
+        "answer": "50",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "84",
+        "answer": "84",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "3",
+        "answer": "3",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "114",
+        "answer": "114",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "630",
+        "answer": "630",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "22",
+        "answer": "22",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "208",
+        "answer": "208",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "99",
+        "answer": "99",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "36",
+        "answer": "36",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "132",
+        "answer": "150",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "3030",
+        "answer": "3030",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "60",
+        "answer": "60",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "84",
+        "answer": "84",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "525",
+        "answer": "525",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "1",
+        "answer": "1",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "15",
+        "answer": "15",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "52",
+        "answer": "52",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "Javier's brother",
+        "answer": "15",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "525",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "18",
+        "answer": "18",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "80",
+        "answer": "80",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "131.5",
+        "answer": "138",
+        "score": 3.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "16",
+        "answer": "108",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "60000",
+        "answer": "60000",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "50.0",
+        "answer": "50",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "40000",
+        "answer": "40,000",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "110",
+        "answer": "110",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "52",
+        "answer": "52",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "1800",
+        "answer": "1800",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "60",
+        "answer": "60",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "50",
+        "answer": "50",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "38",
+        "answer": "43",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "121",
+        "answer": "121",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "18000",
+        "answer": "1800",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "22",
+        "answer": "22",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "20",
+        "answer": "20",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "2000",
+        "answer": "2000",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "80",
+        "answer": "80",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "20",
+        "answer": "20",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "1",
+        "answer": "2",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "350",
+        "answer": "208",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "10000",
+        "answer": "10000",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "42",
+        "answer": "42",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "364,000",
+        "answer": "364000",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "None",
+        "answer": "11",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "95.00",
+        "answer": "95",
+        "score": 5.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "3",
+        "answer": "3",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "364000",
+        "answer": "364000",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "260.00",
+        "answer": "180",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "900",
+        "answer": "900",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "9",
+        "answer": "9",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "138",
+        "answer": "138",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "108500",
+        "answer": "24500",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "8",
+        "answer": "8",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "None",
+        "answer": "6",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "10",
+        "answer": "10",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "59",
+        "answer": "67",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "28",
+        "answer": "28",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "40",
+        "answer": "40",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "32",
+        "answer": "32",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "50",
+        "answer": "50",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "1700",
+        "answer": "1700",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "48",
+        "answer": "48",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "11",
+        "answer": "11",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "52",
+        "answer": "52",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "48",
+        "answer": "48",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "50",
+        "answer": "50",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "109.90",
+        "answer": "95",
+        "score": 1.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "150",
+        "answer": "150",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "36",
+        "answer": "36",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "1663",
+        "answer": "1563",
+        "score": 2.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "27",
+        "answer": "27",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "6",
+        "answer": "6",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "114",
+        "answer": "114",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "78",
+        "answer": "98",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "600",
+        "answer": "600",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "600",
+        "answer": "600",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "142",
+        "answer": "121",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "2",
+        "answer": "2",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "216",
+        "answer": "216",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "43",
+        "answer": "43",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "100",
+        "answer": "100",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "18",
+        "answer": "7",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "42",
+        "answer": "42",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "224",
+        "answer": "224",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "3",
+        "answer": "3",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "18",
+        "answer": "18",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "8",
+        "answer": "8",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "26",
+        "answer": "26",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "3",
+        "answer": "3",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "36",
+        "answer": "36",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "3030",
+        "answer": "3030",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "10",
+        "answer": "8",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "95",
+        "answer": "95",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "25",
+        "answer": "25",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "1",
+        "answer": "1",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "50",
+        "answer": "50",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "25",
+        "answer": "25",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "27",
+        "answer": "27",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "138",
+        "answer": "138",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "28",
+        "answer": "28",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "1800",
+        "answer": "1800",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "52",
+        "answer": "52",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "48%",
+        "answer": "27",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "1563",
+        "answer": "1563",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "700",
+        "answer": "525",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "2000",
+        "answer": "2000",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "9",
+        "answer": "9",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "98",
+        "answer": "98",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "2600",
+        "answer": "2000",
+        "score": 1.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "8",
+        "answer": "8",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "138",
+        "answer": "138",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "41",
+        "answer": "38",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "300",
+        "answer": "300",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "95%",
+        "answer": "95",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "24, 72",
+        "answer": "96",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "32",
+        "answer": "32",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "20",
+        "answer": "20",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "10",
+        "answer": "12",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "43",
+        "answer": "43",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "66.67%",
+        "answer": "50",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "50",
+        "answer": "50",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "24",
+        "answer": "24",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "38",
+        "answer": "38",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "40",
+        "answer": "40",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "10000",
+        "answer": "10000",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "18",
+        "answer": "18",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "165",
+        "answer": "165",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "15",
+        "answer": "15",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "33000",
+        "answer": "24500",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "80",
+        "answer": "80",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "16",
+        "answer": "16",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "52",
+        "answer": "52",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "15",
+        "answer": "15",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "3",
+        "answer": "3",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "55",
+        "answer": "108",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "3030",
+        "answer": "3030",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "67",
+        "answer": "67",
+        "score": 5,
+        "inference_type": "react"
+    }
+]
