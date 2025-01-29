@@ -2,9 +2,9 @@ import os
 import json
 import openai
 import random
-from llm_scoring import *
-from em_scoring import *
-from mean import *
+from llm_scoring import llm_similarity
+from em_scoring import exact_match_score
+from mean import print_average_scores
 from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import StrOutputParser
 from collections import defaultdict
@@ -63,9 +63,8 @@ def save_results_to_file(results, output_file):
         json.dump(results, file, ensure_ascii=False, indent=4)
 
 def main():
-    # mode 1: for hotpot, mode 2: for gsm8k
-    # data_name = "hotpot" 
-    data_name = "gsm8k"
+    # data_name, mode = "hotpot", 1
+    data_name, mode = "gsm8k", 2
     input_file = f"results/{data_name}_results.json"
     output_file = f"results/{data_name}_scoring_results.json"
     em_count_output_file = f"results/{data_name}_em_count_results.json"
@@ -73,11 +72,13 @@ def main():
     with open(input_file, 'r', encoding='utf-8') as file:
         data = json.load(file)
     
-    results, em_count_dict = evaluate_similarity(data,mode=2)
+    results, em_count_dict = evaluate_similarity(data, mode)
 
     save_results_to_file(results, output_file)
     save_results_to_file(em_count_dict, em_count_output_file)
     print(f"Results saved to {output_file}")
+
+    print_average_scores(output_file)
 
 if __name__ =="__main__":
     main()
