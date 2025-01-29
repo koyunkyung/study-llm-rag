@@ -1,4 +1,5 @@
 import os
+import re
 import json
 
 INPUT_DIR = "./data/input/"
@@ -9,6 +10,18 @@ def load_dataset(dataset_name):
     input_file = os.path.join(INPUT_DIR, f"{dataset_name}.json")
     with open(input_file, "r") as f:
         return json.load(f)
+    
+def process_gsm8k_answer(answer_text):
+    match = re.search(r"\n####\s*(.*)", answer_text)
+    if match:
+        short_answer = match.group(1).strip()  # #### 이후 부분
+        detailed_answer = answer_text[:match.start()].strip()  # #### 이전 부분
+    else:
+        short_answer = answer_text.strip()
+        detailed_answer = answer_text.strip()
+    
+    return detailed_answer, short_answer
+
 
 def extract_answers(section):
     detailed_output = None
@@ -61,8 +74,18 @@ def extract_answers(section):
 def load_final_answers_by_dataset(dataset_name):
     results = {}
     original_data = load_dataset(dataset_name)
-    question_to_answer = {item["question"]: item["answer"] for item in original_data}
-    
+
+    if dataset_name == "gsm8k":
+        question_to_answer = {}
+        for item in original_data:
+            detailed_answer, answer = process_gsm8k_answer(item["answer"])
+            question_to_answer[item["question"]] = {
+                "answer": answer,
+                "detailed_answer": detailed_answer
+            }
+    else:
+        question_to_answer = {item["question"]: {"answer": item["answer"]} for item in original_data}
+      
     for file_name in os.listdir(OUTPUT_DIR):
         if file_name.startswith(f"{dataset_name}_") and file_name.endswith(".txt"):
             template_name = file_name.replace(f"{dataset_name}_", "").replace(".txt", "")
@@ -79,11 +102,18 @@ def load_final_answers_by_dataset(dataset_name):
                         if current_section:
                             detailed_output, short_output = extract_answers('\n'.join(current_section))
                             if current_question in question_to_answer:
-                                paired_results.append({
-                                    "answer": question_to_answer[current_question],
+                                result_entry = {
                                     "short_output": short_output,
-                                    "detailed_output": detailed_output
-                                })
+                                    "detailed_output": detailed_output,
+                                }                 
+                                if dataset_name == "gsm8k":
+                                    result_entry.update({
+                                        "answer": question_to_answer[current_question]["answer"],
+                                        "detailed_answer": question_to_answer[current_question]["detailed_answer"]
+                                    })
+                                else:
+                                    result_entry["answer"] = question_to_answer[current_question]["answer"]                                
+                                paired_results.append(result_entry)                                
                         current_question = next((q for q in question_to_answer if q in line), "")
                         current_section = []
                     current_section.append(line)
@@ -91,14 +121,21 @@ def load_final_answers_by_dataset(dataset_name):
                 if current_section:
                     detailed_output, short_output = extract_answers('\n'.join(current_section))
                     if current_question in question_to_answer:
-                        paired_results.append({
-                            "answer": question_to_answer[current_question],
+                        result_entry = {
                             "short_output": short_output,
-                            "detailed_output": detailed_output
-                        })
-                
+                            "detailed_output": detailed_output,
+                        }                      
+                        if dataset_name == "gsm8k":
+                            result_entry.update({
+                                "answer": question_to_answer[current_question]["answer"],
+                                "detailed_answer": question_to_answer[current_question]["detailed_answer"]
+                            })
+                        else:
+                            result_entry["answer"] = question_to_answer[current_question]["answer"]                      
+                        paired_results.append(result_entry)              
                 if paired_results:
                     results[template_name] = paired_results
+
 
     os.makedirs(RESULTS_DIR, exist_ok=True)
     with open(os.path.join(RESULTS_DIR, f"{dataset_name}_results.json"), "w") as f:
