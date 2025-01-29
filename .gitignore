@@ -1,6 +1,9 @@
 credentials/
 .DS_Store
 
+scoring/__pycache__
+scoring/.key.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,9 +1,8 @@
 import json
 from collections import defaultdict
 
-
-file_path = "hotpot_scoring_results.json" 
-
+data_name = "gsm8k" #hotpot
+file_path = f"results/{data_name}_scoring_results.json" 
 
 def calculate_average_scores(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:

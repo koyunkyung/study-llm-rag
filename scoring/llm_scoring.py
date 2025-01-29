@@ -1,11 +1,17 @@
 import openai
 import os
-
-with open('.key.txt', 'r', encoding='utf-8') as file:
+import json
+import random
+from langchain_openai import ChatOpenAI
+from langchain_core.output_parsers import StrOutputParser
+with open('scoring/.key.txt', 'r', encoding='utf-8') as file:
     api_key = file.read().strip().replace('\ufeff', '')
     os.environ["OPENAI_API_KEY"] = api_key
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
+
+model = ChatOpenAI(model='gpt-4', temperature=0)
+output_parser = StrOutputParser()
 
 def generate_template(output, answer):
     template = f"""
@@ -29,9 +35,9 @@ def llm_similarity(output,answer,inference_type):
     response_text = response.content.strip() 
     try:
         score = float(response_text)
-        return output, answer, score, inference_type
+        return score #output, answer, score, inference_type
     except ValueError:
         score = 0.0 
-        return output, answer, score, inference_type
+        return score #output, answer, score, inference_type
 
 
