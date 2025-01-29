@@ -1,81 +1,129 @@
 [
     {
-        "output": "180",
-        "answer": "180",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "240",
-        "answer": "240",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "15",
-        "answer": "18",
-        "score": 0.0,
-        "inference_type": "act"
-    },
-    {
         "output": "11",
         "answer": "11",
         "score": 5,
-        "inference_type": "act"
+        "inference_type": "cot"
     },
     {
-        "output": "900",
-        "answer": "900",
+        "output": "Javier ate a total of 11.5 ounces of ravioli and his brother ate a total of 15 ounces of ravioli, so the winner in terms of total ounces eaten is Javier's brother.",
+        "answer": "Javier ate 7.5 ounces of meat ravioli because 5 x 1.5 = <<7.5=7.5>>7.5\nHe ate 2.5 ounces of pumpkin ravioli because 2 x 1.25 = <<2*1.25=2.5>>2.5\nHe ate 4 ounces of cheese ravioli because 4 x 1 = <<4*1=4>>4\nJavier ate 14 ounces in total because 7.5 + 2.5 + 4 = <<7.5+2.5+4=14>>14\nHis brother ate 15 ounces of pumpkin ravioli because 12 x 1.25 = 15\nThe winner ate 15 ounces in total because 15 > 14",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "9",
+        "answer": "9",
         "score": 5,
         "inference_type": "standard"
     },
     {
-        "output": "7",
-        "answer": "7",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "18",
-        "answer": "18",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "12",
-        "answer": "12",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "240",
-        "answer": "240",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "48",
-        "answer": "48",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "10000",
-        "answer": "10000",
-        "score": 5,
+        "output": "Nancy will make $2080 more if she turns all the jade into elephants instead of giraffes.",
+        "answer": "First find how many giraffe statues Nancy can make by dividing the total amount of jade by the amount used per giraffe statue: 1920 g / 120 g/giraffe = <<1920/120=16>>16 giraffes\nThen multiply that number by the price per giraffe to find how much Nancy earns total from giraffes: 16 giraffes * $150/giraffe = $<<16*150=2400>>2400\nThen find how much jade each elephant statue uses by doubling the jade used by the giraffe statues: 120 g/giraffe * 2 = <<120*2=240>>240 g/elephant\nThen find how many elephant statues Nancy can make by dividing the total amount of jade by the amount used per elephant statue: 1920 g / 240 g/elephant = <<1920/240=8>>8 elephant\nMultiply that number by the price per elephant to find Nancy's total earnings from elephants: 8 elephants * $350/elephant = $<<8*350=2800>>2800\nFinally, subtract Nancy's total earnings from the giraffes from her total earnings from the elephants to find the difference: $2800 - $2400 = $<<2800-2400=400>>400",
+        "score": 0.0,
         "inference_type": "standard"
     },
     {
-        "output": "12",
-        "answer": "12",
+        "output": "I don't have enough information to provide an answer to this query.",
+        "answer": "Taylor received 5 + 1 = <<5+1=6>>6 suckers.\nHarmony was given 3 + 6 = <<3+6=9>>9 suckers.\nMolly received 9 + 2 = <<9+2=11>>11 suckers from Jen.\nJen originally had 11 * 2 = <<11*2=22>>22 suckers.\nJen ate 22 – 11 = <<22-11=11>>11 suckers.",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "16",
+        "answer": "16",
         "score": 5,
         "inference_type": "act"
     },
     {
-        "output": "26",
-        "answer": "26",
+        "output": "Granger and Cisco have a combined total of 16 spots.",
+        "answer": "If Rover has 46 spots, then half as many spots as Rover has is 46/2=<<46/2=23>>23 spots.\nIf Cisco has 5 less than half as many spots as Rover has, then Cisco has 23-5=<<23-5=18>>18 spots.\nIf Granger has five times as many spots as Cisco, then Rover has 18*5=<<18*5=90>>90 spots.\nThus, the total combined number of spots that Rover and Cisco have is 90+18=<<90+18=108>>108 spots.",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "95",
+        "answer": "95",
         "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "40000",
+        "answer": "40,000",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "364000",
+        "answer": "364000",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "27",
+        "answer": "27",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The quarterback threw 10 passes to the left side of the field.",
+        "answer": "Let x represent the number of passes thrown to the left side of the field\nRight:2x\nCenter:x+2\nTotal:x+2x+x+2=50\n4x+2=50\n4x=48\nx=<<12=12>>12 passes",
+        "score": 0.0,
         "inference_type": "standard"
+    },
+    {
+        "output": "After applying the respective discounts, Gordon will spend a total of $95.00 on books.",
+        "answer": "He gets 30% off any book over $22 and he buys books that cost $25.00 and $35.00 so the total cost of these books is $25 + $35 = $<<25+35=60.00>>60.00\nAt 30% off, the discount on these books is $60*.30 = $<<60*.30=18.00>>18.00\nThat mean these 2 books will cost $60-$18 = $<<60-18=42.00>>42.00\nHe gets 20% off any book under $20 and he buys books for $18.00, $12.00 and $10.00 so these books together cost $18 + $12 + $10 = $40.00\nat 20% off, the discount on these books is 40*.20 = $8.00\nSo these 3 books will cost $40 - $8 = $<<40-8=32.00>>32.00\nHe has spent $42.00 on the two most expensive books, $32.00 on the 3 cheapest books, and also bought a book for $21.00, so his total comes to $42 + $32 + $21 = $<<42+32+21=95.00>>95.00",
+        "score": 1.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "600",
+        "answer": "600",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "99",
+        "answer": "99",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "24500",
+        "answer": "24500",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "36",
+        "answer": "36",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "The total value of tickets sold is $200.",
+        "answer": "The students bought $6*20=$<<6*20=120>>120 worth of tickets\nThe adults bought $8*12=$<<8*12=96>>96 worth of tickets\nTogether $120 + $96 = $<<120+96=216>>216 worth of tickets were sold",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "114",
+        "answer": "114",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "1700",
+        "answer": "1700",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "20",
+        "answer": "20",
+        "score": 5,
+        "inference_type": "react"
     },
     {
         "output": "216",
@@ -84,20 +132,230 @@
         "inference_type": "react"
     },
     {
+        "output": "House A cost $130,000.",
+        "answer": "First figure out how much money Nigella earned from commission by subtracting her base salary from her total earnings: $8,000 - $3,000 = $<<8000-3000=5000>>5,000.\nNext, figure out how much all three houses cost by dividing Nigella's commission money by her commission rate: $5,000 ÷ 0.02 = $<<5000/0.02=250000>>250,000.\nNext, express each house's price in terms of A's price: B = 3A, and C = 2A - $110,000.\nNow we know that A + 3A + 2A - $110,000 = $250,000.\nWe can combine like terms to find that 6A - $110,000 = $250,000.\nNow we add $110,000 to both sides of the equation and get 6A = $360,000.\nWe can divide both sides by 6 to find A = $60,000.",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "832",
+        "answer": "832",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "11",
+        "answer": "11",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "No detailed answer provided",
+        "answer": "Let x represent the number of true/false questions\nFree response:x+7\nMultiple choice: 2(x+7)=2x+14\nTotal:x+x+7+2x+14=45\n4x+21=45\n4x=24\nx=<<6=6>>6 true/false questions",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "114",
+        "answer": "114",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "18",
+        "answer": "18",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "16",
+        "answer": "16",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "150",
+        "answer": "150",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "50",
+        "answer": "50",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "150",
+        "answer": "150",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "224",
+        "answer": "224",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
         "output": "24",
         "answer": "24",
         "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "165",
+        "answer": "165",
+        "score": 5,
         "inference_type": "cot"
+    },
+    {
+        "output": "26",
+        "answer": "26",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "95",
+        "answer": "95",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "100",
+        "answer": "100",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "After Dani gives one cupcake to everyone in the class, 1 cupcake is left.",
+        "answer": "Dani brings 2.5 x 12 = <<2.5*12=30>>30 cupcakes.\nShe needs this many cupcakes to feed everyone in class 27 + 2 = <<27+2=29>>29.\nWith the 3 students calling in sick, there are this many people in class today 29 - 3 = <<29-3=26>>26.\nThere are this many cupcakes left after everyone gets one 30 - 26 = <<30-26=4>>4 cupcakes.",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "1",
+        "answer": "1",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "1563",
+        "answer": "1563",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "290",
+        "answer": "290",
+        "score": 5,
+        "inference_type": "act"
     },
     {
         "output": "8",
         "answer": "8",
         "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "114",
+        "answer": "114",
+        "score": 5,
         "inference_type": "act"
     },
     {
-        "output": "50",
-        "answer": "50",
+        "output": "After all payments and deposits, Liza has $1663 left in her checking account.",
+        "answer": "On Wednesday, Liza had $800 - $450 = $<<800-450=350>>350 left in her account.\nAfter depositing on Thursday, she had $350 + $1500 = $<<350+1500=1850>>1850 in her account.\nOn Friday, she paid a total of $117 + $100 = $<<117+100=217>>217 for her electricity and internet bills.\nSo, $1850 - $217 = $<<1850-217=1633>>1633 was left on her account on Friday.\nAfter paying her phone bill, Liza has $1633 - $70 = $<<1633-70=1563>>1563 left in her account.",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "16",
+        "answer": "16",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "3",
+        "answer": "3",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The cost of the ham and bread is 50.0% of the total cost.",
+        "answer": "The total cost of buying bread and ham was $50+$150 = $<<50+150=200>>200\nTogether with the cake, Tina paid $200+$200 = $<<200+200=400>>400 for the items\nSince the total percentage for all the items is 100%, the cost of ham and bread is $200/$400 * 100% = <<200/400*100=50>>50% of the total cost of items.",
+        "score": 3.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "52",
+        "answer": "52",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "38",
+        "answer": "38",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "42",
+        "answer": "42",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "208",
+        "answer": "208",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "24",
+        "answer": "24",
         "score": 5,
         "inference_type": "cot"
     },
@@ -105,7 +363,109 @@
         "output": "10",
         "answer": "10",
         "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Mary is currently 14 years old.",
+        "answer": "In four years, Suzy will be 20+4=<<20+4=24>>24.\nThen Mary will be 24/2=<<24/2=12>>12.\nThen Mary is now 12-4=<<12-4=8>>8.",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "32",
+        "answer": "32",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "180",
+        "answer": "180",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "2000",
+        "answer": "2000",
+        "score": 5,
         "inference_type": "react"
+    },
+    {
+        "output": "5950",
+        "answer": "5950",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "300",
+        "answer": "300",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "28",
+        "answer": "28",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "3030",
+        "answer": "3030",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "There were 15 damaged books.",
+        "answer": "Let o be the number of obsolete books and d be the number of damaged books. We know that o + d = 69 and o = 6d - 8.\nSubstituting the first equation into the second equation, we get 6d - 8 + d = 69\nCombining like terms, we get 7d - 8 = 69\nAdding 8 to both sides, we get 7d = 77\nDividing both sides by 7, we get d = 11",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "1800",
+        "answer": "1800",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "216",
+        "answer": "216",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "99",
+        "answer": "99",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "1800",
+        "answer": "1800",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "36",
+        "answer": "36",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "The cost of House A is approximately $41,666.67.",
+        "answer": "First figure out how much money Nigella earned from commission by subtracting her base salary from her total earnings: $8,000 - $3,000 = $<<8000-3000=5000>>5,000.\nNext, figure out how much all three houses cost by dividing Nigella's commission money by her commission rate: $5,000 ÷ 0.02 = $<<5000/0.02=250000>>250,000.\nNext, express each house's price in terms of A's price: B = 3A, and C = 2A - $110,000.\nNow we know that A + 3A + 2A - $110,000 = $250,000.\nWe can combine like terms to find that 6A - $110,000 = $250,000.\nNow we add $110,000 to both sides of the equation and get 6A = $360,000.\nWe can divide both sides by 6 to find A = $60,000.",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Mickey mounts 78 horses per week.",
+        "answer": "If Minnie mounts three more horses per day than there are days in a week, then Minnie mounts 7+3=<<3+7=10>>10 horses per day.\nTwice as many horses per day as Minnie mounts is 10*2=<<10*2=20>>20 horses per day.\nIf Mickey mounts six less than twice as many horses per day as does Minnie, then Mickey mounts 20-6=<<20-6=14>>14 horses per day.\nSince there are 7 days in a week, then Mickey mounts 7*14=<<7*14=98>>98 horses per week.",
+        "score": 1.0,
+        "inference_type": "standard"
     },
     {
         "output": "630",
@@ -114,16 +474,76 @@
         "inference_type": "react"
     },
     {
-        "output": "10",
-        "answer": "10",
+        "output": "10000",
+        "answer": "10000",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "36",
+        "answer": "36",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "216",
+        "answer": "216",
         "score": 5,
         "inference_type": "cot"
     },
     {
-        "output": "1",
-        "answer": "1",
+        "output": "110",
+        "answer": "110",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "52",
+        "answer": "52",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "18",
+        "answer": "18",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "110",
+        "answer": "110",
         "score": 5,
         "inference_type": "act"
+    },
+    {
+        "output": "150",
+        "answer": "150",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "290",
+        "answer": "290",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "48",
+        "answer": "48",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "900",
+        "answer": "900",
+        "score": 5,
+        "inference_type": "cot"
     },
     {
         "output": "25",
@@ -132,490 +552,16 @@
         "inference_type": "act"
     },
     {
-        "output": "32",
-        "answer": "32",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "26",
-        "answer": "26",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "15",
-        "answer": "15",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "150",
-        "answer": "150",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "186",
-        "answer": "127",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "9",
-        "answer": "9",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "36",
-        "answer": "36",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "2",
-        "answer": "2",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "4",
-        "answer": "4",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "15",
-        "answer": "15",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "50",
-        "answer": "80",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "27200",
-        "answer": "27,200",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "290",
-        "answer": "290",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "38.00",
-        "answer": "40",
-        "score": 3.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "84.0",
-        "answer": "84",
-        "score": 5.0,
-        "inference_type": "react"
-    },
-    {
-        "output": "110",
-        "answer": "110",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "4",
-        "answer": "4",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "20",
-        "answer": "20",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "150",
-        "answer": "150",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "11",
-        "answer": "11",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "290",
-        "answer": "290",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "None",
-        "answer": "525",
-        "score": 0.0,
-        "inference_type": "cot"
-    },
-    {
-        "output": "52",
-        "answer": "52",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "810",
-        "answer": "630",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "36%",
-        "answer": "24",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "121",
-        "answer": "121",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "250",
-        "answer": "250",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "84",
-        "answer": "84",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "130,000",
-        "answer": "60000",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "165",
-        "answer": "165",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "60000",
-        "answer": "60000",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "5.60",
-        "answer": "3",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "900",
-        "answer": "900",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "9",
-        "answer": "9",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "38",
-        "answer": "38",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "2150",
-        "answer": "1700",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "2080",
-        "answer": "400",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "11",
-        "answer": "11",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "18",
-        "answer": "18",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "600",
-        "answer": "600",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "150",
-        "answer": "150",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "48",
-        "answer": "48",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "11",
-        "answer": "11",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "300",
-        "answer": "300",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
         "output": "127",
         "answer": "127",
         "score": 5,
         "inference_type": "act"
     },
     {
-        "output": "95",
-        "answer": "95",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "42",
-        "answer": "42",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "7",
-        "answer": "7",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "48",
-        "answer": "48",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "4",
-        "answer": "4",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "6",
-        "answer": "6",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "50",
-        "answer": "50",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "832",
-        "answer": "832",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "3020",
-        "answer": "3030",
-        "score": 4.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "48",
-        "answer": "48",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "16",
-        "answer": "16",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "224",
-        "answer": "224",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "12",
-        "answer": "12",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "24, 72",
-        "answer": "96",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "400",
-        "answer": "400",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "2000",
-        "answer": "2000",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "95.00",
-        "answer": "95",
-        "score": 5.0,
-        "inference_type": "cot"
-    },
-    {
-        "output": "60",
-        "answer": "60",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "48.00",
-        "answer": "48",
-        "score": 5.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "180",
-        "answer": "180",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "4600",
-        "answer": "5950",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "165",
-        "answer": "165",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "10",
-        "answer": "12",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "1200",
-        "answer": "900",
-        "score": 0.0,
-        "inference_type": "act"
-    },
-    {
-        "output": "7",
-        "answer": "7",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "10",
-        "answer": "10",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "180",
-        "answer": "180",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "100",
-        "answer": "100",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "42",
-        "answer": "42",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "10",
-        "answer": "10",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "20",
-        "answer": "9",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "29600",
-        "answer": "27,200",
-        "score": 1.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "26",
-        "answer": "26",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
         "output": "11",
         "answer": "11",
         "score": 5,
         "inference_type": "cot"
-    },
-    {
-        "output": "42",
-        "answer": "42",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "6",
-        "answer": "6",
-        "score": 5,
-        "inference_type": "act"
     },
     {
         "output": "108",
@@ -624,608 +570,8 @@
         "inference_type": "act"
     },
     {
-        "output": "20",
-        "answer": "20",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "84",
-        "answer": "99",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "24, 72",
-        "answer": "96",
-        "score": 0.0,
-        "inference_type": "react"
-    },
-    {
         "output": "36",
         "answer": "36",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "40000",
-        "answer": "40,000",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "24500",
-        "answer": "24500",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "5950",
-        "answer": "5950",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "28",
-        "answer": "28",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "100",
-        "answer": "100",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "24500",
-        "answer": "24500",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "350",
-        "answer": "240",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "9",
-        "answer": "18",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "16",
-        "answer": "16",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "300.0",
-        "answer": "300",
-        "score": 5.0,
-        "inference_type": "act"
-    },
-    {
-        "output": "600",
-        "answer": "600",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "8",
-        "answer": "6",
-        "score": 0.0,
-        "inference_type": "cot"
-    },
-    {
-        "output": "40",
-        "answer": "40",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "1",
-        "answer": "4",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "12",
-        "answer": "12",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "30",
-        "answer": "22",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "95",
-        "answer": "95",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "7",
-        "answer": "7",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "None",
-        "answer": "43",
-        "score": 0.0,
-        "inference_type": "react"
-    },
-    {
-        "output": "16",
-        "answer": "16",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "41666.67",
-        "answer": "60000",
-        "score": 2.0,
-        "inference_type": "act"
-    },
-    {
-        "output": "150",
-        "answer": "150",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "32",
-        "answer": "32",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "10",
-        "answer": "10",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "9",
-        "answer": "9",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "42",
-        "answer": "42",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "15",
-        "answer": "15",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "250",
-        "answer": "250",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "98",
-        "answer": "98",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "44",
-        "answer": "52",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "4",
-        "answer": "4",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "36",
-        "answer": "36",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "40",
-        "answer": "25",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "1563",
-        "answer": "1563",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "2",
-        "answer": "4",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "224",
-        "answer": "224",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "100",
-        "answer": "100",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "320",
-        "answer": "20",
-        "score": 1.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "1",
-        "answer": "1",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "150",
-        "answer": "150",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "96",
-        "answer": "96",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "14",
-        "answer": "8",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "18",
-        "answer": "18",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "16",
-        "answer": "16",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "67",
-        "answer": "67",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "36",
-        "answer": "36",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "121",
-        "answer": "121",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "98",
-        "answer": "98",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "208",
-        "answer": "208",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "108",
-        "answer": "108",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "10",
-        "answer": "10",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "4",
-        "answer": "4",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "9",
-        "answer": "9",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "832",
-        "answer": "832",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "180",
-        "answer": "180",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "20",
-        "answer": "20",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "224",
-        "answer": "224",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "8",
-        "answer": "8",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "52",
-        "answer": "52",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "50",
-        "answer": "50",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "1700",
-        "answer": "1700",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "99",
-        "answer": "99",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "16",
-        "answer": "16",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "150",
-        "answer": "150",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "5950",
-        "answer": "5950",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "44",
-        "answer": "50",
-        "score": 1.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "42",
-        "answer": "42",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "7",
-        "answer": "7",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "60",
-        "answer": "60",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "290",
-        "answer": "290",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "38",
-        "answer": "38",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "15",
-        "answer": "18",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "3",
-        "answer": "3",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "42",
-        "answer": "42",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "110",
-        "answer": "110",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "40000",
-        "answer": "40,000",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "364000",
-        "answer": "364000",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "8",
-        "answer": "8",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "6",
-        "answer": "6",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "16",
-        "answer": "16",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "27200",
-        "answer": "27,200",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "15",
-        "answer": "15",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "114",
-        "answer": "114",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "240",
-        "answer": "240",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "18",
-        "answer": "18",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "6",
-        "answer": "6",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "88.20",
-        "answer": "95",
-        "score": 2.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "127",
-        "answer": "127",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "15",
-        "answer": "11",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "216",
-        "answer": "216",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "12",
-        "answer": "12",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "18",
-        "answer": "18",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "882",
-        "answer": "832",
-        "score": 2.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "99",
-        "answer": "99",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "300",
-        "answer": "300",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "1700",
-        "answer": "1700",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "67",
-        "answer": "67",
         "score": 5,
         "inference_type": "cot"
     },
@@ -1236,106 +582,256 @@
         "inference_type": "act"
     },
     {
+        "output": "16",
+        "answer": "16",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
         "output": "400",
         "answer": "400",
         "score": 5,
         "inference_type": "act"
     },
     {
-        "output": "2",
-        "answer": "2",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "27200",
-        "answer": "27,200",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "250",
-        "answer": "250",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "9",
-        "answer": "9",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "110",
-        "answer": "110",
+        "output": "20",
+        "answer": "20",
         "score": 5,
         "inference_type": "act"
     },
     {
-        "output": "27",
-        "answer": "27",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "40000",
-        "answer": "40,000",
+        "output": "150",
+        "answer": "150",
         "score": 5,
         "inference_type": "act"
     },
     {
-        "output": "1800",
-        "answer": "1800",
+        "output": "165",
+        "answer": "165",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "3",
+        "answer": "3",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "In the competition, a total of 44 questions were asked.",
+        "answer": "Since Drew got 20 questions right and 6 wrong, she was asked 20+6 = <<20+6=26>>26 questions.\nCarla got twice as many questions wrong as Drew got, a total of 2*6 = <<2*6=12>>12 questions wrong.\nThe total number of questions that Carla was asked is 12+14 = <<12+14=26>>26.\nAltogether, there were 26+26 = <<26+26=52>>52 questions that were asked in the contest.",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "32",
+        "answer": "32",
         "score": 5,
         "inference_type": "cot"
     },
     {
-        "output": "22",
-        "answer": "22",
+        "output": "Amoli and Anayet still need to travel 142 miles.",
+        "answer": "Amoli = 42 * 3 = <<42*3=126>>126 miles\nAnayet = 61 * 2 = <<61*2=122>>122\nTogether = 126 + 122 = <<126+122=248>>248 miles\n369 - 248 = <<369-248=121>>121 miles\nThey still have 121 miles to travel.",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "18",
+        "answer": "18",
         "score": 5,
         "inference_type": "react"
     },
     {
-        "output": "7",
-        "answer": "7",
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "165",
+        "answer": "165",
         "score": 5,
         "inference_type": "react"
+    },
+    {
+        "output": "The ambulance ride cost Josephine 2150 dollars.",
+        "answer": "Medication:5000(.50)=2500\nOvernight Stays:2500(.25)=625\n2500-625=<<2500-625=1875>>1875\nFood:1875-175=<<1875-175=1700>>1700$\nAmbulance ride:1700$",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "52",
+        "answer": "52",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "18",
+        "answer": "18",
+        "score": 5,
+        "inference_type": "act"
     },
     {
         "output": "24",
         "answer": "24",
         "score": 5,
-        "inference_type": "react"
+        "inference_type": "act"
     },
     {
-        "output": "114",
-        "answer": "114",
+        "output": "Henri reads 18000 words before his free time is up.",
+        "answer": "He has 3 hours to read because 8 - 3.5 - 1.5 = <<8-3.5-1.5=3>>3\nHe has 180 minutes to read because 3 x 60 = <<3*60=180>>180\nHe can read 1,800 words because 180 x 10 = <<180*10=1800>>1,800",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "50",
+        "answer": "50",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "10",
+        "answer": "10",
         "score": 5,
         "inference_type": "react"
     },
     {
-        "output": "130",
-        "answer": "180",
+        "output": "52",
+        "answer": "52",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "The total number of chairs that must be prepared for the graduation ceremony is 130.",
+        "answer": "There will be 50 x 2 = <<50*2=100>>100 parents that are expected to attend.\n20/2 = <<20/2=10>>10 administrators will attend.\nHence, 50 graduates + 100 parents + 20 teachers + 10 administrators = 180 chairs must be prepared.",
         "score": 0.0,
         "inference_type": "act"
     },
     {
-        "output": "20",
-        "answer": "20",
+        "output": "4",
+        "answer": "4",
         "score": 5,
         "inference_type": "react"
     },
     {
-        "output": "200",
-        "answer": "216",
-        "score": 1.0,
+        "output": "67",
+        "answer": "67",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "18",
+        "answer": "18",
+        "score": 5,
         "inference_type": "standard"
     },
     {
-        "output": "364000",
-        "answer": "364000",
+        "output": "8",
+        "answer": "8",
         "score": 5,
-        "inference_type": "act"
+        "inference_type": "react"
+    },
+    {
+        "output": "Without additional information or more complex calculations that aren't feasible without external tools or resources, it's impossible to accurately determine the exact monthly payments Jason will need to make.",
+        "answer": "First figure out how much the loan will be: $32,000 - $8,000 = $<<32000-8000=24000>>24,000\nThen divide the loan amount by the number of payments to find the monthly payment before interest: $24,000 / 48 months = $<<24000/48=500>>500/month\nThen multiply the loan amount by 5% to find out how much the interest is: $500/month * .05 = $<<500*.05=25>>25/month\nThen add the interest to the payment amount to find the total monthly payment: $500/month + $25/month = $<<500+25=525>>525/month",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "48",
+        "answer": "48",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "224",
+        "answer": "224",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "400",
+        "answer": "400",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "40000",
+        "answer": "40,000",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "25",
+        "answer": "25",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "127",
+        "answer": "127",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "50",
+        "answer": "50",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "84",
+        "answer": "84",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "240",
+        "answer": "240",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "10",
+        "answer": "10",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "600",
+        "answer": "600",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "18",
+        "answer": "18",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "224",
+        "answer": "224",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "6",
+        "answer": "6",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "42",
+        "answer": "42",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "108",
+        "answer": "108",
+        "score": 5,
+        "inference_type": "cot"
     },
     {
         "output": "10000",
@@ -1344,26 +840,26 @@
         "inference_type": "cot"
     },
     {
-        "output": "165",
-        "answer": "165",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "4",
-        "answer": "4",
+        "output": "180",
+        "answer": "180",
         "score": 5,
         "inference_type": "react"
     },
     {
-        "output": "12",
-        "answer": "12",
+        "output": "138",
+        "answer": "138",
         "score": 5,
         "inference_type": "react"
     },
     {
-        "output": "48",
-        "answer": "48",
+        "output": "18",
+        "answer": "18",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "7",
+        "answer": "7",
         "score": 5,
         "inference_type": "act"
     },
@@ -1374,172 +870,10 @@
         "inference_type": "cot"
     },
     {
-        "output": "832",
-        "answer": "832",
+        "output": "60",
+        "answer": "60",
         "score": 5,
         "inference_type": "react"
-    },
-    {
-        "output": "240",
-        "answer": "250",
-        "score": 2.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "18",
-        "answer": "18",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "16",
-        "answer": "16",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "3",
-        "answer": "3",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "208",
-        "answer": "208",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "170",
-        "answer": "180",
-        "score": 2.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "10",
-        "answer": "10",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "400",
-        "answer": "400",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "36",
-        "answer": "36",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "127",
-        "answer": "127",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "290",
-        "answer": "290",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "11",
-        "answer": "6",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "None",
-        "answer": "12",
-        "score": 0.0,
-        "inference_type": "act"
-    },
-    {
-        "output": "1563",
-        "answer": "1563",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "28",
-        "answer": "28",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "5950",
-        "answer": "5950",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "50",
-        "answer": "50",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "12",
-        "answer": "12",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "84",
-        "answer": "84",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "3",
-        "answer": "3",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "114",
-        "answer": "114",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "630",
-        "answer": "630",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "22",
-        "answer": "22",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "208",
-        "answer": "208",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "99",
-        "answer": "99",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "36",
-        "answer": "36",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "132",
-        "answer": "150",
-        "score": 0.0,
-        "inference_type": "standard"
     },
     {
         "output": "3030",
@@ -1548,32 +882,152 @@
         "inference_type": "cot"
     },
     {
-        "output": "60",
-        "answer": "60",
-        "score": 5,
+        "output": "No detailed answer provided",
+        "answer": "First figure out how much the loan will be: $32,000 - $8,000 = $<<32000-8000=24000>>24,000\nThen divide the loan amount by the number of payments to find the monthly payment before interest: $24,000 / 48 months = $<<24000/48=500>>500/month\nThen multiply the loan amount by 5% to find out how much the interest is: $500/month * .05 = $<<500*.05=25>>25/month\nThen add the interest to the payment amount to find the total monthly payment: $500/month + $25/month = $<<500+25=525>>525/month",
+        "score": 0.0,
         "inference_type": "react"
     },
     {
-        "output": "84",
-        "answer": "84",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "525",
-        "answer": "525",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "1",
-        "answer": "1",
+        "output": "127",
+        "answer": "127",
         "score": 5,
         "inference_type": "cot"
     },
     {
-        "output": "4",
-        "answer": "4",
+        "output": "The scallops will cost Nate $48.00.",
+        "answer": "He’s cooking for 8 people and wants to serve 2 scallops per person so he needs 8*2 = <<8*2=16>>16 scallops\n8 jumbo scallops come in 1 pound and he needs 16 scallops so he will need 16/8 = <<16/8=2>>2 pounds of scallops\nA pound of scallops weigh $24.00 and he needs 2 pounds so it will cost him 24*2 = $<<24*2=48.00>>48.00 for scallops",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Jason's monthly payments will be $666.67 before the 5% interest. With the interest added, the monthly payment will be approximately $700.",
+        "answer": "First figure out how much the loan will be: $32,000 - $8,000 = $<<32000-8000=24000>>24,000\nThen divide the loan amount by the number of payments to find the monthly payment before interest: $24,000 / 48 months = $<<24000/48=500>>500/month\nThen multiply the loan amount by 5% to find out how much the interest is: $500/month * .05 = $<<500*.05=25>>25/month\nThen add the interest to the payment amount to find the total monthly payment: $500/month + $25/month = $<<500+25=525>>525/month",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "60000",
+        "answer": "60000",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "121",
+        "answer": "121",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "The total cost for everything was $15.",
+        "answer": "The soda cost 3*1=$<<3*1=3>>3\nSo the soups cost 2*3=$<<2*3=6>>6\nThe sandwich cost 3*3=$<<3*3=9>>9\nSo the total cost of everything was 3+6+9=$<<3+6+9=18>>18",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "40",
+        "answer": "40",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The vendor's profit from selling 5 apples and 5 oranges is $5.60.",
+        "answer": "A vendor bought each apple for $3/2 = $<<3/2=1.50>>1.50.\nHe will sell each apple at $10/5 = $<<10/5=2>>2 each.\nHis profit for each apple is $2 - $1.50 = $<<2-1.5=0.50>>0.50.\nHis total profit for 5 apples is $0.50 x 5 = $<<0.50*5=2.50>>2.50.\nHe bought each orange for $2.70/3 = $<<2.7/3=0.90>>0.90.\nHis profit for each orange is $1 - $0.90 = $<<1-0.9=0.10>>0.10.\nHis total profit for 5 oranges is $0.10 x 5 = $<<0.10*5=0.50>>0.50.\nTherefore, his total profit for selling 5 apples and 5 oranges is $2.50 + $0.50= $3.",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Tom needs 18 more boxes of hardwood flooring to complete the job.",
+        "answer": "The entire sq ft of the living room is LxW so the room is 16x20 = <<16*20=320>>320 sq ft\nTom has already put down 250 sq ft so he needs to put down 320-250 = 70 sq ft of flooring\nThe boxes contain 10 sq ft of flooring per box and he needs 70 more sq ft of flooring so he needs 70/10 = <<70/10=7>>7 more boxes",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "James makes a profit of $260.00 from a 600 mile trip.",
+        "answer": "First find the total payment James receives: $0.50/mile * 600 miles = $<<0.50*600=300>>300\nThen find how many gallons of gas he needs to buy: 600 miles / 20 miles/gallon = <<600/20=30>>30 gallons\nThen multiply that number by the price of gas per gallon to find the total cost of the gas: $4.00/gallon * 30 gallons = $<<4*30=120>>120\nThen subtract that amount from James' earnings to find his profit: $300 - $120 = $<<300-120=180>>180",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "38",
+        "answer": "38",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "48",
+        "answer": "48",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "There are 8 true/false questions in the homework assignment.",
+        "answer": "Let x represent the number of true/false questions\nFree response:x+7\nMultiple choice: 2(x+7)=2x+14\nTotal:x+x+7+2x+14=45\n4x+21=45\n4x=24\nx=<<6=6>>6 true/false questions",
+        "score": 0.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "52",
+        "answer": "52",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "48",
+        "answer": "48",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "24500",
+        "answer": "24500",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "290",
+        "answer": "290",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "150",
+        "answer": "150",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "60",
+        "answer": "60",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "50",
+        "answer": "50",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "11",
+        "answer": "11",
         "score": 5,
         "inference_type": "react"
     },
@@ -1584,86 +1038,44 @@
         "inference_type": "standard"
     },
     {
-        "output": "52",
-        "answer": "52",
+        "output": "3",
+        "answer": "3",
         "score": 5,
-        "inference_type": "react"
+        "inference_type": "cot"
     },
     {
-        "output": "Javier's brother",
-        "answer": "15",
-        "score": 0.0,
+        "output": "290",
+        "answer": "290",
+        "score": 5,
         "inference_type": "standard"
     },
     {
-        "output": "None",
-        "answer": "525",
-        "score": 0.0,
+        "output": "150",
+        "answer": "150",
+        "score": 5,
         "inference_type": "react"
     },
     {
-        "output": "18",
-        "answer": "18",
-        "score": 5,
-        "inference_type": "act"
+        "output": "The lowest grade the absent student can get for the class to still get a pizza party is 48%.",
+        "answer": "The total percentage the class needs to get is 18.75 because 25 x .75 = <<25*.75=18.75>>18.75\nThe total percentage the class has absent the one student is <<18.48=18.48>>18.48\nThe lowest the absent student can get and still have a pizza party is 27% because (18.75-18.48)x 100 = <<(18.75-18.48)*100=27>>27",
+        "score": 1.0,
+        "inference_type": "standard"
     },
     {
-        "output": "80",
-        "answer": "80",
+        "output": "121",
+        "answer": "121",
         "score": 5,
-        "inference_type": "act"
+        "inference_type": "cot"
     },
     {
-        "output": "131.5",
+        "output": "138",
         "answer": "138",
-        "score": 3.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "16",
-        "answer": "108",
-        "score": 0.0,
-        "inference_type": "react"
+        "score": 5,
+        "inference_type": "cot"
     },
     {
         "output": "60000",
         "answer": "60000",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "50.0",
-        "answer": "50",
-        "score": 5.0,
-        "inference_type": "act"
-    },
-    {
-        "output": "40000",
-        "answer": "40,000",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "110",
-        "answer": "110",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "4",
-        "answer": "4",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "52",
-        "answer": "52",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "1800",
-        "answer": "1800",
         "score": 5,
         "inference_type": "react"
     },
@@ -1674,22 +1086,40 @@
         "inference_type": "act"
     },
     {
-        "output": "50",
-        "answer": "50",
+        "output": "52",
+        "answer": "52",
         "score": 5,
-        "inference_type": "cot"
+        "inference_type": "react"
     },
     {
-        "output": "38",
-        "answer": "43",
-        "score": 0.0,
+        "output": "4",
+        "answer": "4",
+        "score": 5,
         "inference_type": "standard"
     },
     {
-        "output": "121",
-        "answer": "121",
+        "output": "1700",
+        "answer": "1700",
         "score": 5,
-        "inference_type": "cot"
+        "inference_type": "react"
+    },
+    {
+        "output": "600",
+        "answer": "600",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "26",
+        "answer": "26",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "900",
+        "answer": "900",
+        "score": 5,
+        "inference_type": "standard"
     },
     {
         "output": "7",
@@ -1698,51 +1128,57 @@
         "inference_type": "standard"
     },
     {
-        "output": "18000",
-        "answer": "1800",
-        "score": 1.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "22",
-        "answer": "22",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "20",
-        "answer": "20",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "2000",
-        "answer": "2000",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "80",
-        "answer": "80",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "20",
-        "answer": "20",
+        "output": "240",
+        "answer": "240",
         "score": 5,
         "inference_type": "react"
     },
     {
-        "output": "1",
-        "answer": "2",
-        "score": 0.0,
+        "output": "250",
+        "answer": "250",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Sean has 24 dollars and Rick has 72 dollars.",
+        "answer": "Sean has 40/2+4 = <<40/2+4=24>>24 dollars.\nRick has 24*3 = <<24*3=72>>72 dollars.\nSean and Rick have 24+72 = <<24+72=96>>96 dollars together.",
+        "score": 2.0,
         "inference_type": "standard"
     },
     {
-        "output": "350",
-        "answer": "208",
-        "score": 0.0,
+        "output": "1",
+        "answer": "1",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "10",
+        "answer": "10",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "110",
+        "answer": "110",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "1563",
+        "answer": "1563",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The percentage of the spice paste that is ginger, rounded to the nearest integer, is 38%.",
+        "answer": "First convert the ginger to teaspoons: 3 tablespoons * 3 teaspoons/tablespoon = <<3*3=9>>9 teaspoons\nThen convert the garlic to teaspoons: 2 tablespoons * 3 teaspoons/tablespoon = <<2*3=6>>6 teaspoons\nThen find how much chile powder there is: 1 teaspoon * 4 = <<1*4=4>>4 teaspoons\nThen add up the amount of each spice to find the total amount: 9 teaspoons + 6 teaspoons + 4 teaspoons + 1 teaspoons + 1 teaspoon = <<9+6+4+1+1=21>>21 teaspoons\nThen divide the amount of ginger by the total amount of spice paste and multiply by 100% to find the percentage of the spice paste that's ginger: 9 teaspoons / 21 teaspoons * 100% = 42.857, which rounds down to 43%",
+        "score": 1.0,
         "inference_type": "standard"
     },
     {
@@ -1752,10 +1188,424 @@
         "inference_type": "react"
     },
     {
+        "output": "43",
+        "answer": "43",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
         "output": "42",
         "answer": "42",
         "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Mark and James will need to buy 1 more 12-sided dice to play their game.",
+        "answer": "Mark has 60% 12 sided dice, so 60/100 * 10 dice in his bag = <<60/100*10=6>>6 12 sided dice.\nJames has 75% 12 sided dice, so 75/100 * 8 dice in his bag = <<75/100*8=6>>6 12 sided dice.\nThey will need to purchase 14 dice - 6 dice - 6 dice = <<14-6-6=2>>2 dice.",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "832",
+        "answer": "832",
+        "score": 5,
         "inference_type": "react"
+    },
+    {
+        "output": "3",
+        "answer": "3",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "25",
+        "answer": "25",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "2000",
+        "answer": "2000",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "40000",
+        "answer": "40,000",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "There are 11 true/false questions in Stacy's homework assignment.",
+        "answer": "Let x represent the number of true/false questions\nFree response:x+7\nMultiple choice: 2(x+7)=2x+14\nTotal:x+x+7+2x+14=45\n4x+21=45\n4x=24\nx=<<6=6>>6 true/false questions",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The ham and bread make up 66.67% of the total cost.",
+        "answer": "The total cost of buying bread and ham was $50+$150 = $<<50+150=200>>200\nTogether with the cake, Tina paid $200+$200 = $<<200+200=400>>400 for the items\nSince the total percentage for all the items is 100%, the cost of ham and bread is $200/$400 * 100% = <<200/400*100=50>>50% of the total cost of items.",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "1700",
+        "answer": "1700",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Darwin has 300.0$ left after spending on gas and food.",
+        "answer": "600/3=<<600/3=200>>200$ for gas\nAfter buying gas, Darwin has 600-200=<<600-200=400>>400$ left\n400/4=<<400/4=100>>100$ on food\nDarwin has 400-100=<<400-100=300>>300$ left",
+        "score": 1.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "Altogether, Mike and Ted planted 240 tomato seeds.",
+        "answer": "Ted planted 2 x 50 = <<2*50=100>>100 tomato seeds.\nSo, Mike and Ted planted 50 + 100 = <<50+100=150>>150 tomato seeds in the morning.\nIn the afternoon, Ted planted 60 - 20 = <<60-20=40>>40 seeds.\nThus, Mike and Ted planted 60 + 40 = <<60+40=100>>100 tomato seeds in the afternoon.\nTherefore, they planted 150 + 100 = <<150+100=250>>250 tomato seed altogether.",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "600",
+        "answer": "600",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "15",
+        "answer": "15",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "8",
+        "answer": "8",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "6",
+        "answer": "6",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "The unicorn piñata and the treats cost altogether $84.",
+        "answer": "The four bags of Reese's cost $9 x 4 = $<<9*4=36>>36.\nThe three bags of Snickers cost $5 x 3 = $<<5*3=15>>15.\nThe five bags of Skittles cost $7 x 5 = $<<7*5=35>>35.\nTherefore, the unicorn piñata and the treats cost $13 + $36 + $15 + $35 = $<<13+36+15+35=99>>99.",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "8",
+        "answer": "8",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "26",
+        "answer": "26",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "32",
+        "answer": "32",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The friends made a profit of $4,600 from the movie.",
+        "answer": "The food cost 3*50=$<<3*50=150>>150\nSo the total cost without equipment rental was 1200+150=$<<1200+150=1350>>1350\nSo equipment rental cost 1350*2=$<<1350*2=2700>>2700\nSo the total cost was 2700+1350=$<<2700+1350=4050>>4050\nThat means they made 10000-4050=$<<10000-4050=5950>>5950",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Sean has 24 dollars and Rick has 72 dollars.",
+        "answer": "Sean has 40/2+4 = <<40/2+4=24>>24 dollars.\nRick has 24*3 = <<24*3=72>>72 dollars.\nSean and Rick have 24+72 = <<24+72=96>>96 dollars together.",
+        "score": 2.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "After dumping half of the water away, Shawn is left with 9 cups of water.",
+        "answer": "For the first 30 minutes, 3*2=<<3*2=6>>6 cups of water came out.\nFor the next 30 minutes, 3*2=<<3*2=6>>6 cups of water came out.\nFor the next hour, 6*4=<<6*4=24>>24 cups of water came out.\nA total of 6+6+24=<<6+6+24=36>>36 cups of water came out.\nShawn had to dump water which left 36/2=<<36/2=18>>18 cups of water.",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "100",
+        "answer": "100",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The playground and garden have together 132 yards of fencing.",
+        "answer": "27 * 4 = <<27*4=108>>108 yards\n2 * (12 + 9) = <<2*(12+9)=42>>42 yards\n108 + 42 = <<108+42=150>>150 yards\nThe playground and garden have a combined fence length of 150 yards.",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "The total number of apples packed in the two weeks is 33000.",
+        "answer": "In the first week, each day they pack 40*50 = <<40*50=2000>>2000 apples\nThe total number of apples packed in the boxes is 2000*7 = <<2000*7=14000>>14000 apples in the first week.\nWhen 500 fewer apples were packed each day in the next week, the total became 2000-500 = <<2000-500=1500>>1500 apples per day.\nThe total number of apples packed in the boxes that week is 1500*7 = <<1500*7=10500>>10500 apples.\nThe total is 14000+10500 = <<14000+10500=24500>>24500 apples for the two weeks",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "364000",
+        "answer": "364000",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "36",
+        "answer": "36",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "300",
+        "answer": "300",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Gordon will spend a total of $109.90 on books.",
+        "answer": "He gets 30% off any book over $22 and he buys books that cost $25.00 and $35.00 so the total cost of these books is $25 + $35 = $<<25+35=60.00>>60.00\nAt 30% off, the discount on these books is $60*.30 = $<<60*.30=18.00>>18.00\nThat mean these 2 books will cost $60-$18 = $<<60-18=42.00>>42.00\nHe gets 20% off any book under $20 and he buys books for $18.00, $12.00 and $10.00 so these books together cost $18 + $12 + $10 = $40.00\nat 20% off, the discount on these books is 40*.20 = $8.00\nSo these 3 books will cost $40 - $8 = $<<40-8=32.00>>32.00\nHe has spent $42.00 on the two most expensive books, $32.00 on the 3 cheapest books, and also bought a book for $21.00, so his total comes to $42 + $32 + $21 = $<<42+32+21=95.00>>95.00",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The average temperature for July 4th in Washington, DC over the past 5 years is 84.0 degrees.",
+        "answer": "Over the past five years, the sum of the temperatures was 90+90+90+79+71=<<90+90+90+79+71=420>>420\nTo find the average temperature you divide the total temperature (420) by 5, so 420/5 = <<420/5=84>>84 degrees",
+        "score": 4.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "36% of the original cookies remained.",
+        "answer": "Nicole ate 2/5 of the total number of cookies, which is 2/5*600= <<2/5*600=240>>240\nThe total number of cookies that remained in the box after Nicole ate 240 is 600-240 = <<600-240=360>>360\nEduardo then ate 3/5 of the remaining cookies, a total of 3/5*360 = <<3/5*360=216>>216 cookies\nThe total number of cookies that remained after Eduardo ate 216 is 360 - 216 = <<360-216=144>>144\nThe percentage of the cookies that remained out of the original amount is 144/600*100% = 24%",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "36",
+        "answer": "36",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "20",
+        "answer": "20",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "28",
+        "answer": "28",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "6",
+        "answer": "6",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "20",
+        "answer": "20",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "22",
+        "answer": "22",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "42",
+        "answer": "42",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "250",
+        "answer": "250",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "John spends $3020 in total.",
+        "answer": "He buys the silver for 1.5*$20=$<<1.5*20=30>>30\nHe bought 1.5*2=<<1.5*2=3>>3 ounces of gold\nThe gold is worth %20*50=$<<20*50=1000>>1000 per ounce\nSo he buys 3*$1000=$<<3*1000=3000>>3000 on gold\nSo he spent $30+$3000=$<<30+3000=3030>>3030 on everything",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "16",
+        "answer": "16",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "36",
+        "answer": "36",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "50",
+        "answer": "50",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "15",
+        "answer": "15",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "16",
+        "answer": "16",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "52",
+        "answer": "52",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "10000",
+        "answer": "10000",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "630",
+        "answer": "630",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "40",
+        "answer": "40",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "The chef has served a total of 186 guests.",
+        "answer": "The chef has served 58 - 35 = <<58-35=23>>23 children.\nThe chef has served 23 x 2 = <<23*2=46>>46 seniors.\nTherefore, the total number of guests that the chef has served is 58 + 23 + 46 = <<58+23+46=127>>127.",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "9",
+        "answer": "9",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "27200",
+        "answer": "27,200",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "For the graduation ceremony, 170 chairs must be prepared.",
+        "answer": "There will be 50 x 2 = <<50*2=100>>100 parents that are expected to attend.\n20/2 = <<20/2=10>>10 administrators will attend.\nHence, 50 graduates + 100 parents + 20 teachers + 10 administrators = 180 chairs must be prepared.",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "60",
+        "answer": "60",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "110",
+        "answer": "110",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The total cost for all items is $15",
+        "answer": "The soda cost 3*1=$<<3*1=3>>3\nSo the soups cost 2*3=$<<2*3=6>>6\nThe sandwich cost 3*3=$<<3*3=9>>9\nSo the total cost of everything was 3+6+9=$<<3+6+9=18>>18",
+        "score": 1.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "26",
+        "answer": "26",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Zach spent $882 for renting the car and driving that distance.",
+        "answer": "On Monday Zach spent 620*0.5 = <<620*0.5=310>>310 dollars on miles.\nOn Thursday Zach spent 744*0.5 = <<744*0.5=372>>372 dollars on miles.\nIn total, Zach spent 150+310+372 = <<150+310+372=832>>832 dollars.",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "16",
+        "answer": "16",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "Vicente spent $25 on rice and $15 on meat, so he spent a total of $40.",
+        "answer": "Vicente spent 5 x $2 = $<<5*2=10>>10 for 5 kilograms of rice.\nHe spent 3 x $5 = $<<3*5=15>>15 for 3 pounds of meat.\nTherefore, the total amount he spent was $15 + $10 = $<<15+10=25>>25.",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "100",
+        "answer": "100",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "15",
+        "answer": "15",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The final painting is 20 feet wide.",
+        "answer": "Each 5 by 5 painting is 25 square feet because 5 x 5 = <<5*5=25>>25\nAll three of them take up 75 square feet because 3 x 25 = <<3*25=75>>75\nThe 10 by 8 painting takes up 80 square feet because 10 x 8 = <<10*8=80>>80\nThese four paintings take up 155 square feet because 80 + 75 = <<80+75=155>>155\nThe final painting is 45 square feet because 200-155 = <<200-155=45>>45\nIf it is 5 feet wide it is 9 feet tall because 45 / 5 = 9",
+        "score": 0.0,
+        "inference_type": "standard"
     },
     {
         "output": "364,000",
@@ -1764,38 +1614,356 @@
         "inference_type": "standard"
     },
     {
-        "output": "None",
-        "answer": "11",
+        "output": "240",
+        "answer": "240",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "27",
+        "answer": "27",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "525",
+        "answer": "525",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "2",
+        "answer": "2",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "40000",
+        "answer": "40,000",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "8",
+        "answer": "8",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Robe had $810 saved before his car broke.",
+        "answer": "The corner light cost $10 x 2 = $<<10*2=20>>20.\nEach brake disk costs $20 x 3 = $<<20*3=60>>60.\nSo, the total price of the brake disks is $60x 2 = $<<60*2=120>>120.\nHe spent $10 + $20 + $120 = $<<10+20+120=150>>150 for the repair.\nTherefore, Robe has saved $480 + 150 = $<<480+150=630>>630 before his car broke.",
         "score": 0.0,
         "inference_type": "standard"
     },
     {
-        "output": "95.00",
-        "answer": "95",
-        "score": 5.0,
+        "output": "7",
+        "answer": "7",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "3030",
+        "answer": "3030",
+        "score": 5,
         "inference_type": "act"
+    },
+    {
+        "output": "22",
+        "answer": "22",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "38",
+        "answer": "38",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "To calculate the percentage of the spice paste that is ginger:",
+        "answer": "First convert the ginger to teaspoons: 3 tablespoons * 3 teaspoons/tablespoon = <<3*3=9>>9 teaspoons\nThen convert the garlic to teaspoons: 2 tablespoons * 3 teaspoons/tablespoon = <<2*3=6>>6 teaspoons\nThen find how much chile powder there is: 1 teaspoon * 4 = <<1*4=4>>4 teaspoons\nThen add up the amount of each spice to find the total amount: 9 teaspoons + 6 teaspoons + 4 teaspoons + 1 teaspoons + 1 teaspoon = <<9+6+4+1+1=21>>21 teaspoons\nThen divide the amount of ginger by the total amount of spice paste and multiply by 100% to find the percentage of the spice paste that's ginger: 9 teaspoons / 21 teaspoons * 100% = 42.857, which rounds down to 43%",
+        "score": 0.0,
+        "inference_type": "react"
+    },
+    {
+        "output": "In total, Patrick, Greg, and Jacob have 44 hours left to finish their homework.",
+        "answer": "If Jacob has 18 hours left to finish his homework, Greg has 18-6 = <<18-6=12>>12 hours left to finish his homework.\nThe total number of hours Jacob and Greg have left to finish their homework is 12+18 = <<12+18=30>>30 hours.\nPatrick has 4 hours less than twice Greg has left to finish his homework, meaning Patrick has 4 hours less than 12*2 = 24 hours left to finish his homework.\nPatrick has 24-4 = <<24-4=20>>20 hours left to finish his homework.\nAltogether, the three have 30+20 = <<30+20=50>>50 hours left to finish their homework.",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "6",
+        "answer": "6",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "400",
+        "answer": "400",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "96",
+        "answer": "96",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "After Manny, his classmates, and Mr. Keith each have one piece, there are 2 slices of birthday cookie pie left.",
+        "answer": "There is a total of 3 x 10 = <<3*10=30>>30 cookie slices.\nThere are 24 + 1 + 1 = <<24+1+1=26>>26 people who ate the cookie pieces.\nThere is 30 - 26 = <<30-26=4>>4 cookie slices left.",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "After paying taxes, healthcare, and union dues, Steve takes home 29600$ a year.",
+        "answer": "Taxes:40000(.20)=8000$\nHealthcare:40000(.10)=4000$\nDues:<<800=800>>800$\nTotal:40000-8000-4000-800=<<40000-8000-4000-800=27200>>27,200$",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "You will save $5 from the milk and $5 from the cereal, making a total saving of $10.",
+        "answer": "The discount for each gallon of whole milk is $3 - $2 = $<<3-2=1>>1.\nSo the discount for 3 gallons of whole milk is $1/gallon x 3 gallons = $<<1*3=3>>3.\nThe total discount for 5 boxes of cereal is $1/box x 5 boxes = $<<1*5=5>>5.\nYou will save $3 + $5 = $<<3+5=8>>8 for 3 gallons of whole milk and 5 boxes of cereal.",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "224",
+        "answer": "224",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "98",
+        "answer": "98",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "10",
+        "answer": "10",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "150",
+        "answer": "150",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "80",
+        "answer": "80",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "8",
+        "answer": "8",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "5950",
+        "answer": "5950",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "180",
+        "answer": "180",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "28",
+        "answer": "28",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "9",
+        "answer": "9",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "48",
+        "answer": "48",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "10",
+        "answer": "10",
+        "score": 5,
+        "inference_type": "standard"
     },
     {
         "output": "3",
         "answer": "3",
         "score": 5,
-        "inference_type": "cot"
+        "inference_type": "act"
     },
     {
-        "output": "364000",
-        "answer": "364000",
+        "output": "10",
+        "answer": "10",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "15",
+        "answer": "15",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Helen will need 10 gallons of gas to cut her lawn from March through October.",
+        "answer": "For March, April, September and October, she cuts her lawn 2 a month. There are 4 months so she cuts her yard 2*4 = <<2*4=8>>8 times\nFor May, June, July and August, she cuts her lawn 4 times a month. There are 4 months so she cuts her yard 4*4 = <<4*4=16>>16 times\nDuring the entire 8 month period, she cuts her lawn 8+16 = <<8+16=24>>24 times\nEvery 4th time she cuts, she needs 2 gallons of gas. If she cuts her lawn 24 times a year then she needs to fill up 24/4 = 6 times\nEach time she fills up, it takes 2 gallons of gas so 2*6 = <<2*6=12>>12 gallons of gas per year",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "18",
+        "answer": "18",
         "score": 5,
         "inference_type": "cot"
     },
     {
-        "output": "260.00",
-        "answer": "180",
-        "score": 0.0,
+        "output": "9",
+        "answer": "9",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "15",
+        "answer": "15",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "250",
+        "answer": "250",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "121",
+        "answer": "121",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "27200",
+        "answer": "27,200",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "42",
+        "answer": "42",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "36",
+        "answer": "36",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "42",
+        "answer": "42",
+        "score": 5,
         "inference_type": "standard"
     },
     {
-        "output": "900",
-        "answer": "900",
+        "output": "98",
+        "answer": "98",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "20",
+        "answer": "20",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "20",
+        "answer": "20",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "84",
+        "answer": "84",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "9",
+        "answer": "9",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "9",
+        "answer": "9",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "67",
+        "answer": "67",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "6",
+        "answer": "6",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "114",
+        "answer": "114",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "2",
+        "answer": "2",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "50",
+        "answer": "50",
         "score": 5,
         "inference_type": "cot"
     },
@@ -1806,302 +1974,68 @@
         "inference_type": "act"
     },
     {
-        "output": "138",
-        "answer": "138",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "108500",
-        "answer": "24500",
-        "score": 0.0,
-        "inference_type": "act"
-    },
-    {
-        "output": "8",
-        "answer": "8",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "None",
-        "answer": "6",
-        "score": 0.0,
-        "inference_type": "react"
-    },
-    {
-        "output": "10",
-        "answer": "10",
+        "output": "832",
+        "answer": "832",
         "score": 5,
         "inference_type": "act"
-    },
-    {
-        "output": "59",
-        "answer": "67",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "28",
-        "answer": "28",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "40",
-        "answer": "40",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "32",
-        "answer": "32",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "50",
-        "answer": "50",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "1700",
-        "answer": "1700",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "48",
-        "answer": "48",
-        "score": 5,
-        "inference_type": "cot"
     },
     {
         "output": "11",
         "answer": "11",
         "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "4",
-        "answer": "4",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "52",
-        "answer": "52",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "48",
-        "answer": "48",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "12",
-        "answer": "12",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "50",
-        "answer": "50",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "109.90",
-        "answer": "95",
-        "score": 1.0,
         "inference_type": "react"
     },
     {
-        "output": "12",
-        "answer": "12",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "150",
-        "answer": "150",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "36",
-        "answer": "36",
+        "output": "80",
+        "answer": "80",
         "score": 5,
         "inference_type": "cot"
     },
     {
-        "output": "1663",
-        "answer": "1563",
-        "score": 2.0,
+        "output": "After reseeding his lawn, Drew could cover an extra 350 square feet with the leftover grass seed.",
+        "answer": "Drew’s lawn is 22 * 36 = <<22*36=792>>792 square feet.\nHe bought enough grass seed to cover 250 * 4 = <<250*4=1000>>1000 square feet.\nThus, the leftover grass seed can cover 1000 - 792 = <<1000-792=208>>208 square feet.",
+        "score": 0.0,
         "inference_type": "standard"
-    },
-    {
-        "output": "27",
-        "answer": "27",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "6",
-        "answer": "6",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "114",
-        "answer": "114",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "78",
-        "answer": "98",
-        "score": 1.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "600",
-        "answer": "600",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "600",
-        "answer": "600",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "142",
-        "answer": "121",
-        "score": 1.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "2",
-        "answer": "2",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "216",
-        "answer": "216",
-        "score": 5,
-        "inference_type": "cot"
     },
     {
         "output": "43",
         "answer": "43",
         "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "100",
-        "answer": "100",
-        "score": 5,
         "inference_type": "act"
     },
     {
-        "output": "18",
-        "answer": "7",
+        "output": "Sean has 24 dollars and Rick has 72 dollars.",
+        "answer": "Sean has 40/2+4 = <<40/2+4=24>>24 dollars.\nRick has 24*3 = <<24*3=72>>72 dollars.\nSean and Rick have 24+72 = <<24+72=96>>96 dollars together.",
+        "score": 2.0,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Gordon will spend $88.20 on books.",
+        "answer": "He gets 30% off any book over $22 and he buys books that cost $25.00 and $35.00 so the total cost of these books is $25 + $35 = $<<25+35=60.00>>60.00\nAt 30% off, the discount on these books is $60*.30 = $<<60*.30=18.00>>18.00\nThat mean these 2 books will cost $60-$18 = $<<60-18=42.00>>42.00\nHe gets 20% off any book under $20 and he buys books for $18.00, $12.00 and $10.00 so these books together cost $18 + $12 + $10 = $40.00\nat 20% off, the discount on these books is 40*.20 = $8.00\nSo these 3 books will cost $40 - $8 = $<<40-8=32.00>>32.00\nHe has spent $42.00 on the two most expensive books, $32.00 on the 3 cheapest books, and also bought a book for $21.00, so his total comes to $42 + $32 + $21 = $<<42+32+21=95.00>>95.00",
         "score": 0.0,
         "inference_type": "standard"
     },
     {
-        "output": "42",
-        "answer": "42",
-        "score": 5,
+        "output": "The bakery would make $131.5 in one hour if they were able to sell all pie pieces.",
+        "answer": "If the bakery can make 12 pies, this means there would be 12 * 3 = <<12*3=36>>36 pie pieces.\nFor all the pieces the bakery would make 36 * 4 = $<<36*4=144>>144.\nThe cost of making 12 pies is 12 * 0.5 = $<<12*0.5=6>>6.\nThat means the bakery would make 144 - 6 = $<<144-6=138>>138.",
+        "score": 1.0,
         "inference_type": "standard"
     },
     {
-        "output": "224",
-        "answer": "224",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "4",
-        "answer": "4",
+        "output": "15",
+        "answer": "15",
         "score": 5,
         "inference_type": "act"
     },
     {
-        "output": "3",
-        "answer": "3",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "18",
-        "answer": "18",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "8",
-        "answer": "8",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "26",
-        "answer": "26",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "3",
-        "answer": "3",
+        "output": "5950",
+        "answer": "5950",
         "score": 5,
         "inference_type": "react"
     },
     {
-        "output": "36",
-        "answer": "36",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "4",
-        "answer": "4",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "3030",
-        "answer": "3030",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "10",
-        "answer": "8",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "95",
-        "answer": "95",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "25",
-        "answer": "25",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "7",
-        "answer": "7",
+        "output": "208",
+        "answer": "208",
         "score": 5,
         "inference_type": "act"
     },
@@ -2112,80 +2046,14 @@
         "inference_type": "standard"
     },
     {
-        "output": "50",
-        "answer": "50",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "25",
-        "answer": "25",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "27",
-        "answer": "27",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
-        "output": "138",
-        "answer": "138",
+        "output": "80",
+        "answer": "80",
         "score": 5,
         "inference_type": "act"
     },
     {
-        "output": "28",
-        "answer": "28",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "1800",
-        "answer": "1800",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "52",
-        "answer": "52",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "48%",
-        "answer": "27",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "7",
-        "answer": "7",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "1563",
-        "answer": "1563",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "700",
-        "answer": "525",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "2000",
-        "answer": "2000",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "9",
-        "answer": "9",
+        "output": "208",
+        "answer": "208",
         "score": 5,
         "inference_type": "react"
     },
@@ -2196,86 +2064,32 @@
         "inference_type": "react"
     },
     {
-        "output": "2600",
-        "answer": "2000",
-        "score": 1.0,
-        "inference_type": "act"
-    },
-    {
-        "output": "8",
-        "answer": "8",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "138",
-        "answer": "138",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "41",
-        "answer": "38",
-        "score": 1.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "300",
-        "answer": "300",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
         "output": "4",
         "answer": "4",
         "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "The candy seller had 320 candies left.",
+        "answer": "Since there are four clowns at the carousel this year, the candy seller sold 20*4 = <<20*4=80>>80 candies to all the clowns.\nThe thirty children also bought 20*30 = <<20*30=600>>600 candies in total.\nAltogether, the candy seller sold 600+80 = <<600+80=680>>680 candies to the clowns and children at the carousel.\nThe number of candies the candy seller has left is 700-680= <<700-680=20>>20",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "180",
+        "answer": "180",
+        "score": 5,
         "inference_type": "cot"
     },
     {
-        "output": "95%",
+        "output": "84",
+        "answer": "84",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "95",
         "answer": "95",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "24, 72",
-        "answer": "96",
-        "score": 0.0,
-        "inference_type": "cot"
-    },
-    {
-        "output": "32",
-        "answer": "32",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "20",
-        "answer": "20",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "10",
-        "answer": "12",
-        "score": 0.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "43",
-        "answer": "43",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "66.67%",
-        "answer": "50",
-        "score": 1.0,
-        "inference_type": "standard"
-    },
-    {
-        "output": "50",
-        "answer": "50",
         "score": 5,
         "inference_type": "react"
     },
@@ -2286,32 +2100,194 @@
         "inference_type": "react"
     },
     {
-        "output": "24",
-        "answer": "24",
-        "score": 5,
-        "inference_type": "act"
-    },
-    {
-        "output": "38",
-        "answer": "38",
-        "score": 5,
-        "inference_type": "cot"
-    },
-    {
         "output": "40",
         "answer": "40",
         "score": 5,
         "inference_type": "act"
     },
     {
-        "output": "10000",
-        "answer": "10000",
-        "score": 5,
-        "inference_type": "act"
+        "output": "Teagan, Rex, and Toni saved a total of $38.00 altogether.",
+        "answer": "Teagan saved 1 cent (.01) x 200 = $2.\nRex has 5 cents (.05) x 100 = $5.\nToni has 10 cents (.10) x 330 = $33.\nTogether, the three kids saved $2 + $5 + $33 = $<<2+5+33=40>>40.",
+        "score": 1.0,
+        "inference_type": "standard"
     },
     {
         "output": "4",
         "answer": "4",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Granger and Cisco have a combined total of 55 spots.",
+        "answer": "If Rover has 46 spots, then half as many spots as Rover has is 46/2=<<46/2=23>>23 spots.\nIf Cisco has 5 less than half as many spots as Rover has, then Cisco has 23-5=<<23-5=18>>18 spots.\nIf Granger has five times as many spots as Cisco, then Rover has 18*5=<<18*5=90>>90 spots.\nThus, the total combined number of spots that Rover and Cisco have is 90+18=<<90+18=108>>108 spots.",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "No detailed answer provided",
+        "answer": "Let x represent the number of passes thrown to the left side of the field\nRight:2x\nCenter:x+2\nTotal:x+2x+x+2=50\n4x+2=50\n4x=48\nx=<<12=12>>12 passes",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "28",
+        "answer": "28",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "4",
+        "answer": "4",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "50",
+        "answer": "50",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "138",
+        "answer": "138",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "364000",
+        "answer": "364000",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "10",
+        "answer": "10",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "48",
+        "answer": "48",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "The coffee shop made $59 from the coffee and tea orders.",
+        "answer": "Sale from coffee is 7 x $5 = $<<7*5=35>>35.\nSale from tea is 8 x $4 = $<<8*4=32>>32.\nTotal sales is $35 + $32 = $<<35+32=67>>67.",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "32",
+        "answer": "32",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "95%",
+        "answer": "95",
+        "score": 5,
+        "inference_type": "standard"
+    },
+    {
+        "output": "16",
+        "answer": "16",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The total number of apples packed in the two weeks is 108,500.",
+        "answer": "In the first week, each day they pack 40*50 = <<40*50=2000>>2000 apples\nThe total number of apples packed in the boxes is 2000*7 = <<2000*7=14000>>14000 apples in the first week.\nWhen 500 fewer apples were packed each day in the next week, the total became 2000-500 = <<2000-500=1500>>1500 apples per day.\nThe total number of apples packed in the boxes that week is 1500*7 = <<1500*7=10500>>10500 apples.\nThe total is 14000+10500 = <<14000+10500=24500>>24500 apples for the two weeks",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "27",
+        "answer": "27",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "Jackie can do 30 push-ups in one minute if she takes two 8-second breaks.",
+        "answer": "There are 60 seconds per minute, so Jackie’s push-up routine takes 1 * 60 = <<60=60>>60 seconds.\nHer breaks last 2 * 8 = <<2*8=16>>16 seconds.\nShe does push-ups for 60 - 16 = <<60-16=44>>44 seconds.\nShe can do a push-up in 10 / 5 = <<10/5=2>>2 seconds.\nTherefore, Jackie can do 44 / 2 = <<44/2=22>>22 push-ups in one minute with breaks.",
+        "score": 1.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "1",
+        "answer": "1",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "3",
+        "answer": "3",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "After buying the new land, Carlson now owns 1200 square meters of land",
+        "answer": "Carlson bought land that cost $20 per square meter, therefore the size of the land he bought is 8000/20 = 400.\nAnd the size of the other land he bought is 4000/20 = <<4000/20=200>>200.\nTherefore the total size of the land he owns is 400+200+300 = <<400+200+300=900>>900.",
+        "score": 1.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "67",
+        "answer": "67",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "27200",
+        "answer": "27,200",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "22",
+        "answer": "22",
+        "score": 5,
+        "inference_type": "act"
+    },
+    {
+        "output": "20",
+        "answer": "20",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "The ice cream vendor did not sell a total of 41 ice creams.",
+        "answer": "There were a total of 50 + 54 = <<50+54=104>>104 ice creams.\nThere were 50 x 3/5 = <<50*3/5=30>>30 chocolate-flavored ice creams sold.\nThere were 54 x 2/3 = <<54*2/3=36>>36 mango-flavored ice creams sold.\nA total of 30 + 36 = <<30+36=66>>66 ice creams were sold.\nSo, 104 - 66 = <<104-66=38>>38 ice creams were not sold.",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "1563",
+        "answer": "1563",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "900",
+        "answer": "900",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "100",
+        "answer": "100",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "50",
+        "answer": "50",
         "score": 5,
         "inference_type": "cot"
     },
@@ -2322,44 +2298,44 @@
         "inference_type": "cot"
     },
     {
-        "output": "165",
-        "answer": "165",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "15",
-        "answer": "15",
+        "output": "48",
+        "answer": "48",
         "score": 5,
         "inference_type": "cot"
     },
     {
-        "output": "33000",
-        "answer": "24500",
+        "output": "12",
+        "answer": "12",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Gordon will spend a total of $95.00 on books at the local bookstore.",
+        "answer": "He gets 30% off any book over $22 and he buys books that cost $25.00 and $35.00 so the total cost of these books is $25 + $35 = $<<25+35=60.00>>60.00\nAt 30% off, the discount on these books is $60*.30 = $<<60*.30=18.00>>18.00\nThat mean these 2 books will cost $60-$18 = $<<60-18=42.00>>42.00\nHe gets 20% off any book under $20 and he buys books for $18.00, $12.00 and $10.00 so these books together cost $18 + $12 + $10 = $40.00\nat 20% off, the discount on these books is 40*.20 = $8.00\nSo these 3 books will cost $40 - $8 = $<<40-8=32.00>>32.00\nHe has spent $42.00 on the two most expensive books, $32.00 on the 3 cheapest books, and also bought a book for $21.00, so his total comes to $42 + $32 + $21 = $<<42+32+21=95.00>>95.00",
         "score": 1.0,
-        "inference_type": "standard"
+        "inference_type": "cot"
     },
     {
-        "output": "80",
-        "answer": "80",
+        "output": "42",
+        "answer": "42",
         "score": 5,
-        "inference_type": "react"
+        "inference_type": "cot"
     },
     {
-        "output": "16",
-        "answer": "16",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "52",
-        "answer": "52",
+        "output": "1800",
+        "answer": "1800",
         "score": 5,
         "inference_type": "act"
     },
     {
-        "output": "15",
-        "answer": "15",
+        "output": "300",
+        "answer": "300",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "42",
+        "answer": "42",
         "score": 5,
         "inference_type": "react"
     },
@@ -2367,36 +2343,60 @@
         "output": "3",
         "answer": "3",
         "score": 5,
-        "inference_type": "standard"
+        "inference_type": "react"
     },
     {
-        "output": "55",
-        "answer": "108",
+        "output": "50",
+        "answer": "50",
+        "score": 5,
+        "inference_type": "react"
+    },
+    {
+        "output": "The total number of messages sent in the Whatsapp group over the four days is 2600.",
+        "answer": "The total number of messages sent last week on Monday and Tuesday is 300+200 = <<300+200=500>>500 messages.\nOn Wednesday, the number of messages was 300 more than the previous day, a total of 300+200 = <<300+200=500>>500 messages.\nIn total, in the three days, the number of messages sent is 500+500 = <<500+500=1000>>1000 messages,\nOn Thursday, the number of messages sent was two times the number sent on Wednesday, totaling 2*500 = <<2*500=1000>>1000 messages.\nIn the four days. the number of messages sent is 1000+1000 = <<1000+1000=2000>>2000",
+        "score": 0.0,
+        "inference_type": "act"
+    },
+    {
+        "output": "The total number of students at the competition was 350.",
+        "answer": "If 50 students came from Know It All High School, then Karen High, which had 3/5 times as many students as Know It All High School, had 3/5*50 = 30 students at the fair.\nThe total number of students from Know It All and Karen high schools is 50+30 = <<50+30=80>>80 students.\nIf Novel Corona had twice the combined number of students from Know It All and Karen high schools, then it had 2*80 = <<2*80=160>>160 students at the competition.\nThe total number of students at the competition is 80+160 = <<80+160=240>>240",
         "score": 0.0,
         "inference_type": "standard"
     },
     {
-        "output": "3030",
-        "answer": "3030",
-        "score": 5,
-        "inference_type": "react"
-    },
-    {
-        "output": "4",
-        "answer": "4",
-        "score": 5,
-        "inference_type": "standard"
-    },
-    {
-        "output": "7",
-        "answer": "7",
+        "output": "99",
+        "answer": "99",
         "score": 5,
         "inference_type": "cot"
     },
     {
-        "output": "67",
-        "answer": "67",
+        "output": "11",
+        "answer": "11",
         "score": 5,
-        "inference_type": "react"
+        "inference_type": "act"
+    },
+    {
+        "output": "2",
+        "answer": "2",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "Jennifer's sister Jordana is currently 50 years old.",
+        "answer": "When Jennifer is 30 years old in ten years, her sister Jordana will be 3*30=90 years old.\nShe's currently 10 years younger, so she's 90 - 10 = 80 years old",
+        "score": 0.0,
+        "inference_type": "standard"
+    },
+    {
+        "output": "2000",
+        "answer": "2000",
+        "score": 5,
+        "inference_type": "cot"
+    },
+    {
+        "output": "165",
+        "answer": "165",
+        "score": 5,
+        "inference_type": "standard"
     }
 ]

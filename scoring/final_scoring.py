@@ -27,7 +27,7 @@ def random_shuffle(data):
     random.shuffle(all_items)
     return all_items
 
-def evaluate_similarity(data):
+def evaluate_similarity(data,mode):
     all_items = random_shuffle(data)
     results = []
     em_count_dict = defaultdict(int)
@@ -41,7 +41,12 @@ def evaluate_similarity(data):
             score = 5
             em_count_dict[inference_type] += 1
         else :
-            score = llm_similarity(output,answer,inference_type)
+            if mode == 1:
+                output = item["detailed_output"]
+            else:
+                answer = item["detailed_answer"]
+                output = item["detailed_output"]
+            score = llm_similarity(output,answer,inference_type,mode)
         results.append({
             "output": output,
             "answer": answer,
@@ -57,8 +62,8 @@ def save_results_to_file(results, output_file):
         json.dump(results, file, ensure_ascii=False, indent=4)
 
 def main():
-    data_name = "hotpot" 
-    # data_name = "gsm8k"
+    data_name, mode = "hotpot", 1
+    # data_name, mode = "gsm8k", 2
     input_file = f"results/{data_name}_results.json"
     output_file = f"results/{data_name}_scoring_results.json"
     em_count_output_file = f"results/{data_name}_em_count_results.json"
@@ -66,11 +71,13 @@ def main():
     with open(input_file, 'r', encoding='utf-8') as file:
         data = json.load(file)
     
-    results, em_count_dict = evaluate_similarity(data)
+    results, em_count_dict = evaluate_similarity(data, mode)
 
     save_results_to_file(results, output_file)
     save_results_to_file(em_count_dict, em_count_output_file)
     print(f"Results saved to {output_file}")
+
+    print_average_scores(output_file)
 
 if __name__ =="__main__":
     main()
